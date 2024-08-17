@@ -12,8 +12,8 @@ export default function Home() {
       <Head>
         <title>Home - Shriyan Yamali</title>
         <meta
-          name="google-site-verification"
-          content="JBg_mmUfet44k90uU2fkqGADnLBvhfIgPBh91yRd9AE"
+          name="Home Page for Shriyan Yamali's Personal Website"
+          content="Shriyan, Yamali, Website, Github, Linkedin, Instagram, X, Twitter"
         />
       </Head>
       <main className="flex items-center text-dark w-full min-h-screen dark:text-light">
