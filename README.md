@@ -2,7 +2,7 @@
 
 # Shriyan Yamali's Portfolio Website
 
-## Check out my website at <a href="https://shriyanyamali.vercel.app//">https://shriyanyamali.vercel.app//</a>
+## Check out my website at <a href="https://shriyanyamali.github.io/">https://shriyanyamali.github.io/</a>
 
 ### Built by Shriyan Yamali
 
@@ -10,8 +10,6 @@
 
 ###### Built using Next.js™ and Tailwind™ CSS.
 
-###### 8/15/2024- <a href="https://shriyanyamali.github.io/">https://shriyanyamali.github.io/</a> will just redirect to <a href="https://shriyanyamali.vercel.app/">https://shriyanyamali.vercel.app/</a>.
-
 ###### Copyright © 2024 Shriyan Yamali. All rights reserved.
 
-###### File last updated on 8/16/2024.
+###### File last updated on 8/17/2024.
