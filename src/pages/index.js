@@ -18,7 +18,7 @@ export default function Home() {
       </Head>
       <main className="flex items-center text-dark w-full min-h-screen dark:text-light">
         <Layout className="!pt-0 md:pt-16 sm:pt-8">
-          <div className="flex items-center justify-between w-full lg:flex-col">
+          <div className="flex items-center justify-between w-full lg:flex-col mb-8">
             <div className="w-1/2 md:w-full">
               <Image
                 src={profilePic}
@@ -44,7 +44,7 @@ export default function Home() {
               />
               <p className="my-4 text-base font-medium md:text-sm sm:text-xs">
                 I am a full-stack developer with a specialization in Python and
-                AI. Don&rsquo;t believe me? Check out some of my projects below!
+                AI and an interest in law, video game development, cooking, and politics.
               </p>
 
               <div className="flex items-center self-start lg:self-center">
@@ -71,7 +71,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="items-center justify-center text-center mb-16 md:mt-8">
+          <div className="items-center justify-center text-center mb-24 md:mt-8">
             <AnimatedText
               text="Who am I?"
               className="!text-4xl pt-20 xl:!text-3xl mb-4

@@ -12,7 +12,7 @@ Interpretation
 
 The words of which the initial letter is capitalized have meanings defined under the following conditions. The following definitions shall have the same meaning regardless of whether they appear in singular or in plural.
 
-**Definitions **  
+**Definitions**  
 ~~~~~~~~~~~
 
 For the purposes of these Terms of Service:
@@ -21,19 +21,19 @@ For the purposes of these Terms of Service:
 
   * **Country** refers to: Delaware, United States.
 
-  * **Company** (referred to as either "the Company", "We", "Us" or "Our" in this Agreement) refers to shriyanyamali.vercel.app.
+  * **Company** (referred to as either "the Company", "We", "Us" or "Our" in this Agreement) refers to shriyanyamali.github.io.
 
   * **Device** means any device that can access the Service such as a computer, a cellphone, or a digital tablet.
 
   * **Service** refers to the Website.
 
-  * **Site** and **the Site** refer to shriyanyamali.vercel.app.
+  * **Site** and **the Site** refer to shriyanyamali.github.io.
 
   * **Terms of Service** (also referred to as "Terms") mean these Terms of Service that form the entire agreement between You and the Company regarding the use of the Service.
 
   * **Third-party Social Media Service** means any services or content (including data, information, products, or services) provided by a third-party that may be displayed, included, or made available by the Service.
 
-  * **Website** refers to shriyanyamali.vercel.app, accessible from <https://shriyanyamali.vercel.app/>
+  * **Website** refers to shriyanyamali.github.io, accessible from <https://shriyanyamali.github.io/>
 
   * **You** means the individual accessing or using the Service, or the company, or other legal entity on behalf of which such individual is accessing or using the Service, as applicable.
 
@@ -56,6 +56,16 @@ Our Service may contain links to third-party websites or services that are not o
 The Company has no control over, and assumes no responsibility for, the content, privacy policies, or practices of any third-party websites or services. You further acknowledge and agree that the Company shall not be responsible or liable, directly or indirectly, for any damage or loss caused or alleged to be caused by or in connection with the use of or reliance on any such content, goods, or services available on or through any such websites or services.
 
 We strongly advise You to read the terms of service and privacy policies of any third-party websites or services that You visit.
+
+**Prohibition of Unlawful Activities**
+--------------------------------------
+
+You agree to use the content and features of this page only for lawful purposes. You must not engage in any activities that are illegal or that violate any applicable laws, regulations, or third-party rights while using this page.
+
+**No Unauthorized Alterations**
+-------------------------------
+
+You are not permitted to modify, alter, or manipulate any part of this page or its content. This includes, but is not limited to, changing text, images, layout, or any other elements. Any attempt to alter the page in any way is strictly prohibited.
 
 **Termination**  
 -----------
@@ -123,9 +133,9 @@ These Terms of Service may have been translated if We have made them available t
 **Changes to These Terms of Service**  
 -------------------------------------
 
-We reserve the right, at Our sole discretion, to modify or replace these Terms at any time. If a revision is material, We will make reasonable efforts to provide at least 30 days' notice prior to any new terms taking effect. What constitutes a material change will be determined at Our sole discretion.
+We reserve the right, at Our sole discretion, to modify, revise, or replace these Terms at any time. 
 
-By continuing to access or use Our Service after those revisions become effective, You agree to be bound by the revised terms. If You do not agree to the new terms, in whole or in part, please stop using the website and the Service.
+By continuing to access or use Our Service after those changes become effective, You agree to be bound by the revised terms. If You do not agree to the new terms, in whole or in part, please stop using the website and the Service.
 
 **Contact Us**  
 ----------
@@ -134,6 +144,6 @@ If you have any questions about these Terms of Service, You can contact us:
 
   * By email: srujanshriyan@gmail.com
 
-  * For more contact options, please go to <https://shriyanyamali.vercel.app/contact>
+  * For more contact options, please go to shriyanyamali.github.io/contact
 
 ---
