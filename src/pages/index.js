@@ -46,7 +46,7 @@ export default function Home() {
                 game development, cooking, and politics.
               </p>
 
-              <div className="w-1/2 flex flex-col items-center self-center lg:w-full lg:text-center">
+              <div className="w-1/2 flex flex-col items-start self-center lg:items-center lg:w-full lg:text-center">
                 <div className="pt-4">
                   <Link href="/projects">
                     <div className="grid gap-8 items-start justify-center">

@@ -103,8 +103,8 @@ const about = () => {
             </div>
 
             <div className="col-span-2 flex flex-col items-end justify-between xtl:col-span-8 xtl:flex-row xtl:items-center lg:order-3">
-              <div className="flex flex-col items-end justify-center xtl:items-center">
-                <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
+              <div className="flex flex-col items-end justify-center xtl:items-center ">
+                <span className="inline-block text-7xl font-bold md:text-6xl sm:!text-4xl">
                   <AnimatedNumbers value={15000} />+
                 </span>
                 <h2
@@ -117,7 +117,7 @@ const about = () => {
               </div>
 
               <div className="flex flex-col items-end justify-center xtl:items-center">
-                <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
+                <span className="inline-block text-7xl font-bold md:text-6xl sm:!text-4xl">
                   <AnimatedNumbers value={4} />+
                 </span>
                 <h2
@@ -128,15 +128,15 @@ const about = () => {
                 </h2>
               </div>
 
-              <div className="flex flex-col items-end justify-center xtl:items-center">
-                <span className="inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl">
+              <div className="flex flex-col items-end justify-center xtl:items-center ">
+                <span className="inline-block text-7xl font-bold md:text-6xl sm:!text-4xl">
                   <AnimatedNumbers value={3} />+
                 </span>
                 <h2
                   className="text-xl font-medium capitalize text-dark/75 dark:text-light/75 xtl:text-center md:text-lg sm:text-base
                 xs:text-sm"
                 >
-                  Coding Languages Certified In
+                  Projects Completed
                 </h2>
               </div>
             </div>
