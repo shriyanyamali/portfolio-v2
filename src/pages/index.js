@@ -5,6 +5,7 @@ import Image from "next/image";
 import profilePic from "../../public/images/profile/signature.png";
 import profilePicDark from "../../public/images/profile/signature-white.png";
 import Link from "next/link";
+import { FlipWordsDemo } from "@/components/demo/demo-flip-words";
 
 export default function Home() {
   return (
@@ -23,31 +24,29 @@ export default function Home() {
               <Image
                 src={profilePic}
                 alt="Shriyan Yamali"
-                className="mb-16 w-full h-auto dark:hidden lg:!hidden md:inline-block md:w-full"
+                className="mb-16 w-full h-auto dark:hidden md:inline-block md:w-full"
                 priority
                 sizes="(max-width: 768 px) 100vw, (max-width: 1200px) 50vw, 50vw"
               />
               <Image
                 src={profilePicDark}
                 alt="Shriyan Yamali"
-                className="mb-16 w-full h-auto hidden dark:block lg:!hidden md:inline-block md:w-full"
+                className="mb-16 w-full h-auto hidden dark:block dark:md:inline-block md:w-full"
                 priority
                 sizes="(max-width: 768 px) 100vw, (max-width: 1200px) 50vw, 50vw"
               />
             </div>
-            <div className="w-1/2 flex flex-col items-center self-center lg:w-full lg:text-center">
-              <AnimatedText
-                text="Hi, I am Shriyan Yamali"
-                className="!text-6xl pt-20 !text-left 
-                xl:!text-5xl lg:!text-center lg:!text-5xl lg:mb-4
-                "
-              />
+            <div className="w-1/2 lg:w-full lg:text-center">
+              <div className="text-left lg:text-center">
+                <FlipWordsDemo />
+              </div>
               <p className="my-4 text-base font-medium md:text-sm sm:text-xs">
-                I am a full-stack developer with a specialization in Python and
-                AI and an interest in law, video game development, cooking, and politics.
+                I&rsquo;m Shriyan Yamali, a full-stack developer with a
+                specialization in Python and AI and an interest in law, video
+                game development, cooking, and politics.
               </p>
 
-              <div className="flex items-center self-start lg:self-center">
+              <div className="w-1/2 flex flex-col items-center self-center lg:w-full lg:text-center">
                 <div className="pt-4">
                   <Link href="/projects">
                     <div className="grid gap-8 items-start justify-center">
@@ -94,10 +93,9 @@ export default function Home() {
               </p>
               <p className="my-4 text-base font-medium md:text-sm sm:text-xs">
                 I do fun things though, like listen to music, with my favorite
-                genre being hiphop or rap. I love my quotes, as you wil see
-                throughout my website. I also play video games like Fortnite,
-                Rocket League, Minecraft, and Clash Royale, where I was even
-                internationally ranked.
+                genre being hiphop or rap. I also play video games like
+                Fortnite, Rocket League, Minecraft, and Clash Royale, where I
+                was even internationally ranked.
               </p>
               <p className="my-4 text-base font-medium md:text-sm sm:text-xs">
                 In the future, I want to dive deeper into the intersection of

@@ -45,15 +45,10 @@ const about = () => {
       <main className="flex w-full flex-col items-center justify-center dark:text-light">
         <Layout className="pt-16">
           <AnimatedText
-            text="Believe in your flyness, conquer your shyness."
+            text="About"
             className="mb-4 lg:!text-7xl sm:!text-6xl xs:!text-4xl
           sm:mb-2
           "
-          />
-          <AnimatedText
-            text="— Kanye West"
-            className="mb-16 !text-2xl lg:!text-lg sm:!text-base xs:!text-sm w-11/12
-          sm:mb-8"
           />
           <div className="grid w-full grid-cols-8 gap-16 sm:gap-8">
             <div

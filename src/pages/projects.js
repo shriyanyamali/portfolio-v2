@@ -249,15 +249,10 @@ const projects = () => {
       <main className="w-full mb-16 flex flex-col items-center justify-center dark:text-light">
         <Layout className="pt-16">
           <AnimatedText
-            text="I'm not a businessman, I'm a business, man."
+            text="Projects"
             className="mb-4
             lg:!text-6xl md:!text-5xl sm:mb-2 sm:!text-4xl xs:!text-2xl
             "
-          />
-          <AnimatedText
-            text="— Jay-Z"
-            className="mb-16 !text-2xl lg:!text-lg sm:!text-base xs:!text-sm w-11/12
-          sm:mb-8"
           />
 
           <div

@@ -47,14 +47,9 @@ const resume = () => {
       <main className="flex w-full flex-col items-center justify-center">
         <Layout className="pt-16">
           <AnimatedText
-            text="Reach for the stars so if you fall you land on a cloud."
+            text="Resume"
             className="mb-4 lg:!text-7xl sm:!text-6xl xs:!text-4xl w-11/12
           sm:mb-2"
-          />
-          <AnimatedText
-            text="— Kanye West"
-            className="mb-16 !text-2xl lg:!text-lg sm:!text-base xs:!text-sm w-11/12
-          sm:mb-8"
           />
           <div className="flex justify-center items-center self-center mt-4 space-x-4">
             <Link
@@ -69,7 +64,7 @@ const resume = () => {
               "
             >
               View Resume
-              <LinkArrow className={"ml-2"} style={{ width: "2rem" }} />
+              <LinkArrow className={"ml-2 sm:ml-0"} style={{ width: "2rem" }} />
             </Link>
 
             <Link

@@ -42,12 +42,12 @@ const Skills = () => {
           Law & Tech
         </motion.div>
 
-        <Skill name="Legal Research" x="-24vw" y="2vw" />
+        <Skill name="Legal Research" x="-26vw" y="2vw" />
         <Skill name="CSS" x="-5vw" y="-10vw" />
         <Skill name="Python" x="20vw" y="6vw" />
         <Skill name="Telugu" x="0vw" y="12vw" />
         <Skill name="English" x="-20vw" y="-15vw" />
-        <Skill name="Machine Learning" x="15vw" y="-12vw" />
+        <Skill name="Machine Learning" x="18vw" y="-12vw" />
         <Skill name="Public Speaking" x="32vw" y="-5vw" />
         <Skill name="Figma" x="-0vw" y="-20vw" />
         <Skill name="Data Analysis" x="-25vw" y="18vw" />
