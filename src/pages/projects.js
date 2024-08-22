@@ -167,7 +167,7 @@ const FeaturedProjectNoGit = ({ type, title, summary, img, link }) => {
   );
 };
 
-const Project = ({ type, title, img, link, github }) => {
+const Project = ({ type, title, summary, img, link, github }) => {
   return (
     <article
       className="w-full flex flex-col items-center justify-center rounded-2xl
@@ -211,6 +211,13 @@ const Project = ({ type, title, img, link, github }) => {
             {title}
           </h2>
         </Link>
+        <p
+          className="my-2 font-medium text-dark dark:text-light
+        sm:text-sm
+        "
+        >
+          {summary}
+        </p>
         <div className="w-full mt-2 flex items-center justify-between">
           <Link
             href={link}
@@ -221,6 +228,7 @@ const Project = ({ type, title, img, link, github }) => {
           >
             Visit
           </Link>
+
           <Link
             href={github}
             target="_blank"
@@ -229,6 +237,73 @@ const Project = ({ type, title, img, link, github }) => {
           "
           >
             <GithubIcon />
+          </Link>
+        </div>
+      </div>
+    </article>
+  );
+};
+
+const ProjectNoGit = ({ type, title, summary, img, link }) => {
+  return (
+    <article
+      className="w-full flex flex-col items-center justify-center rounded-2xl
+    border border-solid border-dark bg-light p-6 relative dark:bg-dark dark:border-light
+    xs:p-4
+    "
+    >
+      <div
+        className="absolute top-0 -right-3 -z-10 w-[101%] h-[103%] rounded-[2rem] bg-dark
+      rounded-br-3xl dark:bg-light
+      md:-right-2 md:w-[101%] xs:h-[102%] xs:rounded-[1.5rem]
+      "
+      />
+
+      <Link
+        href={link}
+        target="_blank"
+        className="w-full cursor-pointer overflow-hidden rounded-lg"
+      >
+        <Image
+          src={img}
+          alt={title}
+          className="w-full h-auto transition-transform duration-300 transform hover:scale-105"
+        />
+      </Link>
+
+      <div className="w-full flex flex-col items-start justify-between mt-4">
+        <span
+          className="text-primary dark:text-primaryDark font-medium text-xl
+        lg:text-lg md:text-base
+        "
+        >
+          {type}
+        </span>
+        <Link
+          href={link}
+          target="_blank"
+          className="hover:underline underline-offset-2"
+        >
+          <h2 className="my-2 w-full text-left text-4xl font-bold lg:text-2xl">
+            {title}
+          </h2>
+        </Link>
+        <p
+          className="my-2 font-medium text-dark dark:text-light
+        sm:text-sm
+        "
+        >
+          {summary}
+        </p>
+        <div className="w-full mt-2 flex items-center justify-between">
+          <Link
+            href={link}
+            target="_blank"
+            className="text-lg font-semibold underline
+            md:text-base
+            "
+          >
+            Visit
           </Link>
         </div>
       </div>
@@ -262,30 +337,31 @@ const projects = () => {
           "
           >
             <div className="col-span-12 md:col-span-6">
-              <FeaturedProject
+              <FeaturedProjectNoGit
                 title="Competition Cases Keyword Search"
                 img={project1}
                 summary="A index where you can search keywords related to return market definitions decided in European Commission competition cases."
                 link="https://competitioncaseskeywordsearch.github.io/"
-                github="https://github.com/CompetitionCasesKeywordSearch/competitioncaseskeywordsearch.github.io"
-                type="Featured Project"
+                type="Website"
               />
             </div>
             <div className="col-span-6">
-              <Project
+              <ProjectNoGit
                 title="LexFlow"
+                summary="A program that creates diagrams based on legal principles and the relative weight and importance of aforementioned principles."
                 img={project2}
                 link="https://github.com/ShriyanYamali/LexFlow"
-                github="https://github.com/ShriyanYamali/LexFlow"
-                type="Featured Project"
+                // github="https://github.com/ShriyanYamali/LexFlow"
+                type="Program"
               />
             </div>
             <div className="col-span-6">
-              <Project
+              <ProjectNoGit
                 title="Project Citizen"
+                summary="A website to host the The We Spy Days of Safer Highways project which is aimed to add a speed camera on Kirkwood Highway in order to stop speeding and speeding-related crashes."
                 img={project3}
                 link="https://project-citizen-8447054.codehs.me/Home.html"
-                github="https://github.com/ShriyanYamali/We-Spy-Days-of-Safer-Highways"
+                // github="https://github.com/ShriyanYamali/We-Spy-Days-of-Safer-Highways"
                 type="Website"
               />
             </div>

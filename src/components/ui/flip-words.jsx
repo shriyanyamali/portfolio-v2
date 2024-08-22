@@ -5,7 +5,7 @@ import { cn } from "@/lib/utils";
 
 export const FlipWords = ({
   words,
-  duration = 1500,
+  duration = 2500,
   className
 }) => {
   const [currentWord, setCurrentWord] = useState(words[0]);
@@ -63,7 +63,7 @@ export const FlipWords = ({
             animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
             transition={{
               delay: index * 0.1,
-              duration: 0.4,
+              duration: 0.6,
             }}
             className="inline-block">
             {letter}
