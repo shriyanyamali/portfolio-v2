@@ -78,7 +78,7 @@ const FeaturedProject = ({ type, title, summary, img, link, github }) => {
           <Link
             href={link}
             target="_blank"
-            className="ml-4 rounded-lg bg-dark text-light p-2 px-6 text-lg font-semibold dark:bg-light dark:text-dark
+            className="rounded-lg bg-dark text-light p-2 px-6 text-lg font-semibold dark:bg-light dark:text-dark
             sm:px-4 sm:text-base
             "
           >
@@ -155,7 +155,7 @@ const FeaturedProjectNoGit = ({ type, title, summary, img, link }) => {
           <Link
             href={link}
             target="_blank"
-            className="ml-4 rounded-lg bg-dark text-light p-2 px-6 text-lg font-semibold dark:bg-light dark:text-dark
+            className="rounded-lg bg-dark text-light p-2 px-6 text-lg font-semibold dark:bg-light dark:text-dark
             sm:px-4 sm:text-base
             "
           >
@@ -332,7 +332,7 @@ const projects = () => {
 
           <div
             className="grid grid-cols-12 gap-24 gap-y-32
-          lg:gap-x-8 md:gap-y-24 md:gap sm:gap-x-0
+          xtl:gap-x-8 md:gap-y-24 md:gap sm:gap-x-0
           md:grid-cols-6
           "
           >
