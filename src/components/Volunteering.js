@@ -47,7 +47,7 @@ const Volunteering = () => {
     offset: ["start end", "center start"],
   });
   return (
-    <div className="my-64">
+    <div className="mb-32">
       <h2 className="font-bold text-8xl mb-32 w-full text-center dark:text-light
       md:text-6xl xs:text-4xl md:mb-16
       ">
@@ -58,7 +58,7 @@ const Volunteering = () => {
       ">
         <motion.div
           style={{ scaleY: scrollYProgress }}
-          className="absolute left-9 top-0 w-[4px] h-full bg-dark origin-top dark:bg-light
+          className="absolute left-9 -top-16 w-[4px] h-full bg-dark origin-top dark:bg-light
           md:w-[2px] md:left-[30px] xs:left-[20px]
           "
         />
@@ -72,7 +72,7 @@ const Volunteering = () => {
             institution="American Civil Liberties Union of Delaware"
             place="Wilmington, Delaware"
             placeLink="https://www.aclu-de.org/"
-            info="Organizing and cataloging historical and legal documents; Scanning and digitizing documents."
+            info="Organizing and cataloging historical and legal documents | Scanning and digitizing documents."
           />
 
           <Details
@@ -81,7 +81,7 @@ const Volunteering = () => {
             institution="Shirdi Sai of Delaware"
             place="Newark, Delaware"
             placeLink="http://www.omsridwarkamai.com/"
-            info="Worked to coordinate events for over 500 people. Accumulated more than 200 volunteer hours."
+            info="Worked to coordinate events for over 500 people | Accumulated more than 200 volunteer hours."
           />
 
           <Details
@@ -90,7 +90,7 @@ const Volunteering = () => {
             institution="Food Bank of Delaware"
             place="Newark, Delaware"
             placeLink="https://www.fbd.org/"
-            info="Helped package and distribute food throughout the year. Gained more than 60 volunteer hours."
+            info="Helped package and distribute food throughout the year | Gained more than 60 volunteer hours."
           />
         </ul>
       </div>

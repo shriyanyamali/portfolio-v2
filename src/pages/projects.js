@@ -348,7 +348,8 @@ const projects = () => {
             <div className="col-span-6">
               <ProjectNoGit
                 title="LexFlow"
-                summary="A program that creates diagrams based on legal principles and the relative weight and importance of aforementioned principles."
+                summary="A program that creates diagrams based on the relative weight and importance of legal principles and 
+                the effect of the principles on an act type."
                 img={project2}
                 link="https://github.com/ShriyanYamali/LexFlow"
                 // github="https://github.com/ShriyanYamali/LexFlow"

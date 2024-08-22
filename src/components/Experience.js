@@ -120,7 +120,7 @@ const Experience = () => {
   ];
 
   return (
-    <div className="my-64">
+    <div className="my-32">
       <h2
         className="font-bold text-8xl mb-32 w-full text-center dark:text-light
       md:text-6xl xs:text-4xl md:mb-16
@@ -136,7 +136,7 @@ const Experience = () => {
       >
         <motion.div
           style={{ scaleY: scrollYProgress }}
-          className="absolute left-9 top-0 w-[4px] h-full bg-dark origin-top dark:bg-light
+          className="absolute left-9 -top-28 lg:-top-40 w-[4px] h-full bg-dark origin-top dark:bg-light
           md:w-[2px] md:left-[30px] xs:left-[20px]
           "
         />
@@ -150,16 +150,17 @@ const Experience = () => {
             position="Programming Intern"
             company="University of Pennsylvania Carey Law School"
             companyLink="https://www.law.upenn.edu/"
-            time="July 2024 — Present"
+            time="July 2024 — August 2024"
             location="Philadelphia, Pennsylvania"
-            work="Developing a program that generates diagrams based on how much a factor affects a legal principle."
+            work="Developed a program that creates diagrams based on the relative weight and importance of legal principles and
+            the effect of the principles on an act type."
           />
 
           <Details
             position="Assistant Editor"
             company="Dartmouth College"
             companyLink="https://home.dartmouth.edu/"
-            time="July 2024 - May 2027"
+            time="July 2024 — Present"
             location="Hanover, New Hampshire"
             work="Editor for research papers about AI, machine learning, and computer science | Specializing in mechanical editing."
           />
@@ -193,13 +194,13 @@ const Experience = () => {
           />
 
           <Details
-            position="Program Leader"
+            position="Treasurer"
             company="Delaware Museum of Nature & Science"
             companyLink="https://delmns.org/"
             time="May 2024 — Present"
             location="Wilmington, Delaware"
-            work="Coordinating logistics and information for setting up educational science cafe events for children | 
-            Leading a team of volunteers | Building community engagement through outreach and promotion."
+            work="Coordinating logistics and information for setting up educational science cafe events for children | Managing
+            budgets and grants."
           />
 
           <Details

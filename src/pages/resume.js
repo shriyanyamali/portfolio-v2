@@ -48,8 +48,7 @@ const resume = () => {
         <Layout className="pt-16">
           <AnimatedText
             text="Resume"
-            className="mb-4 lg:!text-7xl sm:!text-6xl xs:!text-4xl w-11/12
-          sm:mb-2"
+            className="lg:!text-7xl sm:!text-6xl xs:!text-4xl w-11/12"
           />
           <div className="flex justify-center items-center self-center mt-4 space-x-4">
             <Link

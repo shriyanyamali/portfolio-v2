@@ -47,7 +47,7 @@ const Education = () => {
     offset: ["start end", "center start"],
   });
   return (
-    <div className="my-64">
+    <div className="mt-32">
       <h2 className="font-bold text-8xl mb-32 w-full text-center dark:text-light
       md:text-6xl xs:text-4xl md:mb-16
       ">
@@ -58,7 +58,7 @@ const Education = () => {
       ">
         <motion.div
           style={{ scaleY: scrollYProgress }}
-          className="absolute left-9 top-0 w-[4px] h-full bg-dark origin-top dark:bg-light
+          className="absolute left-9 top-10 w-[4px] h-full bg-dark origin-top dark:bg-light
           md:w-[2px] md:left-[30px] xs:left-[20px]
           "
         />
@@ -68,22 +68,22 @@ const Education = () => {
         ">
           <Details
             type="Student"
-            time="July 2024 - May 2027"
+            time="July 2015 - May 2027"
             institution="Newark Charter High School"
             place="Newark, Delaware"
             placeLink="https://newarkcharterschool.org/sr-high-school-home"
-            info="Violinist of 6 Years & Athlete; Member of Mock Trial, Student Council, and Math League; Business Professionals of
-            America member and two time first place national winner."
+            info="Member of Mock Trial, Asian Student Union, and Math League | Student Council president
+            | Violinist and Athlete of 6 Years."
           />
 
-          <Details
+          {/* <Details
             type="Student"
             time="Sept 2015 — June 2023"
             institution="Newark Charter Elementary & Intermediate School"
             place="Newark, Delaware"
             placeLink="https://newarkcharterschool.org/"
-            info="Student Council treasurer and member of Speech and Debate and Math League."
-          />
+            info="Student Council treasurer and member of Speech and Debate and Math League | Violinist of 6 Years & Athlete."
+          /> */}
         </ul>
       </div>
     </div>
