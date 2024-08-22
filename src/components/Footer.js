@@ -49,15 +49,13 @@ const Footer = () => {
 
   return (
     <footer className="relative w-full border-t-2 border-solid border-dark font-medium text-lg bg-gray-900 text-white">
-      {/* Container Grid with Columns for Large Screens */}
       <div className="max-w-screen-xl mx-auto py-12 grid grid-cols-4 gap-8 text-center lg:grid-cols-1 lg:flex lg:flex-col">
-        {/* About Section - Hidden on Large Screens */}
-        <div className="col-span-2 flex flex-col items-center text-left lg:hidden">
+        <div className="col-span-2 flex flex-col items-center text-left xtl:ml-12 lg:!mr-9">
           <div className="items-start">
-            <h3 className="text-2xl font-bold mb-6 items-start">
+            <h3 className="text-2xl font-bold mb-6 items-start lg:!text-xl">
               About Shriyan Yamali
             </h3>
-            <p className="text-lg mb-6">
+            <p className="text-lg mb-6 lg:text-base">
               Shriyan Yamali is a passionate high school student certified in
               computer science, web development, and Python. He is skilled in
               web design, Java, JavaScript, and Python, with experience in
@@ -72,7 +70,7 @@ const Footer = () => {
 
         {/* Site Links Section */}
         <div className="lg:flex lg:flex-col lg:items-center">
-          <h3 className="text-2xl font-bold mb-6">Site Links</h3>
+          <h3 className="text-2xl font-bold mb-6 lg:!text-xl">Site Links</h3>
           <ul className="space-y-3 text-lg">
             <li>
               <CustomLink
@@ -114,7 +112,7 @@ const Footer = () => {
 
         {/* Contact Section */}
         <div className="lg:flex lg:flex-col lg:items-center">
-          <h3 className="text-2xl font-bold mb-6">Contact</h3>
+          <h3 className="text-2xl font-bold mb-6 lg:!text-xl">Contact</h3>
           <ul className="space-y-3 text-lg">
             <li>
               <CustomLink
@@ -160,7 +158,7 @@ const Footer = () => {
         </div>
 
         {/* Copyright and Legal Links */}
-        <span className="text-lg mb-2 lg:mb-6 whitespace-nowrap lg:whitespace-normal lg:text-">
+        <span className="text-lg whitespace-nowrap xtl:ml-12 lg:whitespace-normal">
           Copyright &copy; {new Date().getFullYear()} Shriyan Yamali.{" "}
           <br className="hidden lg:block" />
           All rights reserved.
@@ -185,8 +183,8 @@ const Footer = () => {
       {/* Scroll to Top Button */}
       <button
         onClick={scrollToTop}
-        className={`fixed bottom-8 right-8 p-3 rounded-full bg-gray-700 text-white shadow-lg hover:bg-gray-600 transform transition-transform duration-300 ${
-          isVisible ? "translate-y-0 opacity-100" : "translate-y-20 opacity-0"
+        className={`fixed bottom-4 right-6 p-4 lg:p-3 rounded-full bg-gray-700 text-white shadow-lg hover:bg-gray-600 transform transition-transform duration-300 ${
+          isVisible ? "translate-y-0 opacity-80" : "translate-y-20 opacity-0"
         }`}
         aria-label="Scroll to top"
         style={{ transitionProperty: "transform, opacity" }}
