@@ -71,7 +71,7 @@ const Education = () => {
             time="July 2015 - May 2027"
             institution="Newark Charter High School"
             place="Newark, Delaware"
-            placeLink="https://newarkcharterschool.org/sr-high-school-home"
+            placeLink="https://newarkcharterschool.org/"
             info="Member of Mock Trial, Asian Student Union, and Math League | Student Council president
             | Violinist and Athlete of 6 Years."
           />
