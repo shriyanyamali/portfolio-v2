@@ -19,8 +19,8 @@ const NotFound = () => {
         <h1 className="mb-10 text-4xl">404 | Page Not Found</h1>
         <div className="text-lg w-1/4 lg:w-3/4">
           <h2 className="">I&rsquo;ve made many webpages...</h2>
-          <h2 className="mb-3">just not the one you are looking for.</h2>
-          <h3>
+          <h2>just not the one you are looking for.</h2>
+          <h3 className="my-3">
             If you think that there should be a page here, please contact me at
             &nbsp;
             <Link
@@ -33,7 +33,7 @@ const NotFound = () => {
             </Link>
           </h3>
           <h3>
-            Otherwise, please return &nbsp;
+            Otherwise, return &nbsp;
             <Link
               className="underline text-blue-600 hover:text-blue-800 dark:text-cyan-300 hover:dark:text-cyan-500
                     "
