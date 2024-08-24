@@ -15,7 +15,7 @@ const CustomLink = ({ href, title, className = "", target }) => {
     >
       {title}
       <span
-        className={`h-[1px] inline-block bg-white
+        className={`h-[1px] inline-block bg-black dark:bg-white
                 absolute left-0 -bottom-0.5
                 group-hover:w-full transition-[width] ease duration-300
                 ${router.asPath === href ? "w-full" : "w-0"}
@@ -48,7 +48,7 @@ const Footer = () => {
   }, []);
 
   return (
-    <footer className="relative w-full border-t-2 border-solid border-dark font-medium text-lg bg-gray-900 text-white">
+    <footer className="relative w-full border-t-2 border-solid border-light dark:border-dark font-medium text-lg bg-lightBeige dark:bg-gray-900 text-black dark:text-white">
       <div className="max-w-screen-xl mx-auto py-12 grid grid-cols-4 gap-8 text-center lg:grid-cols-1 lg:flex lg:flex-col">
         <div className="col-span-2 flex flex-col items-center text-left xtl:ml-12 lg:!mr-9">
           <div className="items-start">
@@ -76,35 +76,35 @@ const Footer = () => {
               <CustomLink
                 href="/"
                 title="Home"
-                className="hover:text-gray-400"
+                className="hover:text-brownBeige hover:dark:text-gray-400"
               />
             </li>
             <li>
               <CustomLink
                 href="/about"
                 title="About"
-                className="hover:text-gray-400"
+                className="hover:text-brownBeige hover:dark:text-gray-400"
               />
             </li>
             <li>
               <CustomLink
                 href="/projects"
                 title="Projects"
-                className="hover:text-gray-400"
+                className="hover:text-brownBeige hover:dark:text-gray-400"
               />
             </li>
             <li>
               <CustomLink
                 href="/resume"
                 title="Resume"
-                className="hover:text-gray-400"
+                className="hover:text-brownBeige hover:dark:text-gray-400"
               />
             </li>
             <li>
               <CustomLink
                 href="/contact"
                 title="Contact"
-                className="hover:text-gray-400"
+                className="hover:text-brownBeige hover:dark:text-gray-400"
               />
             </li>
           </ul>
@@ -119,7 +119,7 @@ const Footer = () => {
                 href="https://www.instagram.com/_shriyanyamali/"
                 title="Instagram"
                 target="_blank"
-                className="hover:text-gray-400"
+                className="hover:text-brownBeige hover:dark:text-gray-400"
               />
             </li>
             <li>
@@ -127,7 +127,7 @@ const Footer = () => {
                 href="https://x.com/Shriyan_Y"
                 title="X"
                 target="_blank"
-                className="hover:text-gray-400"
+                className="hover:text-brownBeige hover:dark:text-gray-400"
               />
             </li>
             <li>
@@ -135,7 +135,7 @@ const Footer = () => {
                 href="https://www.linkedin.com/in/shriyan-yamali/"
                 title="LinkedIn"
                 target="_blank"
-                className="hover:text-gray-400"
+                className="hover:text-brownBeige hover:dark:text-gray-400"
               />
             </li>
             <li>
@@ -143,7 +143,7 @@ const Footer = () => {
                 href="https://github.com/ShriyanYamali"
                 title="GitHub"
                 target="_blank"
-                className="hover:text-gray-400"
+                className="hover:text-brownBeige hover:dark:text-gray-400"
               />
             </li>
             <li>
@@ -151,7 +151,7 @@ const Footer = () => {
                 href="mailto:srujanshriyan@gmail.com"
                 title="Email"
                 target="_blank"
-                className="hover:text-gray-400"
+                className="hover:text-brownBeige hover:dark:text-gray-400"
               />
             </li>
           </ul>
@@ -168,13 +168,13 @@ const Footer = () => {
             <CustomLink
               href="/privacy"
               title="Privacy Policy"
-              className="hover:text-gray-400"
+              className="hover:text-brownBeige hover:dark:text-gray-400"
             />
             <span className="mx-2">|</span>
             <CustomLink
               href="/terms"
               title="Terms of Service"
-              className="hover:text-gray-400"
+              className="hover:text-brownBeige hover:dark:text-gray-400"
             />
           </div>
         </div>
@@ -183,7 +183,8 @@ const Footer = () => {
       {/* Scroll to Top Button */}
       <button
         onClick={scrollToTop}
-        className={`fixed bottom-4 right-6 p-4 lg:p-3 rounded-full bg-gray-700 text-white shadow-lg hover:bg-gray-600 transform transition-transform duration-300 ${
+        className={`fixed bottom-4 right-6 p-4 lg:p-3 rounded-full bg-beige dark:bg-gray-700 text-dark dark:text-light shadow-lg
+          hover:bg-darkBeige hover:dark:bg-gray-600 transform transition-transform duration-300 ${
           isVisible ? "translate-y-0 opacity-80" : "translate-y-20 opacity-0"
         }`}
         aria-label="Scroll to top"
