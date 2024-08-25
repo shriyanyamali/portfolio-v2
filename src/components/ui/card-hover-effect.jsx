@@ -18,7 +18,9 @@ export const HoverEffect = ({
           key={item?.link}
           className="relative group  block p-2 h-full w-full"
           onMouseEnter={() => setHoveredIndex(idx)}
-          onMouseLeave={() => setHoveredIndex(null)}>
+          onMouseLeave={() => setHoveredIndex(null)}
+          target="_blank"
+          rel="noopener noreferrer">
           <AnimatePresence>
             {hoveredIndex === idx && (
               <motion.span
