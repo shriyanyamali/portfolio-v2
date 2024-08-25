@@ -6,6 +6,8 @@ import profilePic from "../../public/images/profile/signature.png";
 import profilePicDark from "../../public/images/profile/signature-white.png";
 import Link from "next/link";
 import { FlipWordsDemo } from "@/components/demo/demo-flip-words";
+import { CardHoverEffectDemo } from "@/components/demo/demo-hover-effect";
+import { TextRevealCardPreview } from "@/components/demo/demo-text-reveal-card";
 
 export default function Home() {
   return (
@@ -50,9 +52,9 @@ export default function Home() {
                   <Link href="/projects">
                     <div className="grid gap-8 items-start justify-center">
                       <div className="relative group">
-                        <div className="absolute -inset-0.5 bg-gradient-to-r from-purple-600 to-blue-600 rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
+                        <div className="absolute -inset-0.5 bg-gradient-to-r from-purple-600 to-blue-600 rounded-lg sm:rounded-none dark:rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
                         <button
-                          className="relative px-7 py-4 bg-dark rounded-lg leading-none flex items-center divide-x divide-gray-600
+                          className="relative px-7 py-4 bg-dark rounded-lg sm:rounded-none dark:rounded-lg leading-none flex items-center divide-x divide-gray-600
                           text-gray-100 transition-all duration-500 group-hover:text-dark group-hover:bg-light 
                            dark:text-dark  dark:bg-light dark:group-hover:text-light dark:group-hover:bg-dark
                            md:p-2 md:px-4 md:text-base 
@@ -69,6 +71,24 @@ export default function Home() {
               </div>
             </div>
           </div>
+
+          <TextRevealCardPreview />
+
+          <hr className="mx-auto mb-8 border-t-2 border-dark w-[10rem]" />
+
+          <div className="flex items-center justify-center">
+          <Link
+          href="/contact">
+            <div className="flex flex-col items-center justify-center font-semibold bg-slate-300 dark:bg-slate-700 border-b border-white/[0.09] h-[5rem] w-[20rem] rounded-3xl relative overflow-hidden">
+              <h2 className="text-center text-xl sm:text-base">
+                Let&rsquo;s Work Together
+              </h2>
+            </div>
+            </ Link>
+          </div>
+
+          <CardHoverEffectDemo />
+
           <div className="items-center justify-center text-center mb-24 md:mt-8">
             <AnimatedText
               text="Who am I?"

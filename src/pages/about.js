@@ -4,7 +4,7 @@ import Head from "next/head";
 import Image from "next/image";
 import profilePic from "../../public/images/profile/pfp.jpg";
 import React, { useRef, useEffect } from "react";
-import { motion, useInView, useMotionValue, useSpring } from "framer-motion";
+import { useInView, useMotionValue, useSpring } from "framer-motion";
 import Skills from "@/components/Skills";
 import Awards from "@/components/Awards";
 import { IconCloudDemo } from "@/components/demo/demo-icon-cloud";
