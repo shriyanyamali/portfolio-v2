@@ -52,7 +52,7 @@ export default function Home() {
                   <Link href="/projects">
                     <div className="grid gap-8 items-start justify-center">
                       <div className="relative group">
-                        <div className="absolute -inset-0.5 bg-gradient-to-r from-purple-600 to-blue-600 rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
+                        <div className="absolute -inset-0.5 bg-gradient-to-r from-purple-600 to-blue-600 rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000"></div>
                         <button
                           className="relative px-7 py-4 bg-dark rounded-lg leading-none flex items-center divide-x divide-gray-600
                           text-gray-100 transition-all duration-500 group-hover:text-dark group-hover:bg-light 
@@ -114,7 +114,7 @@ export default function Home() {
 
           <div className="flex items-center justify-center w-full">
             <Link href="/contact">
-              <div className="flex flex-col items-center justify-center font-semibold bg-slate-300 dark:bg-slate-700 hover:bg-slate-200 dark:hover:bg-slate-800 border border-slate-700/[0.2] dark:border-slate-300/[0.2] rounded-2xl relative overflow-hidden p-4 w-full max-w-[20rem] shadow-custom-light dark:shadow-custom-dark">
+              <div className="flex flex-col items-center justify-center transition duration-500 font-semibold bg-slate-300 dark:bg-slate-700 hover:bg-slate-200 dark:hover:bg-slate-800 border border-slate-700/[0.2] dark:border-slate-300/[0.2] rounded-2xl relative overflow-hidden p-4 w-full max-w-[20rem] shadow-custom-light dark:shadow-custom-dark">
                 <h2 className="text-center text-xl sm:text-xl">
                   Let&rsquo;s Work Together
                 </h2>
@@ -123,7 +123,7 @@ export default function Home() {
           </div>
 
           <CardHoverEffectDemo />
-
+ 
           <div className="items-center justify-center text-center mb-24 md:mt-8">
             <AnimatedText
               text="Who am I?"
