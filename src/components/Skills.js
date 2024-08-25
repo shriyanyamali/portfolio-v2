@@ -49,7 +49,6 @@ const Skills = () => {
         <Skill name="English" x="-20vw" y="-15vw" />
         <Skill name="Machine Learning" x="18vw" y="-12vw" />
         <Skill name="Public Speaking" x="32vw" y="-5vw" />
-        <Skill name="Figma" x="-0vw" y="-20vw" />
         <Skill name="Data Analysis" x="-25vw" y="18vw" />
         <Skill name="Regulatory Compliance" x="18vw" y="18vw" />
         <Skill name="HTML" x="-34vw" y="-9vw" />

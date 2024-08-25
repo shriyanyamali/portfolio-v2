@@ -45,7 +45,6 @@ export default function Home() {
                 specialization in Python and AI and an interest in law, video
                 game development, cooking, and politics.
               </p>
-
               <div className="w-1/2 flex flex-col items-start self-center lg:items-center lg:w-full lg:text-center">
                 <div className="pt-4">
                   <Link href="/projects">

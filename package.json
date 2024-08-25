@@ -17,9 +17,11 @@
     "lucide-react": "^0.427.0",
     "mini-svg-data-uri": "^1.4.4",
     "next": "^14.2.3",
+    "next-themes": "^0.3.0",
     "next-webpack-multi-tailwind-layout-plugin": "^0.0.2",
     "react": "^18.2.0",
     "react-dom": "18.2.0",
+    "react-icon-cloud": "^4.1.4",
     "sharp": "^0.33.5",
     "tailwind-merge": "^2.5.2",
     "tailwindcss-animate": "^1.0.7"
