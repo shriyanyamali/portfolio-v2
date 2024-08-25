@@ -114,7 +114,7 @@ export default function Home() {
 
           <div className="flex items-center justify-center w-full">
             <Link href="/contact">
-              <div className="flex flex-col items-center justify-center font-semibold bg-slate-300 dark:bg-slate-700 border border-slate-700/[0.2] dark:border-slate-300/[0.2] rounded-2xl relative overflow-hidden p-4 w-full max-w-[20rem] shadow-custom-light dark:shadow-custom-dark">
+              <div className="flex flex-col items-center justify-center font-semibold bg-slate-300 dark:bg-slate-700 hover:bg-slate-200 dark:hover:bg-slate-800 border border-slate-700/[0.2] dark:border-slate-300/[0.2] rounded-2xl relative overflow-hidden p-4 w-full max-w-[20rem] shadow-custom-light dark:shadow-custom-dark">
                 <h2 className="text-center text-xl sm:text-xl">
                   Let&rsquo;s Work Together
                 </h2>
