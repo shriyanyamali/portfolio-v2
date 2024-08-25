@@ -48,7 +48,7 @@ const Footer = () => {
   }, []);
 
   return (
-    <footer className="relative w-full border-t-2 border-solid border-light dark:border-dark font-medium text-lg bg-lightBeige dark:bg-gray-900 text-black dark:text-white">
+    <footer className="relative w-full border-t-2 border-solid border-light dark:border-dark font-medium text-lg bg-lightBeige dark:bg-gray-800 text-black dark:text-white">
       <div className="max-w-screen-xl mx-auto py-12 grid grid-cols-4 gap-8 text-center lg:grid-cols-1 lg:flex lg:flex-col">
         <div className="col-span-2 flex flex-col items-center text-left xtl:ml-12 lg:!mr-9">
           <div className="items-start">
