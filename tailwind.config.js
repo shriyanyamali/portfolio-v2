@@ -25,12 +25,14 @@ module.exports = {
         brownBeige: "#635c50",
       },
       screens: {
-        "2xl": { max: "1535px" },
+        txl: { max: "1535px" },
         xtl: { max: "1279px" },
         lg: { max: "1023px" },
+        mg: { max: "880px" },        
         md: { max: "767px" },
         sm: { max: "639px" },
         xs: { max: "479px" },
+        xxs: { max: "379px" },
       },
       backgroundImage: {
         circularLight:
