@@ -60,8 +60,8 @@ module.exports = {
         scale: "scale 3s ease-in-out infinite",
       },
       boxShadow: {
-        "custom-light": "10px 10px 12px rgba(0, 0, 0, 0.4)",
-        "custom-dark": "10px 10px 12px rgba(230, 255, 255, 0.5)", // Adjust as needed
+        "custom-light": "10px 12px 12px rgba(0, 0, 0, 0.4)",
+        "custom-dark": "10px 12px 12px rgba(230, 255, 255, 0.5)", // Adjust as needed
       },
     },
   },

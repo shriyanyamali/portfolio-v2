@@ -25,15 +25,12 @@ const awards = [
 
 const AwardCard = ({ title, description }) => (
   <motion.div
-    className="p-4 my-4 rounded-lg shadow-card text-center bg-teal-100 dark:bg-gray-800"
+    className="p-4 my-4 rounded-lg shadow-card text-center shadow-custom-light dark:shadow-custom-dark bg-slate-300 dark:bg-slate-700
+  border-2 border-slate-700/[0.2] dark:border-slate-300/[0.2]
+  hover:bg-slate-200 dark:hover:bg-slate-800"
+    style={{ transition: "background-color 500ms" }}
     whileHover={{ scale: 1.05 }}
     transition={{ duration: 0.3 }}
-    style={{
-      borderLeft: "none",
-      borderTop: "none",
-      borderRight: "4px solid #bbf7d0",
-      borderBottom: "4px solid #bbf7d0",
-    }}
   >
     <h3 className="text-[1.25rem] sm:text-sm md:text-base lg:text-lg xl:text-xl font-semibold text-dark/75 dark:text-light">
       {title}
@@ -52,14 +49,8 @@ const Awards = () => {
       </h2>
       <div className="w-1/2 mx-auto lg:w-full mt-6 sm:mt-8 md:mt-10 lg:mt-12 xl:mt-16 grid sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-2 gap-4">
         {awards.map((award, index) => (
-          <div
-            key={index}
-            className="col-span-5 lg:col-span-2"
-          >
-            <AwardCard
-              title={award.title}
-              description={award.description}
-            />
+          <div key={index} className="col-span-5 lg:col-span-2">
+            <AwardCard title={award.title} description={award.description} />
           </div>
         ))}
       </div>
