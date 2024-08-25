@@ -22,6 +22,7 @@ const slugs = [
   "openai",
   "shadcnui",
   "scratch",
+  "tailwindcss",
 ];
 
 export function IconCloudDemo() {

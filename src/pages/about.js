@@ -5,9 +5,9 @@ import Image from "next/image";
 import profilePic from "../../public/images/profile/pfp.jpg";
 import React, { useRef, useEffect } from "react";
 import { useInView, useMotionValue, useSpring } from "framer-motion";
-import Skills from "@/components/Skills";
 import Awards from "@/components/Awards";
 import { IconCloudDemo } from "@/components/demo/demo-icon-cloud";
+import HoverSpring from "@/components/demo/demo-features-hover-spring";
 
 const AnimatedNumbers = ({ value }) => {
   const ref = useRef(null);
@@ -142,7 +142,13 @@ const about = () => {
               </div>
             </div>
           </div>
-          <Skills />
+          <h2 className="font-bold text-8xl mt-64 w-full text-center md:text-6xl md:mt-32 mb-8">
+            Skills
+          </h2>
+
+          <div className="flex justify-center">
+            <HoverSpring />
+          </div>
           <IconCloudDemo />
           <Awards />
         </Layout>
