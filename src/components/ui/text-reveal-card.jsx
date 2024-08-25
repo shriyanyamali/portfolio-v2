@@ -63,7 +63,7 @@ export const TextRevealCard = ({
       onTouchMove={touchMoveHandler}
       ref={cardRef}
       className={cn(
-        "bg-dark border-b border-white/[0.09] w-[40rem] rounded-3xl dark:rounded-none relative overflow-hidden",
+        "bg-light dark:bg-dark border-b border-black/[0.09] dark:border-white/[0.09] w-[40rem] relative overflow-hidden",
         className
       )}
     >
@@ -82,11 +82,10 @@ export const TextRevealCard = ({
                 }
           }
           transition={isMouseOver ? { duration: 0 } : { duration: 0.4 }}
-          className="absolute bg-dark z-20 will-change-transform flex items-center justify-center"
+          className="absolute bg-light dark:bg-dark z-20 will-change-transform flex items-center justify-center"
         >
           <p
-            style={{ textShadow: "4px 4px 15px rgba(0,0,0,0.5)" }}
-            className="sm:text-2xl text-[3rem] py-10 font-bold text-white bg-clip-text text-transparent bg-gradient-to-b from-white to-neutral-300"
+            className="sm:text-3xl text-[3rem] py-10 font-bold text-black dark:text-white bg-clip-text text-transparent bg-gradient-to-b from-black dark:from-white to-neutral-700 dark:to-neutral-300"
           >
             {revealText}
           </p>
@@ -98,11 +97,11 @@ export const TextRevealCard = ({
             opacity: widthPercentage > 0 ? 1 : 0,
           }}
           transition={isMouseOver ? { duration: 0 } : { duration: 0.4 }}
-          className="h-40 w-[8px] bg-gradient-to-b from-transparent via-neutral-800 to-transparent absolute z-50 will-change-transform"
+          className="h-40 w-[8px] bg-gradient-to-b from-transparent via-neutral-200 dark:via-neutral-800 to-transparent absolute z-50 will-change-transform"
         ></motion.div>
 
         <div className="flex items-center justify-center overflow-hidden [mask-image:linear-gradient(to_bottom,transparent,white,transparent)]">
-          <p className="sm:text-2xl text-[3rem] py-10 font-bold bg-clip-text text-transparent bg-[#323238]">
+          <p className="sm:text-3xl text-[3rem] py-10 font-bold bg-clip-text text-transparent bg-[#cdcdc7] dark:bg-[#323238]">
             {text}
           </p>
           <MemoizedStars />
@@ -114,7 +113,7 @@ export const TextRevealCard = ({
 
 export const TextRevealCardTitle = ({ children, className }) => {
   return (
-    <h2 className={twMerge("text-white text-lg mb-2", className)}>
+    <h2 className={twMerge("text-dark dark:text-white text-lg mb-2", className)}>
       {children}
     </h2>
   );
@@ -122,7 +121,7 @@ export const TextRevealCardTitle = ({ children, className }) => {
 
 export const TextRevealCardDescription = ({ children, className }) => {
   return (
-    <p className={twMerge("text-[#a9a9a9] text-sm", className)}>
+    <p className={twMerge("text-[#565656] dark:text-[#a9a9a9] text-sm", className)}>
       {children}
     </p>
   );
@@ -154,7 +153,7 @@ const Stars = () => {
             left: `${random() * 100}%`,
             width: `2px`,
             height: `2px`,
-            backgroundColor: "white",
+            backgroundColor: "gray",
             borderRadius: "50%",
             zIndex: 1,
           }}

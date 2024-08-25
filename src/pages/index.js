@@ -42,26 +42,40 @@ export default function Home() {
               <div className="text-left lg:text-center">
                 <FlipWordsDemo />
               </div>
-              <p className="my-4 text-base font-medium md:text-sm sm:text-xs">
+              <p className="my-4 text-base font-medium md:text-sm sm:text-xs w-full lg:w-3/4 mx-auto">
                 I&rsquo;m Shriyan Yamali, a full-stack developer with a
                 specialization in Python and AI and an interest in law, video
                 game development, cooking, and politics.
               </p>
-              <div className="w-1/2 flex flex-col items-start self-center lg:items-center lg:w-full lg:text-center">
+              <div className="w-1/2 flex flex-col items-start self-center lg:items-center lg:w-full lg:text-center lg:hidden">
                 <div className="pt-4">
                   <Link href="/projects">
                     <div className="grid gap-8 items-start justify-center">
                       <div className="relative group">
-                        <div className="absolute -inset-0.5 bg-gradient-to-r from-purple-600 to-blue-600 rounded-lg sm:rounded-none dark:rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
+                        <div className="absolute -inset-0.5 bg-gradient-to-r from-purple-600 to-blue-600 rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
                         <button
-                          className="relative px-7 py-4 bg-dark rounded-lg sm:rounded-none dark:rounded-lg leading-none flex items-center divide-x divide-gray-600
+                          className="relative px-7 py-4 bg-dark rounded-lg leading-none flex items-center divide-x divide-gray-600
                           text-gray-100 transition-all duration-500 group-hover:text-dark group-hover:bg-light 
                            dark:text-dark  dark:bg-light dark:group-hover:text-light dark:group-hover:bg-dark
                            md:p-2 md:px-4 md:text-base 
                         "
                         >
-                          <span className="flex items-center space-x-5">
+                          <span className="flex items-center space-x-2">
                             <span>Check Out My Projects</span>
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              fill="none"
+                              viewBox="0 0 24 24"
+                              strokeWidth="2"
+                              stroke="currentColor"
+                              className="w-5 h-5 animate-scale"
+                            >
+                              <path
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                                d="M9 5l7 7-7 7"
+                              />
+                            </svg>
                           </span>
                         </button>
                       </div>
@@ -69,22 +83,43 @@ export default function Home() {
                   </Link>
                 </div>
               </div>
+
+              <div className="w-1/2 flex flex-col items-center justify-center lg:w-full lg:text-center hidden lg:flex lg:justify-center lg:items-center lg:my-8">
+                <Link href="/projects">
+                  <button className="flex items-center space-x-1 text-slate-950 hover:text-slate-600 dark:text-slate-300 dark:hover:text-slate-400">
+                    <span className="border-b border-slate-950 hover:border-slate-600 dark:border-slate-300 dark:hover:border-slate-400">
+                      Check Out My Projects
+                    </span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      strokeWidth="2"
+                      stroke="currentColor"
+                      className="w-5 h-5 animate-scale"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M9 5l7 7-7 7"
+                      />
+                    </svg>
+                  </button>
+                </Link>
+              </div>
             </div>
           </div>
 
           <TextRevealCardPreview />
 
-          <hr className="mx-auto mb-8 border-t-2 border-dark w-[10rem]" />
-
-          <div className="flex items-center justify-center">
-          <Link
-          href="/contact">
-            <div className="flex flex-col items-center justify-center font-semibold bg-slate-300 dark:bg-slate-700 border-b border-white/[0.09] h-[5rem] w-[20rem] rounded-3xl relative overflow-hidden">
-              <h2 className="text-center text-xl sm:text-base">
-                Let&rsquo;s Work Together
-              </h2>
-            </div>
-            </ Link>
+          <div className="flex items-center justify-center w-full">
+            <Link href="/contact">
+              <div className="flex flex-col items-center justify-center font-semibold bg-slate-300 dark:bg-slate-700 border border-slate-700/[0.2] dark:border-slate-300/[0.2] rounded-2xl relative overflow-hidden p-4 w-full max-w-[20rem] shadow-custom-light dark:shadow-custom-dark">
+                <h2 className="text-center text-xl sm:text-xl">
+                  Let&rsquo;s Work Together
+                </h2>
+              </div>
+            </Link>
           </div>
 
           <CardHoverEffectDemo />

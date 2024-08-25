@@ -50,6 +50,19 @@ module.exports = {
         circularDarkSm:
           "repeating-radial-gradient(rgba(255,255,255,0.5) 2px,#1b1b1b 4px,#1b1b1b 40px)",
       },
+      keyframes: {
+        scale: {
+          "0%, 100%": { transform: "scale(1)" },
+          "50%": { transform: "scale(1.3)" },
+        },
+      },
+      animation: {
+        scale: "scale 3s ease-in-out infinite",
+      },
+      boxShadow: {
+        "custom-light": "10px 10px 12px rgba(0, 0, 0, 0.4)",
+        "custom-dark": "10px 10px 12px rgba(230, 255, 255, 0.5)", // Adjust as needed
+      },
     },
   },
   plugins: [
