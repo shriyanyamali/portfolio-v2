@@ -415,11 +415,11 @@ export function GlobeDemo() {
           {/* <h2
             className="text-center md:text-xl text-4xl font-bold text-black dark:text-white">
             We sell soap worldwide
-          </h2> */}
+          </h2>
           <p
             className="text-center md:text-base text-lg font-normal text-gray-700 dark:text-gray-300 max-w-md mt-20 mx-auto">
             Check the globe. Do you see the page? I don&rsquo;t.
-          </p>
+          </p> */}
         </motion.div>
         <div
           className="absolute w-full bottom-0 inset-x-0 h-40 bg-gradient-to-b pointer-events-none select-none from-transparent dark:to-dark to-light z-40" />
