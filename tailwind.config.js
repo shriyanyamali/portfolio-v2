@@ -53,7 +53,7 @@ module.exports = {
       keyframes: {
         scale: {
           "0%, 100%": { transform: "scale(1)" },
-          "50%": { transform: "scale(1.3)" },
+          "50%": { transform: "scale(1.4)" },
         },
       },
       animation: {
