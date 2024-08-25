@@ -7,17 +7,17 @@ const awards = [
     description: "Best Attorney Award out of more than 300 other attorneys.",
   },
   {
-    title: "Business Professionals of America (BPA)",
+    title: "Business Professionals of America",
     description:
       "First Place at the National Level in Management, Marketing & Human Resources Concepts out of more than 6,300 participants.",
   },
   {
-    title: "Business Professionals of America (BPA)",
+    title: "Business Professionals of America",
     description:
       "First Place at the National Level in Meeting & Event Planning Concepts out of more than 6,000 participants.",
   },
   {
-    title: "Business Professionals of America (BPA)",
+    title: "Business Professionals of America",
     description:
       "First Place at the State Level in Legal Office Procedures out of more than 500 participants.",
   },
@@ -47,7 +47,7 @@ const AwardCard = ({ title, description }) => (
 const Awards = () => {
   return (
     <>
-      <h2 className="font-bold text-8xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl mt-48 sm:mt-10 md:mt-12 lg:mt-16 xl:mt-20 w-full text-center">
+      <h2 className="font-bold text-8xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl mt-64 md:mt-32 w-full text-center">
         Awards
       </h2>
       <div className="w-1/2 mx-auto lg:w-full mt-6 sm:mt-8 md:mt-10 lg:mt-12 xl:mt-16 grid sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-2 gap-4">
