@@ -29,7 +29,7 @@ export const TextRevealCard = ({
     const { clientX } = event;
     if (cardRef.current) {
       const relativeX = clientX - left;
-      setWidthPercentage((relativeX / localWidth) * 100);
+      setWidthPercentage((relativeX / localWidth) * 120);
     }
   }
 
