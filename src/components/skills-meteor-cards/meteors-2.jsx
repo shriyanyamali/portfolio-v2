@@ -6,9 +6,9 @@ export function MeteorsDemo2() {
     (<div className="">
       <div className=" w-full relative max-w-lg xtl:max-w-sm lg:max-w-xs lg:mt-32">
       <div
-          className="absolute inset-0 h-full w-full bg-gradient-to-r from-orange-500 to-amber-400 dark:bg-gradient-to-r dark:from-blue-500 dark:to-teal-500 transform scale-[0.80] bg-red-500 rounded-full blur-3xl" />
+          className="absolute inset-0 h-full w-full bg-gradient-to-r from-slate-500 to-stone-500 dark:bg-gradient-to-r dark:from-blue-500 dark:to-teal-500 transform scale-[0.80] bg-red-500 rounded-full blur-3xl" />
         <div
-          className="relative shadow-xl bg-gray-200 dark:bg-gray-900 border border-gray-300 dark:border-gray-800  px-4 py-8 h-full overflow-hidden rounded-2xl flex flex-col justify-end items-start">
+          className="relative shadow-xl bg-slate-200 dark:bg-gray-900 border border-gray-300 dark:border-gray-800  px-4 py-8 h-full overflow-hidden rounded-2xl flex flex-col justify-end items-start">
           <div
             className="h-5 w-5 rounded-full border flex items-center justify-center mb-4 border-gray-500">
             <svg
