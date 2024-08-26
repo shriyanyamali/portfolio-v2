@@ -2,87 +2,15 @@ import React, { useEffect, useRef } from "react";
 import Layout from "@/components/Layout";
 import Head from "next/head";
 import AnimatedText from "@/components/AnimatedText";
-import { XIcon, InstagramIcon, GithubIcon, LinkedInIcon } from "../components/Icons";
+import {
+  XIcon,
+  InstagramIcon,
+  GithubIcon,
+  LinkedInIcon,
+} from "../components/Icons";
+import { GlareCardDemo } from "@/components/demo/demo-glare-card";
 
 const Contact = () => {
-  const firstVideoRef = useRef(null);
-  const secondVideoRef = useRef(null);
-  const darkModeFirstVideoRef = useRef(null);
-  const darkModeSecondVideoRef = useRef(null);
-
-  useEffect(() => {
-    const firstVideoElement = firstVideoRef.current;
-    const secondVideoElement = secondVideoRef.current;
-    const darkModeFirstVideoElement = darkModeFirstVideoRef.current;
-    const darkModeSecondVideoElement = darkModeSecondVideoRef.current;
-
-    const isMobile = window.innerWidth < 768;
-    const isInApp = navigator.userAgent.includes("Instagram") || navigator.userAgent.includes("LinkedIn");
-
-    const hideAllVideos = () => {
-      firstVideoElement.style.display = "none";
-      secondVideoElement.style.display = "none";
-      darkModeFirstVideoElement.style.display = "none";
-      darkModeSecondVideoElement.style.display = "none";
-      firstVideoElement.pause();
-      secondVideoElement.pause();
-      darkModeFirstVideoElement.pause();
-      darkModeSecondVideoElement.pause();
-      firstVideoElement.currentTime = 0;
-      secondVideoElement.currentTime = 0;
-      darkModeFirstVideoElement.currentTime = 0;
-      darkModeSecondVideoElement.currentTime = 0;
-    };
-
-    const handleFirstVideoEnd = () => {
-      hideAllVideos();
-      secondVideoElement.style.display = "block";
-      secondVideoElement.play();
-    };
-
-    const handleDarkModeFirstVideoEnd = () => {
-      hideAllVideos();
-      darkModeSecondVideoElement.style.display = "block";
-      darkModeSecondVideoElement.play();
-    };
-
-    const handleThemeChange = () => {
-      const isDarkMode = document.documentElement.classList.contains("dark");
-
-      hideAllVideos();
-
-      if (!isMobile && !isInApp) {
-        if (isDarkMode) {
-          darkModeFirstVideoElement.style.display = "block";
-          darkModeFirstVideoElement.play();
-        } else {
-          firstVideoElement.style.display = "block";
-          firstVideoElement.play();
-        }
-      }
-    };
-
-    // Initial theme check
-    handleThemeChange();
-
-    // Watch for theme changes
-    const observer = new MutationObserver(handleThemeChange);
-    observer.observe(document.documentElement, {
-      attributes: true,
-      attributeFilter: ["class"],
-    });
-
-    // Attach event listeners
-    firstVideoElement.addEventListener("ended", handleFirstVideoEnd);
-    darkModeFirstVideoElement.addEventListener("ended", handleDarkModeFirstVideoEnd);
-
-    return () => {
-      firstVideoElement.removeEventListener("ended", handleFirstVideoEnd);
-      darkModeFirstVideoElement.removeEventListener("ended", handleDarkModeFirstVideoEnd);
-      observer.disconnect();
-    };
-  }, []);
-
   return (
     <div>
       <Head>
@@ -184,44 +112,10 @@ const Contact = () => {
               </div>
             </div>
 
-            <div className="flex-1 flex justify-center items-center relative">
-              {/* Light mode videos */}
-              <video
-                ref={firstVideoRef}
-                id="paper-animation-video"
-                className="w-full lg:!hidden max-w-sm hidden dark:hidden"
-                src="/videos/pfp-paperanimation.mp4"
-                autoPlay
-                muted
-              />
-              <video
-                ref={secondVideoRef}
-                id="infinite-paper-animation-video"
-                className="w-full lg:!hidden max-w-sm hidden dark:hidden"
-                src="/videos/pfp-paperanimation-infinite.mp4"
-                muted
-                loop
-              />
-
-              {/* Dark mode videos */}
-              <video
-                ref={darkModeFirstVideoRef}
-                id="paper-animation-blue-video"
-                className="hidden lg:!hidden dark:block w-full max-w-sm"
-                src="/videos/pfp-paperanimation-blue.mp4"
-                autoPlay
-                muted
-              />
-              <video
-                ref={darkModeSecondVideoRef}
-                id="infinite-paper-animation-blue-video"
-                className="hidden lg:!hidden dark:block w-full max-w-sm"
-                src="/videos/pfp-paperanimation-blue-infinite.mp4"
-                muted
-                loop
-              />
+              <div className="flex-1 flex justify-center items-center relative mg:hidden">
+                <GlareCardDemo />
+              </div>
             </div>
-          </div>
         </Layout>
       </main>
     </div>
