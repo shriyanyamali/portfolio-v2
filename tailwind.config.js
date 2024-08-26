@@ -57,9 +57,18 @@ module.exports = {
           "0%, 100%": { transform: "scale(1)" },
           "50%": { transform: "scale(1.4)" },
         },
+        meteor: {
+          "0%": { transform: "rotate(215deg) translateX(0)", opacity: "1" },
+          "70%": { opacity: "1" },
+          "100%": {
+            transform: "rotate(215deg) translateX(-500px)",
+            opacity: "0",
+          },
+        },
       },
       animation: {
         scale: "scale 3s ease-in-out infinite",
+        "meteor-effect": "meteor 5s linear infinite",
       },
       boxShadow: {
         "custom-light": "10px 12px 12px rgba(0, 0, 0, 0.4)",

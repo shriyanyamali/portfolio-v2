@@ -5,9 +5,12 @@ import Image from "next/image";
 import profilePic from "../../public/images/profile/pfp.jpg";
 import React, { useRef, useEffect } from "react";
 import { useInView, useMotionValue, useSpring } from "framer-motion";
-import Awards from "@/components/Awards";
 import { IconCloudDemo } from "@/components/demo/demo-icon-cloud";
 import HoverSpring from "@/components/demo/demo-features-hover-spring";
+import { MeteorsDemo1 } from "@/components/skills-meteor-cards/meteors-1";
+import { MeteorsDemo2 } from "@/components/skills-meteor-cards/meteors-2";
+import { MeteorsDemo3 } from "@/components/skills-meteor-cards/meteors-3";
+import { MeteorsDemo4 } from "@/components/skills-meteor-cards/meteors-4";
 
 const AnimatedNumbers = ({ value }) => {
   const ref = useRef(null);
@@ -150,7 +153,19 @@ const about = () => {
             <HoverSpring />
           </div>
           <IconCloudDemo />
-          <Awards />
+
+          <h2 className="font-bold text-8xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl mt-64 md:mt-32 w-full text-center">
+            Awards
+          </h2>
+          <div className="mt-16 grid grid-cols-2 lg:grid-cols-1 justify-items-center items-center">
+            <MeteorsDemo1 />
+            <MeteorsDemo2 />
+          </div>
+
+          <div className="mt-32 lg:mt-0 grid grid-cols-2 lg:grid-cols-1 justify-items-center items-center">
+            <MeteorsDemo3 />
+            <MeteorsDemo4 />
+          </div>
         </Layout>
       </main>
     </>
