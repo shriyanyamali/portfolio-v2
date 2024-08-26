@@ -19,10 +19,6 @@ module.exports = {
         light: "#f5f5f5",
         primary: "#B63E96",
         primaryDark: "#58E6D9",
-        beige: "#c8beae",
-        lightBeige: "#eee7d8",
-        darkBeige: "#b4aa9c",
-        brownBeige: "#635c50",
       },
       screens: {
         txl: { max: "1535px" },
