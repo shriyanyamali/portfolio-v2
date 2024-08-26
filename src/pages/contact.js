@@ -32,13 +32,12 @@ const Contact = () => {
                 text="Contact Me"
                 className="!text-dark text-4xl font-bold mb-6 text-left sm:!text-6xl xs:!text-4xl sm:mb-8 dark:!text-light"
               />
-              <h2 className="text-lg text-left dark:text-light sm:!text-base xs:!text-sm sm:mb-8">
-                I&rsquo;m here to help and answer any questions you might have.{" "}
-                <br />
-                Alternatively, feel free to reach out if you want to work
-                together <br />
-                or reach me for another reason. I&rsquo;m excited to hear from
-                you! <br />
+              <h2 className="text-lg text-left dark:text-light sm:!text-base xs:!text-sm mb-8">
+                Send me a message! I check my email and &nbsp;
+                <br className="sm:hidden" />
+                messages regularly so expect a response within &nbsp;
+                <br className="sm:hidden" />
+                3-5 business days. I&rsquo;m excited to chat!
               </h2>
 
               <div className="mt-4 text-left text-lg space-y-4 sm:!text-base xs:!text-sm sm:mb-8 dark:text-light">
@@ -112,10 +111,10 @@ const Contact = () => {
               </div>
             </div>
 
-              <div className="flex-1 flex justify-center items-center relative mg:hidden">
-                <GlareCardDemo />
-              </div>
+            <div className="flex-1 flex justify-center items-center relative mg:hidden">
+              <GlareCardDemo />
             </div>
+          </div>
         </Layout>
       </main>
     </div>
