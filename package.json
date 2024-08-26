@@ -9,6 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@nextui-org/card": "^2.0.33",
+    "@nextui-org/system": "^2.2.5",
+    "@nextui-org/theme": "^2.2.9",
+    "@preline/tabs": "^2.4.1",
     "@radix-ui/react-slot": "^1.1.0",
     "@react-three/drei": "^9.111.3",
     "@react-three/fiber": "^8.17.5",
@@ -19,7 +23,7 @@
     "eslint": "^8.57.0",
     "lucide-react": "^0.427.0",
     "mini-svg-data-uri": "^1.4.4",
-    "next": "^14.2.3",
+    "next": "^14.2.6",
     "next-themes": "^0.3.0",
     "next-webpack-multi-tailwind-layout-plugin": "^0.0.2",
     "react": "^18.2.0",

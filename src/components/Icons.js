@@ -455,7 +455,9 @@ export const DownloadIcon = ({ className, ...rest }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     viewBox="0 0 384 512"
-    className={className}
+    width={24}
+    height={24}
+    className={`w-full h-auto ${className}`}
     {...rest}
   >
     <path

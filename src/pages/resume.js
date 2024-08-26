@@ -5,9 +5,9 @@ import React, { useRef, useEffect } from "react";
 import { motion, useInView, useMotionValue, useSpring } from "framer-motion";
 import Link from "next/link";
 import { DownloadIcon, LinkArrow } from "@/components/Icons";
-import Experience from "@/components/Experience";
-import Education from "@/components/Education";
-import Volunteering from "@/components/Volunteering";
+import EducationTimeline from "@/components/EducationTimeline";
+import ExperienceTimeline from "@/components/ExperienceTimeline";
+import VolunteeringTimeline from "@/components/VolunteeringTimeline";
 
 const AnimatedNumbers = ({ value }) => {
   const ref = useRef(null);
@@ -48,43 +48,60 @@ const resume = () => {
         <Layout className="pt-16">
           <AnimatedText
             text="Resume"
-            className="lg:!text-7xl sm:!text-6xl xs:!text-4xl w-11/12"
+            className="lg:!text-7xl sm:!text-6xl xs:!text-4xl w-11/12 pb-12" 
           />
           <div className="flex justify-center items-center self-center mt-4 space-x-4">
             <Link
               href="/Shriyan Yamali Resume.pdf"
               target="_blank"
-              className="flex items-center bg-dark text-light p-6-fix px-8
+              className="flex items-center bg-dark text-light p-5 px-4
               rounded-lg text-xl font-semibold transition-all duration-500
               hover:bg-black hover:text-gray-200 hover:scale-105 hover:translate-y-[-2px] 
               border-2 border-solid border-transparent hover:border-dark
               dark:hover:border-light dark:bg-light dark:text-dark hover:dark:bg-white dark:hover:bg-white dark:hover:text-gray
-              lg:p-6-fix lg:px-2 lg:text-sm lg:mt-4
+              lg:p-4 lg:px-3 lg:text-sm lg:mt-4
               "
             >
-              View Resume
-              <LinkArrow className={"ml-2 sm:ml-0"} style={{ width: "2rem" }} />
+              View
+              <LinkArrow className={"ml-2 sm:ml-1"} style={{ width: "2rem" }} />
             </Link>
 
             <Link
               href="/Shriyan Yamali Resume.pdf"
               target={"_blank"}
-              className="flex items-center bg-dark text-light p-5 px-7
+              className="flex items-center bg-dark text-light p-5 px-4
               rounded-lg text-xl font-semibold transition-all duration-500
               hover:bg-black hover:text-gray-200 hover:scale-105 hover:translate-y-[-2px] 
-              border-2 border-solid border-transparent 
-              dark:hover:border-light dark:bg-light dark:text-dark hover:dark:bg-white dark:hover:bg-white dark:hover:text-black
-              lg:mt-4
+              border-2 border-solid border-transparent hover:border-dark
+              dark:hover:border-light dark:bg-light dark:text-dark hover:dark:bg-white dark:hover:bg-white dark:hover:text-gray
+              lg:p-4 lg:px-3 lg:text-sm lg:mt-4
               "
               download={true}
             >
-              <DownloadIcon style={{ width: "2rem" }} />
+              Download
+              <DownloadIcon className={"ml-2 sm:ml-1"}  style={{ width: "2rem" }} />
             </Link>
           </div>
 
-          <Education />
+
+          <h2 className="mb-16 mt-32 dark:text-light font-bold text-8xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl md:mt-32 w-full text-center">
+            Education
+          </h2>
+          <EducationTimeline />
+
+          <h2 className="mb-16 mt-32 dark:text-light font-bold text-8xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl md:mt-32 w-full text-center">
+            Experience
+          </h2>
+          <ExperienceTimeline />
+
+          <h2 className="mb-16 mt-32 dark:text-light font-bold text-8xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl md:mt-32 w-full text-center">
+             Volunteering
+          </h2>
+          <VolunteeringTimeline />
+
+          {/* <Education />
           <Experience />
-          <Volunteering />
+          <Volunteering /> */}
         </Layout>
       </main>
     </>

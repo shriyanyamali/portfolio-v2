@@ -145,7 +145,7 @@ const about = () => {
               </div>
             </div>
           </div>
-          <h2 className="font-bold text-8xl mt-64 w-full text-center md:text-6xl md:mt-32 mb-8">
+          <h2 className="font-bold text-8xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl mt-64 md:mt-32 w-full text-center">
             Skills
           </h2>
 
