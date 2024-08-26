@@ -4,12 +4,12 @@ import React from "react";
 import Head from "next/head";
 import Layout from "@/components/Layout";
 import AnimatedText from "@/components/AnimatedText";
-import { ThreeDCardOne } from "@/components/cards/card-1";
-import { ThreeDCardTwo } from "@/components/cards/card-2";
-import { ThreeDCardThree } from "@/components/cards/card-3";
-import { ThreeDCardFour } from "@/components/cards/card-4";
-import { ThreeDCardFive } from "@/components/cards/card-5";
-import { ThreeDCardSix } from "@/components/cards/card-6";
+import { ThreeDCardOne } from "@/components/project-cards/card-1";
+import { ThreeDCardTwo } from "@/components/project-cards/card-2";
+import { ThreeDCardThree } from "@/components/project-cards/card-3";
+import { ThreeDCardFour } from "@/components/project-cards/card-4";
+import { ThreeDCardFive } from "@/components/project-cards/card-5";
+import { ThreeDCardSix } from "@/components/project-cards/card-6";
 
 const projects = () => {
   return (
