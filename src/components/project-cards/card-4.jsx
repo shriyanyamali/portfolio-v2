@@ -13,14 +13,14 @@ export function ThreeDCardFour() {
           translateZ="50"
           className="text-xl font-bold text-neutral-600 dark:text-white"
         >
-          card 4
+          Competition Cases Keyword Search
         </CardItem>
         <CardItem
           as="p"
           translateZ="60"
           className="text-neutral-500 text-sm min-h-[4rem] max-w-sm mt-2 dark:text-neutral-300"
         >
-          Text for card 4
+          A index where you can search keywords related to return market definitions decided in European Commission competition cases.
         </CardItem>
         <CardItem translateZ="100" className="w-full mt-4">
           <Image
@@ -35,19 +35,23 @@ export function ThreeDCardFour() {
           <CardItem
             translateZ={20}
             as={Link}
-            href="/"
+            href="https://competitioncaseskeywordsearch.github.io/"
             target="__blank"
-            className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
+            className="px-4 py-2 rounded-xl text-xs lg:text-[0.6rem] font-normal dark:text-white"
           >
             Visit Project →
           </CardItem>
-          <CardItem
-            translateZ={20}
-            as="button"
-            className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
+          <Link
+          href="https://law.stanford.edu/"
+          target="_blank"
           >
-            Sign up
-          </CardItem>
+            <CardItem
+              translateZ={20}
+              as="button"
+              className="px-4 py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs lg:text-[0.6rem] font-bold">
+              w/ Stanford Law School
+            </CardItem>
+          </Link>
         </div>
       </CardBody>
     </CardContainer>
