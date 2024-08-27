@@ -37,7 +37,7 @@ const Contact = () => {
                 <br className="sm:hidden" />
                 messages regularly so expect a response within &nbsp;
                 <br className="sm:hidden" />
-                3-5 business days. I&rsquo;m excited to chat!
+                1-5 business days. I&rsquo;m excited to chat!
               </h2>
 
               <div className="mt-4 text-left text-lg space-y-4 sm:!text-base xs:!text-sm sm:mb-8 dark:text-light">
