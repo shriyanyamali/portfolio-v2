@@ -7,7 +7,7 @@ import { CanvasRevealEffect } from "@/components/ui/canvas-reveal-effect";
 export function CanvasRevealEffectDemo() {
   return (
     <>
-      <div className="py-20 flex lg:flex-col flex-row items-center justify-center bg-light dark:bg-dark w-full gap-4 mx-auto px-8">
+      <div className="py-20 flex lg:flex-col flex-row items-center justify-center bg-light dark:bg-dark w-full gap-4 lg:gap-y-16 mx-auto px-8">
         <Card
           title="Experience"
           icon={<BriefcaseIcon />}
