@@ -1,7 +1,16 @@
 import { cn } from "@/lib/utils";
-import { useRef } from "react";
+import { useEffect, useRef } from "react";
+
+const preloadImage = (src) => {
+  const img = new Image();
+  img.src = src;
+};
 
 export const GlareCard = ({ children, className }) => {
+  useEffect(() => {
+    preloadImage("https://images.unsplash.com/photo-1694634690964-787bac284ffb?q=80&w=2127&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    preloadImage("https://images.unsplash.com/photo-1536746803623-cef87080bfc8?q=80&w=1970&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  }, []);
   const isPointerInside = useRef(false);
   const refElement = useRef(null);
   const state = useRef({
