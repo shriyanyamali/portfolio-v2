@@ -25,9 +25,10 @@ export function ThreeDCardOne() {
         <CardItem translateZ="100" className="w-full mt-4">
           <Image
             src="/images/projects/keyword-search.png"
-            height="1000"
-            width="1000"
+            height="500"
+            width="500"
             className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
+            priority
             alt="thumbnail"
           />
         </CardItem>

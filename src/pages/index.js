@@ -28,6 +28,8 @@ export default function Home() {
                 src={profilePic}
                 alt="Shriyan Yamali"
                 className="mb-16 w-full h-auto dark:hidden md:inline-block md:w-full"
+                height="400"
+                width="400"
                 priority
                 sizes="(max-width: 768 px) 100vw, (max-width: 1200px) 50vw, 50vw"
               />
@@ -118,7 +120,6 @@ export default function Home() {
                 "
             />
             <CanvasRevealEffectDemo />
-
 
             <div className="mt-48 sm:mt-32">
               <TextRevealCardPreview />
