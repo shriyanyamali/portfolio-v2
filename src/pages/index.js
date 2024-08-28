@@ -8,6 +8,7 @@ import Link from "next/link";
 import { FlipWordsDemo } from "@/components/demo/demo-flip-words";
 import { CardHoverEffectDemo } from "@/components/demo/demo-hover-effect";
 import { TextRevealCardPreview } from "@/components/demo/demo-text-reveal-card";
+import { CanvasRevealEffectDemo } from "@/components/demo/demo-canvas-reveal-effect";
 
 export default function Home() {
   return (
@@ -110,56 +111,30 @@ export default function Home() {
             </div>
           </div>
 
-          <TextRevealCardPreview />
-
-          <div className="flex items-center justify-center w-full">
-            <Link href="/contact">
-              <div className="flex flex-col items-center justify-center transition duration-500 font-semibold bg-slate-300 dark:bg-slate-700 hover:bg-slate-200 dark:hover:bg-slate-800 border border-slate-700/[0.2] dark:border-slate-300/[0.2] rounded-2xl relative overflow-hidden p-4 w-full max-w-[20rem] shadow-custom-light dark:shadow-custom-dark">
-                <h2 className="text-center text-lg sm:text-base">
-                  Let&rsquo;s Work Together
-                </h2>
-              </div>
-            </Link>
-          </div>
-
-          <CardHoverEffectDemo />
- 
-          <div className="items-center justify-center text-center mb-24 md:mt-8">
+          <div className="items-center justify-center text-center my-32">
             <AnimatedText
               text="Who am I?"
               className="!text-4xl pt-20 xl:!text-3xl mb-4
                 "
             />
-            <div className="w-1/2 mx-auto md:w-full md:mx-0">
-              <p className="text-base font-medium md:text-sm sm:text-xs">
-                I&rsquo;m Shriyan Yamali, a passionate high school student
-                certified in computer science, web development, and Python.
-                I&rsquo;m skilled in web design, Java, JavaScript, and Python,
-                with experience in NLP (natural language processing) and machine
-                learning from Stanford University.
-              </p>
-              <p className="my-4 text-base font-medium md:text-sm sm:text-xs">
-                I&rsquo;m actively engaged with the ACLU to protect civil rights
-                and have a strong background in leadership and problem-solving
-                through my involvement in Mock Trial, Math League, and Student
-                Council. I also have a six-year background in violin and
-                athletics.
-              </p>
-              <p className="my-4 text-base font-medium md:text-sm sm:text-xs">
-                I do fun things though, like listen to music, with my favorite
-                genre being hiphop or rap. I also play video games like
-                Fortnite, Rocket League, Minecraft, and Clash Royale, where I
-                was even internationally ranked.
-              </p>
-              <p className="my-4 text-base font-medium md:text-sm sm:text-xs">
-                In the future, I want to dive deeper into the intersection of
-                computer science and law, exploring how these fields can come
-                together to create real-world solutions. I’m excited about
-                continuing my education, becoming a lawyer, and working towards
-                a career where I can help make both legal and tech knowledge
-                more accessible to everyone.
-              </p>
+            <CanvasRevealEffectDemo />
+
+
+            <div className="mt-48 sm:mt-32">
+              <TextRevealCardPreview />
+
+              <div className="flex items-center justify-center w-full">
+                <Link href="/contact">
+                  <div className="flex flex-col items-center justify-center transition duration-500 font-semibold bg-slate-300 dark:bg-slate-700 hover:bg-slate-200 dark:hover:bg-slate-800 border border-slate-700/[0.2] dark:border-slate-300/[0.2] rounded-2xl relative overflow-hidden p-4 w-full max-w-[20rem] shadow-custom-light dark:shadow-custom-dark">
+                    <h2 className="text-center text-lg sm:text-base">
+                      Let&rsquo;s Work Together
+                    </h2>
+                  </div>
+                </Link>
+              </div>
             </div>
+
+            <CardHoverEffectDemo />
           </div>
         </Layout>
       </main>
