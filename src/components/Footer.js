@@ -161,23 +161,8 @@ const Footer = () => {
         <span className="text-lg whitespace-nowrap xtl:ml-12 lg:whitespace-normal">
           Copyright &copy; {new Date().getFullYear()} Shriyan Yamali.{" "}
           <br className="hidden lg:block" />
-          All rights reserved.
+          All rights reserved. &nbsp;
         </span>
-        <div className="col-span-4 flex flex-col items-center justify-center">
-          <div className="flex items-center">
-            <CustomLink
-              href="/privacy"
-              title="Privacy Policy"
-              className="hover:text-gray-600 hover:dark:text-gray-400"
-            />
-            <span className="mx-2">|</span>
-            <CustomLink
-              href="/terms"
-              title="Terms of Service"
-              className="hover:text-gray-600 hover:dark:text-gray-400"
-            />
-          </div>
-        </div>
       </div>
 
       {/* Scroll to Top Button */}
