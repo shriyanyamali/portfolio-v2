@@ -265,8 +265,11 @@ const ExperienceTimeline = () => {
                 <div className="absolute -inset-0.5 bg-gradient-to-r from-blue-500 to-green-400 dark:bg-gradient-to-r dark:from-green-400 dark:to-blue-500 rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
                 <button
                   onClick={toggleShowMore}
-                  className="relative w-full px-4 py-2 bg-dark rounded-lg leading-none flex items-center divide-x divide-gray-600 text-gray-100 transition-all duration-500 group-hover:text-dark group-hover:bg-light"
-                >
+                          className="relative px-4 py-2 bg-dark rounded-lg leading-none flex items-center divide-x divide-gray-600
+                          text-gray-100 transition-all duration-500 group-hover:text-dark group-hover:bg-light 
+                           dark:text-dark  dark:bg-light dark:group-hover:text-light dark:group-hover:bg-dark
+                           md:p-2 md:px-4 md:text-base 
+                        "                >
                   <span className="flex items-left space-x-5 text-sm">
                     <span>
                       {showMore ? "Hide Placements" : "Show Placements"}
