@@ -270,12 +270,12 @@ const ExperienceTimeline = () => {
                 <div className="absolute -inset-0.5 bg-gradient-to-r from-blue-500 to-green-400 dark:bg-gradient-to-r dark:from-green-400 dark:to-blue-500 rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
                 <button
                   onClick={toggleShowMore}
-                  className="bg-slate-800 no-underline group cursor-pointer relative shadow-2xl shadow-zinc-900 rounded-full p-px text-xs font-semibold leading-6  text-white inline-block"
+                  className="bg-slate-800 no-underline group cursor-pointer relative shadow-2xl shadow-zinc-900 rounded-full p-px text-xs font-semibold leading-6  text-white dark:text-black inline-block"
                 >
                   <span className="absolute inset-0 overflow-hidden rounded-full">
                     <span className="absolute inset-0 rounded-full bg-[image:radial-gradient(75%_100%_at_50%_0%,rgba(56,189,248,0.6)_0%,rgba(56,189,248,0)_75%)] opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
                   </span>
-                  <div className="relative flex space-x-2 items-center z-10 rounded-full bg-zinc-950 py-0.5 px-4 ring-1 ring-white/10 ">
+                  <div className="relative flex space-x-2 items-center z-10 rounded-full bg-zinc-950 dark:bg-zinc-100 py-0.5 px-4 ring-1 ring-white/10 dark:ring-black/10 ">
                     <span>
                       {showMore ? "Hide Placements" : "Show Placements"}
                     </span>
