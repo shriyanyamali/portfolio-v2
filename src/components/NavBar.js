@@ -12,7 +12,6 @@ import {
 } from "./Icons";
 import { motion } from "framer-motion";
 import useThemeSwitcher from "./hooks/useThemeSwitcher";
-import LogoMobile from "./LogoMobile";
 
 const CustomLink = ({ href, title, className = "" }) => {
   const router = useRouter();
@@ -257,7 +256,6 @@ const NavBar = () => {
 
       <div className="absolute left-[50%] top-2 translate-x-[-50%]">
         <Logo />
-        <LogoMobile />
       </div>
     </header>
   );
