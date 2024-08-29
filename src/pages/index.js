@@ -1,5 +1,5 @@
-import Layout from "@/components/Layout";
 import Head from "next/head";
+import Layout from "@/components/Layout";
 import AnimatedText from "@/components/AnimatedText";
 import Image from "next/image";
 import profilePic from "../../public/images/profile/signature.png";
@@ -19,6 +19,10 @@ export default function Home() {
           name="Home Page for Shriyan Yamali's Personal Website"
           content="Shriyan, Yamali, Website, Github, Linkedin, Instagram, X, Twitter"
         />
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
       </Head>
       <main className="flex items-center text-dark w-full min-h-screen dark:text-light">
         <Layout className="!pt-0 md:pt-16 sm:pt-8">
@@ -31,14 +35,14 @@ export default function Home() {
                 height="400"
                 width="400"
                 priority
-                sizes="(max-width: 768 px) 100vw, (max-width: 1200px) 50vw, 50vw"
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
               />
               <Image
                 src={profilePicDark}
                 alt="Shriyan Yamali"
                 className="mb-16 w-full h-auto hidden dark:block dark:md:inline-block md:w-full"
                 priority
-                sizes="(max-width: 768 px) 100vw, (max-width: 1200px) 50vw, 50vw"
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
               />
             </div>
             <div className="w-1/2 lg:w-full lg:text-center">
