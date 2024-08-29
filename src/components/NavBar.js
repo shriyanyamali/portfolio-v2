@@ -76,17 +76,17 @@ const NavBar = () => {
         onClick={handleClick}
       >
         <span
-          className={`bg-dark dark:bg-light block translate-al duration-300 ease-out h-0.5 w-6 rounded-sm mt-4 ${
+          className={`bg-dark dark:bg-light block duration-300 ease-out h-0.5 w-6 rounded-sm mt-6 ${
             isOpen ? "rotate-45 translate-y-1" : "-translate-y-0.5"
           }`}
         ></span>
         <span
-          className={`bg-dark dark:bg-light block translate-al duration-300 ease-out h-0.5 w-6 rounded-sm  my-0.5 ${
+          className={`bg-dark dark:bg-light block duration-300 ease-out h-0.5 w-6 rounded-sm  my-0.5 ${
             isOpen ? "opacity-0" : "opacity-100"
           } `}
         ></span>
         <span
-          className={`bg-dark dark:bg-light block translate-al duration-300 ease-out h-0.5 w-6 rounded-sm  ${
+          className={`bg-dark dark:bg-light block duration-300 ease-out h-0.5 w-6 rounded-sm  ${
             isOpen ? "-rotate-45 -translate-y-1" : "translate-y-0.5"
           }`}
         ></span>
@@ -254,7 +254,7 @@ const NavBar = () => {
         </motion.div>
       ) : null}
 
-      <div className="absolute left-[50%] top-2 translate-x-[-50%]">
+      <div className="absolute left-[50%] top-5 translate-x-[-50%]">
         <Logo />
       </div>
     </header>
