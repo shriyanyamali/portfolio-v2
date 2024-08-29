@@ -113,7 +113,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="items-center justify-center text-center my-32">
+          <div className="items-center justify-center text-center mb-32">
             <AnimatedText
               text="Who am I?"
               className="!text-4xl pt-20 xl:!text-3xl mb-4
@@ -121,7 +121,7 @@ export default function Home() {
             />
             <CanvasRevealEffectDemo />
 
-            <div className="mt-48 sm:mt-32">
+            {/* <div className="mt-48 sm:mt-32">
               <TextRevealCardPreview />
 
               <div className="flex items-center justify-center w-full">
@@ -135,7 +135,7 @@ export default function Home() {
               </div>
             </div>
 
-            <CardHoverEffectDemo />
+            <CardHoverEffectDemo /> */}
           </div>
         </Layout>
       </main>
