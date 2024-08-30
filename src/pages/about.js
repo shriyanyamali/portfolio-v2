@@ -96,7 +96,6 @@ const about = () => {
                         bg-light p-8 dark:bg-dark dark:border-light xtl:col-span-4 lg:order-1 lg:!col-span-8
                         "
             >
-              <div className="absolute top-0 -right-3 -z-10 w-[102%] h-[103%] rounded-[2rem] bg-dark dark:bg-light" />
               <Image
                 src={profilePic}
                 alt="Shriyan Yamali"
