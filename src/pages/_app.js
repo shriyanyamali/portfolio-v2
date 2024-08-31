@@ -1,8 +1,10 @@
+// pages/_app.js
 import "@/styles/globals.css";
 import { Montserrat } from "next/font/google";
 import Head from "next/head";
 import NavBar from "../components/NavBar";
 import Footer from "@/components/Footer";
+import CustomCursor from "@/components/CustomCursor";
 
 const montserrat = Montserrat({
   subsets: ["latin"],
@@ -25,6 +27,7 @@ export default function App({ Component, pageProps }) {
         <NavBar />
         <Component {...pageProps} />
         <Footer />
+        <CustomCursor /> {/* Ensure this is correctly placed */}
       </main>
     </>
   );
