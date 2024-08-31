@@ -37,7 +37,7 @@ const CustomCursor = () => {
   }, []);
 
   return (
-    <div className="bg-[#2E2E2E] dark:bg-[#FFFFFD] lg:hidden"
+    <div className="bg-[#424242] dark:bg-[#dbd8db] lg:hidden"
       ref={dotRef}
       style={{
         position: "fixed",
@@ -50,7 +50,7 @@ const CustomCursor = () => {
         pointerEvents: "none",
         zIndex: 9999,
         transition: "none", 
-        opacity: "80%",
+        opacity: "90%",
       }}
     />
   );
