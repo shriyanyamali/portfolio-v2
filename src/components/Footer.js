@@ -81,13 +81,6 @@ const Footer = () => {
             </li>
             <li>
               <CustomLink
-                href="/about"
-                title="About"
-                className="hover:text-gray-600 hover:dark:text-gray-400"
-              />
-            </li>
-            <li>
-              <CustomLink
                 href="/projects"
                 title="Projects"
                 className="hover:text-gray-600 hover:dark:text-gray-400"
