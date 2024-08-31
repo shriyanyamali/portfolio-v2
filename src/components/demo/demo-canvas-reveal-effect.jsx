@@ -11,7 +11,7 @@ export function CanvasRevealEffectDemo() {
         <Card
           title="Experience"
           icon={<BriefcaseIcon />}
-          text="Im Shriyan Yamali, a high school student with certifications in computer science, web development, and Python. I&rsquo;ve coded a Python project for UPenn Carey and am editing machine learning papers at Dartmouth College. Ive also studied NLP and machine learning at Stanford Law School. I also am constantly involved in clubs like in Mock Trial, Math League, and Student Council."
+          text="I&rsquo;m Shriyan Yamali, a high school student with certifications in computer science, web development, and Python. I&rsquo;ve coded a Python project for UPenn Carey and am editing machine learning papers at Dartmouth College. I&rsquo;ve also worked NLP and machine learning projects at Stanford Law School. I also am constantly involved in clubs like in Mock Trial, Math League, and Student Council."
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
@@ -22,7 +22,7 @@ export function CanvasRevealEffectDemo() {
           title="Interests
 "
           icon={<StarIcon />}
-          text="Outside of academics, I enjoy cooking, game development, and gardening. I&rsquo;m also into politics and have a passion for hip-hop and rap music. When it comes to video games, I play Fortnite, Rocket League, Minecraft, and Clash Royale, where Ive earned international rankings."
+          text="Outside of school, I enjoy cooking, game development, and gardening. I&rsquo;m also into politics and have a passion for hip-hop and rap music. When it comes to video games, I play Fortnite, Rocket League, Minecraft, and Clash Royale, where I&rsquo;ve earned international rankings."
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
