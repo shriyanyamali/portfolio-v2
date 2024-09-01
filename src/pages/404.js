@@ -12,15 +12,15 @@ const NotFound = () => {
           content="404, found, not, page"
         />
       </Head>
-      <main class="grid min-h-full place-items-center bg-light dark:bg-dark mt-8 lg:px-8">
-        <div class="text-center pt-12">
-          <p class="text-base font-semibold text-indigo-600 dark:text-teal-600">
+      <main className="grid min-h-full place-items-center bg-light dark:bg-dark mt-8 lg:px-8">
+        <div className="text-center pt-12">
+          <p className="text-base font-semibold text-indigo-600 dark:text-teal-600">
             404
           </p>
-          <h1 class="mt-4 text-3xl font-bold tracking-tight text-gray-900 dark:text-gray-100 sm:text-5xl">
+          <h1 className="mt-4 text-3xl font-bold tracking-tight text-gray-900 dark:text-gray-100 sm:text-5xl">
             Page not found
           </h1>
-          <p class="mt-6 text-base leading-7 text-gray-600 dark:text-gray-400 w-3/4 mx-auto">
+          <p className="mt-6 text-base leading-7 text-gray-600 dark:text-gray-400 w-3/4 mx-auto">
             We looked across the globe but we could not find the page you are looking for. How about we head back home?
           </p>
           <div className="mt-10 flex items-center justify-center gap-x-6">
