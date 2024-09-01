@@ -27,7 +27,6 @@
     "mini-svg-data-uri": "^1.4.4",
     "next": "^14.2.4",
     "next-themes": "^0.3.0",
-    "next-webpack-multi-tailwind-layout-plugin": "^0.0.2",
     "react": "^18.2.0",
     "react-dom": "18.2.0",
     "react-icon-cloud": "^4.1.4",
