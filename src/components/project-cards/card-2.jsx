@@ -20,7 +20,7 @@ export function ThreeDCardTwo() {
           translateZ="60"
           className="text-neutral-500 text-sm min-h-[4rem] max-w-sm mt-2 dark:text-neutral-300"
         >
-          A program that creates diagrams based on the relative weight and importance of legal principles and the effect of the principles on an act type.
+          A program that creates diagrams legal principles and the effect of the principles on an act type.
         </CardItem>
         <CardItem translateZ="100" className="w-full mt-4">
           <Image
