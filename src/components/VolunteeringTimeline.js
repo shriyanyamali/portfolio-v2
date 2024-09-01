@@ -35,8 +35,7 @@ const VolunteeringTimeline = () => {
               May 2024 — Present | Wilmington, Delaware
             </time>
             <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-300">
-              Organizing and cataloging historical and legal documents |
-              Scanning and digitizing documents.
+              Adding to the ACLU of Delaware Archives by organizing, cataloging, scanning, and digitizing historical and legal documents.
             </p>
           </li>
         </motion.div>
