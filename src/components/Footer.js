@@ -61,9 +61,9 @@ const Footer = () => {
               I&rsquo;m skilled in web design, Java, JavaScript, and Python,
               with experience in natural language processing and machine
               learning from Stanford University and Dartmouth College. I
-              developed Verdictr, and LexFlow and am actively engaged with the
+              developed Verdictr and LexFlow, and am actively engaged with the
               ACLU and clubs like Mock Trial, Math League, and Student Council.
-              I have also been playing the violin and sports for six-years.
+              I have also been playing the violin and sports for six years.
             </p>
           </div>
         </div>
