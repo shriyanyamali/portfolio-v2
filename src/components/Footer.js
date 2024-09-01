@@ -56,14 +56,14 @@ const Footer = () => {
               About Shriyan Yamali
             </h3>
             <p className="text-lg mb-6 lg:text-base">
-              Shriyan Yamali is a passionate high school student certified in
-              computer science, web development, and Python. He is skilled in
-              web design, Java, JavaScript, and Python, with experience in
-              natural language processing (NLP) and machine learning from
-              Stanford University. He is actively engaged with the ACLU to
-              protect civil rights, and is involved with clubs like Mock Trial,
-              Math League, and Student Council. He also has a six-year
-              background in violin and athletics.
+              Hi, I&rsquo;m Shriyan Yamali, a passionate high school student
+              certified in computer science, web development, and Python.
+              I&rsquo;m skilled in web design, Java, JavaScript, and Python,
+              with experience in natural language processing and machine
+              learning from Stanford University and Dartmouth College. I
+              developed Verdictr, and LexFlow and am actively engaged with the
+              ACLU and clubs like Mock Trial, Math League, and Student Council.
+              I have also been playing the violin and sports for six-years.
             </p>
           </div>
         </div>
@@ -163,8 +163,8 @@ const Footer = () => {
         onClick={scrollToTop}
         className={`z-50 fixed bottom-4 right-6 p-4 lg:p-3 rounded-full bg-slate-400 dark:bg-gray-700 text-dark dark:text-light shadow-lg
           hover:bg-slate-500 hover:dark:bg-slate-200 transform transition-transform duration-300 ${
-          isVisible ? "translate-y-0 opacity-90" : "translate-y-20 opacity-0"
-        }`}
+            isVisible ? "translate-y-0 opacity-90" : "translate-y-20 opacity-0"
+          }`}
         aria-label="Scroll to top"
         style={{ transitionProperty: "transform, opacity" }}
       >
