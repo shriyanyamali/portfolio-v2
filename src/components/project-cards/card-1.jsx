@@ -13,14 +13,14 @@ export function ThreeDCardOne() {
           translateZ="50"
           className="text-xl font-bold text-neutral-600 dark:text-white"
         >
-          Competition Cases Keyword Search
+          Verdictr
         </CardItem>
         <CardItem
           as="p"
           translateZ="60"
           className="text-neutral-500 text-sm min-h-[4rem] max-w-sm mt-2 dark:text-neutral-300"
         >
-          A index where you can search keywords related to return market definitions decided in European Commission competition cases.
+          A database of thousands of market decisions from over 6000 antitrust cases with a searchable index.
         </CardItem>
         <CardItem translateZ="100" className="w-full mt-4">
           <Image
@@ -36,7 +36,7 @@ export function ThreeDCardOne() {
           <CardItem
             translateZ={20}
             as={Link}
-            href="https://competitioncaseskeywordsearch.github.io/"
+            href="https://verdictr.github.io/"
             target="__blank"
             className="px-4 py-2 rounded-xl text-xs lg:text-[0.6rem] font-normal dark:text-white"
           >
