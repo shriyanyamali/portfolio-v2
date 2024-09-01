@@ -84,17 +84,17 @@ const resume = () => {
           </div>
 
 
-          <h2 className="mb-16 mt-32 dark:text-light font-bold text-8xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl md:mt-32 w-full text-center">
+          <h2 className="mb-16 mt-32 dark:text-light font-bold text-8xl sm:!text-3xl lg:text-5xl xl:text-6xl md:mt-32 w-full text-center">
             Education
           </h2>
           <EducationTimeline />
 
-          <h2 className="mb-16 mt-32 dark:text-light font-bold text-8xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl md:mt-32 w-full text-center">
+          <h2 className="mb-16 mt-32 dark:text-light font-bold text-8xl sm:!text-3xl lg:text-5xl xl:text-6xl md:mt-32 w-full text-center">
             Experience
           </h2>
           <ExperienceTimeline />
 
-          <h2 className="mb-16 mt-32 dark:text-light font-bold text-8xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl md:mt-32 w-full text-center">
+          <h2 className="mb-16 mt-32 dark:text-light font-bold text-8xl sm:!text-3xl lg:text-5xl xl:text-6xl md:mt-32 w-full text-center">
              Volunteering
           </h2>
           <VolunteeringTimeline />
