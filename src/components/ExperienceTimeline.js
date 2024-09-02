@@ -270,7 +270,7 @@ const ExperienceTimeline = () => {
               >
                 <div className="mt-8">
                   <div className="text-gray-500 dark:text-gray-300 mb-3">
-                    2024 State Leadership Conference:
+                    2024 National Leadership Conference:
                   </div>
 
                   <ul className="list-disc list-inside pl-5 text-gray-500 dark:text-gray-300">
