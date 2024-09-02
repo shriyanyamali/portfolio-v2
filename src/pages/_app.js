@@ -4,7 +4,6 @@ import { Montserrat } from "next/font/google";
 import Head from "next/head";
 import NavBar from "../components/NavBar";
 import Footer from "@/components/Footer";
-import CustomCursor from "@/components/CustomCursor";
 import { useEffect, useState } from "react";
 import { useRouter } from "next/router";
 import Loading from "./LoadingPage"; // Import the Loading component
@@ -66,7 +65,6 @@ export default function App({ Component, pageProps }) {
             <NavBar />
             <Component {...pageProps} />
             <Footer />
-            <CustomCursor />
           </>
         )}
       </main>
