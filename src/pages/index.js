@@ -51,9 +51,8 @@ export default function Home() {
       <Head>
         <title>Home - Shriyan Yamali</title>
         <meta
-          // name="Home Page for Shriyan Yamali's Personal Website"
-          // content="Shriyan, Yamali, Website, Github, Linkedin, Instagram, X, Twitter"
-          name="google-site-verification" content="174He3WhjCMZKtUZ3NoyB6mAZlATQxVcntY5x0sU27I"
+          name="Home Page for Shriyan Yamali's Personal Website"
+          content="Shriyan, Yamali, Website, Github, Linkedin, Instagram, X, Twitter"
         />
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
