@@ -41,9 +41,9 @@ const ExperienceTimeline = () => {
               July 2024 — August 2024 | Philadelphia, Pennsylvania
             </time>
             <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-300">
-              Developed LexFlow, a program that creates diagrams based on the relative
-              weight and importance of legal principles and the effect of the
-              principles on an act type.
+              Developed LexFlow, a program that creates diagrams based on the
+              relative weight and importance of legal principles and the effect
+              of the principles on an act type.
             </p>
           </li>
         </motion.div>
@@ -116,8 +116,8 @@ const ExperienceTimeline = () => {
               June 2024 — Present | Stanford, California
             </time>
             <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-300">
-              Developing Verdictr using innovative AI models using JavaScript and Python in
-              order to analyze over 10,000 antitrust cases.
+              Developing Verdictr using JavaScript, Python, and LLMs in order to
+              analyze over 10,000 antitrust cases.
             </p>
           </li>
         </motion.div>
