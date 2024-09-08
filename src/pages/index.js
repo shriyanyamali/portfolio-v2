@@ -126,7 +126,7 @@ export default function Home() {
                       viewBox="0 0 24 24"
                       strokeWidth="2"
                       stroke="currentColor"
-                      className="w-5 h-5 animate-scale"
+                      className="w-5 h-5"
                     >
                       <path
                         strokeLinecap="round"
