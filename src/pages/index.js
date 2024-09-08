@@ -1,15 +1,10 @@
 import Head from "next/head";
 import Layout from "@/components/Layout";
-import AnimatedText from "@/components/AnimatedText";
 import Image from "next/image";
 import profilePicLight from "../../public/images/profile/signature.png";
-import profilePicDark from "../../public/images/profile/signature-white.png";
 import Link from "next/link";
 import { FlipWordsDemo } from "@/components/demo/demo-flip-words";
-import { CardHoverEffectDemo } from "@/components/demo/demo-hover-effect";
-import { TextRevealCardPreview } from "@/components/demo/demo-text-reveal-card";
 import { CanvasRevealEffectDemo } from "@/components/demo/demo-canvas-reveal-effect";
-import profilePic from "../../public/images/profile/pfp.jpg";
 import React, { useRef, useEffect } from "react";
 import { useInView, useMotionValue, useSpring } from "framer-motion";
 import { IconCloudDemo } from "@/components/demo/demo-icon-cloud";
@@ -66,16 +61,9 @@ export default function Home() {
               <Image
                 src={profilePicLight}
                 alt="Shriyan Yamali"
-                className="mb-16 w-full h-auto dark:hidden md:inline-block md:w-full"
+                className="mb-16 w-full h-auto md:inline-block md:w-full dark:invert"
                 height="400"
                 width="400"
-                priority
-                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
-              />
-              <Image
-                src={profilePicDark}
-                alt="Shriyan Yamali"
-                className="mb-16 w-full h-auto hidden dark:block dark:md:inline-block md:w-full"
                 priority
                 sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
               />
@@ -110,7 +98,7 @@ export default function Home() {
                               viewBox="0 0 24 24"
                               strokeWidth="2"
                               stroke="currentColor"
-                              className="w-5 h-5 animate-scale"
+                              className="w-5 h-5"
                             >
                               <path
                                 strokeLinecap="round"
