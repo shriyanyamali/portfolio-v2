@@ -26,7 +26,7 @@ export function MeteorsDemo4() {
           </div>
 
           <h1 className="font-bold text-xl text-dark dark:text-white mb-4 relative z-50">
-          First Place Management, Marketing & HR Concepts
+          First Place in Management, Marketing & HR Concepts
           </h1>
 
           <p className="font-normal text-base text-slate-700 dark:text-slate-500 mb-4 relative z-50">
