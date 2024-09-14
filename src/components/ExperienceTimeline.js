@@ -80,8 +80,8 @@ const ExperienceTimeline = () => {
               July 2024 — Present | Hanover, New Hampshire
             </time>
             <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-300">
-              Editor for research papers about AI, machine learning, and
-              computer science | Specializing in mechanical editing.{" "}
+              Editor for research papers about bias in large language models and
+              its associated complications.
             </p>
           </li>
         </motion.div>
@@ -116,8 +116,8 @@ const ExperienceTimeline = () => {
               June 2024 — Present | Stanford, California
             </time>
             <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-300">
-              Developing Verdictr using JavaScript, Python, and LLMs in order to
-              analyze over 10,000 antitrust cases.
+              Developing Verdictr—a database of thousands of market decisions
+              from over 6000 antitrust cases—using JavaScript and Python.
             </p>
           </li>
         </motion.div>
@@ -188,8 +188,8 @@ const ExperienceTimeline = () => {
               May 2024 — Present | Wilmington, Delaware
             </time>
             <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-300">
-              Coordinating logistics and information for setting up educational
-              science cafe events for children | Managing budgets and grants.
+              Coordinating logistics and finances for setting up educational
+              science cafe events for middle and high schoolers.
             </p>
           </li>
         </motion.div>
