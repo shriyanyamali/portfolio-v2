@@ -275,13 +275,10 @@ const ExperienceTimeline = () => {
 
                   <ul className="list-disc list-inside pl-5 text-gray-500 dark:text-gray-300">
                     <li>
-                      1st Place at the National Level in Management, Marketing &
-                      Human Resources Concepts
+                      1st place in Management, Marketing & Human Resources
+                      Concepts
                     </li>
-                    <li>
-                      1st Place at the National Level in Meeting & Event
-                      Planning Concepts
-                    </li>
+                    <li>1st Place in Meeting & Event Planning Concepts</li>
                     <li>Top 10 in Parliamentary Procedure Concepts</li>
                   </ul>
 
@@ -290,9 +287,9 @@ const ExperienceTimeline = () => {
                   </div>
 
                   <ul className="list-disc list-inside pl-5 text-gray-500 dark:text-gray-300">
-                    <li>1st place award for Legal Office Procedures</li>
+                    <li>1st in Legal Office Procedures</li>
                     <li>
-                      1st place award for Management, Marketing & Human
+                      1st in Management, Marketing & Human
                       Resources
                     </li>
                   </ul>
