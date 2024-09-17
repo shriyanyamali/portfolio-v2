@@ -30,7 +30,7 @@ export function MeteorsDemo2() {
 
           <p className="font-normal text-base text-slate-500 mb-4 relative z-50">
             Awarded By: Business Professionals of America <br />
-            Description: 1st Place at the State Level in Legal Office Procedures out of more
+            Description: 1st place at the State Level in Legal Office Procedures out of more
             than 500 participants.
           </p>
 

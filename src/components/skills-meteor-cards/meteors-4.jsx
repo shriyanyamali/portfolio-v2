@@ -30,7 +30,7 @@ export function MeteorsDemo4() {
 
           <p className="font-normal text-base text-slate-700 dark:text-slate-500 mb-4 relative z-50">
             Awarded By: Business Professionals of America <br />
-            Description: 1st Place at the National Level in Management, Marketing & HR
+            Description: 1st place at the National Level in Management, Marketing & HR
             Concepts out of more than 6,300 participants.
           </p>
 
