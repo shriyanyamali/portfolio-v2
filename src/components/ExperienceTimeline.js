@@ -278,7 +278,7 @@ const ExperienceTimeline = () => {
                       1st place in Management, Marketing & Human Resources
                       Concepts
                     </li>
-                    <li>1st Place in Meeting & Event Planning Concepts</li>
+                    <li>1st place in Meeting & Event Planning Concepts</li>
                     <li>Top 10 in Parliamentary Procedure Concepts</li>
                   </ul>
 
