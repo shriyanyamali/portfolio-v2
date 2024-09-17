@@ -275,11 +275,11 @@ const ExperienceTimeline = () => {
 
                   <ul className="list-disc list-inside pl-5 text-gray-500 dark:text-gray-300">
                     <li>
-                      First Place at the National Level in Management, Marketing
-                      & Human Resources Concepts
+                      1st Place at the National Level in Management, Marketing &
+                      Human Resources Concepts
                     </li>
                     <li>
-                      First Place at the National Level in Meeting & Event
+                      1st Place at the National Level in Meeting & Event
                       Planning Concepts
                     </li>
                     <li>Top 10 in Parliamentary Procedure Concepts</li>
