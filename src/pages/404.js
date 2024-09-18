@@ -22,7 +22,7 @@ const NotFound = () => {
           </h1>
           <p className="mt-6 text-base leading-7 text-gray-600 dark:text-gray-400 w-[30%] lg:w-7/12 mx-auto">
             We looked across the globe but we could not find the page you are
-            looking for. How about we head back home? Otherwise, you can contact
+            looking for. How about we head back home? Otherwise&rsquo; you can contact
             me if you believe there should be a webpage here.
           </p>
           <div className="mt-10 flex items-center justify-center gap-x-6">
