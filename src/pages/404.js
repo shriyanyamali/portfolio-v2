@@ -17,10 +17,10 @@ const NotFound = () => {
           <p className="text-base font-semibold text-indigo-600 dark:text-teal-600">
             404
           </p>
-          <h1 className="mt-4 text-3xl font-bold tracking-tight text-gray-900 dark:text-gray-100 sm:text-5xl">
+          <h1 className="mt-4 text-3xl font-bold tracking-tight text-gray-900 dark:text-gray-100">
             Page not found
           </h1>
-          <p className="mt-6 text-base leading-7 text-gray-600 dark:text-gray-400 w-3/4 mx-auto">
+          <p className="mt-6 text-base leading-7 text-gray-600 dark:text-gray-400 w-[30%] lg:w-7/12 mx-auto">
             We looked across the globe but we could not find the page you are
             looking for. How about we head back home? Otherwise, you can contact
             me if you believe there should be a webpage here.
