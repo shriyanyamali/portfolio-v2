@@ -30,11 +30,13 @@ const projects = () => {
           />
 
           {/* Container for the 3D cards with responsive grid layout */}
-          <div className="grid grid-cols-3 gap-4 md:!grid-cols-1 xtl:grid-cols-2">
+          <div className="grid grid-cols-2 gap-4 md:!grid-cols-1 xtl:grid-cols-2">
             <ThreeDCardOne />
             <ThreeDCardTwo />
+            <ThreeDCardFour />
+
             <ThreeDCardThree />
-            {/* <ThreeDCardFour />
+            {/*
             <ThreeDCardFive />
             <ThreeDCardSix /> */}
           </div>
