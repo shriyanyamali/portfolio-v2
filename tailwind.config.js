@@ -49,6 +49,14 @@ module.exports = {
           "repeating-radial-gradient(rgba(255,255,255,0.5) 2px,#1b1b1b 4px,#1b1b1b 40px)",
       },
       keyframes: {
+        shimmer: {
+          from: {
+            "backgroundPosition": "0 0"
+          },
+          to: {
+            "backgroundPosition": "-200% 0"
+          }
+        },
         scale: {
           "0%, 100%": { transform: "scale(1)" },
           "50%": { transform: "scale(1.4)" },
@@ -63,6 +71,7 @@ module.exports = {
         },
       },
       animation: {
+        shimmer: "shimmer 2s linear infinite",
         scale: "scale 3s ease-in-out infinite",
         "meteor-effect": "meteor 5s linear infinite",
       },

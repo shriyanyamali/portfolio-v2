@@ -39,7 +39,6 @@ const AnimatedNumbers = ({ value }) => {
   return <span ref={ref}></span>;
 };
 
-
 export default function Home() {
   return (
     <>
@@ -50,9 +49,23 @@ export default function Home() {
           content="Shriyan, Yamali, Website, Github, Linkedin, Instagram, X, Twitter"
         />
         <link rel="icon" href="/favicon.ico" sizes="any" />
-        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+        <link
+          rel="apple-touch-icon"
+          sizes="180x180"
+          href="/apple-touch-icon.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="/favicon-32x32.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="/favicon-16x16.png"
+        />
       </Head>
       <main className="flex items-center text-dark w-full min-h-screen dark:text-light">
         <Layout className="!pt-0 md:pt-16 sm:pt-8">
@@ -77,42 +90,44 @@ export default function Home() {
                 specialization in Python and AI and an interest in law, video
                 game development, cooking, and politics.
               </p>
-              <div className="w-1/2 flex flex-col items-start self-center lg:items-center lg:w-full lg:text-center lg:hidden">
-                <div className="pt-4">
-                  <Link href="/projects">
-                    <div className="grid gap-8 items-start justify-center">
-                      <div className="relative group">
-                        <div className="absolute -inset-0.5 bg-gradient-to-r from-purple-600 to-blue-600 rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000"></div>
-                        <button
-                          className="relative px-7 py-4 bg-dark rounded-lg leading-none flex items-center divide-x divide-gray-600
-                          text-gray-100 transition-all duration-500 group-hover:text-dark group-hover:bg-light 
-                           dark:text-dark  dark:bg-light dark:group-hover:text-light dark:group-hover:bg-dark
-                           md:p-2 md:px-4 md:text-base 
-                        "
-                        >
-                          <span className="flex items-center space-x-2">
-                            <span>Check Out My Projects</span>
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              fill="none"
-                              viewBox="0 0 24 24"
-                              strokeWidth="2"
-                              stroke="currentColor"
-                              className="w-5 h-5"
-                            >
-                              <path
-                                strokeLinecap="round"
-                                strokeLinejoin="round"
-                                d="M9 5l7 7-7 7"
-                              />
-                            </svg>
-                          </span>
-                        </button>
-                      </div>
-                    </div>
-                  </Link>
-                </div>
-              </div>
+
+              {/* Desktop Projects Button*/}
+
+              <Link href="/projects">
+                <button
+                  className="inline-flex h-12 animate-shimmer items-center justify-center rounded-md lg:hidden
+                border border-slate-400 dark:border-slate-500
+                bg-[linear-gradient(110deg,#F0F0F0,45%,#D7D7D7,55%,#F0F0F0)]
+                dark:bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)]
+                hover:bg-[linear-gradient(110deg,#EAEAEA,45%,#D7D7D7,55%,#EAEAEA)]
+                hover:dark:bg-[linear-gradient(110deg,#0a0d10,45%,#1e2631,55%,#0a0d10)]
+                bg-[length:200%_100%] px-6 font-medium text-slate-600 dark:text-slate-400
+                transition-colors focus:outline-none focus:ring-2 
+                focus:ring-slate-600 focus:ring-offset-slate-950
+                dark:focus:ring-slate-400 focus:ring-offset-2 dark:focus:ring-offset-slate-50
+                "
+                >
+                  <span className="flex items-center space-x-2">
+                    <span>Check Out My Projects</span>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      strokeWidth="2"
+                      stroke="currentColor"
+                      className="w-5 h-5"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M9 5l7 7-7 7"
+                      />
+                    </svg>
+                  </span>
+                </button>
+              </Link>
+
+              {/* Mobile Projects Button*/}
 
               <div className="w-1/2 flex-col items-center justify-center lg:w-full lg:text-center hidden lg:flex lg:justify-center lg:items-center lg:my-8">
                 <Link href="/projects">
@@ -140,12 +155,7 @@ export default function Home() {
             </div>
           </div>
 
-
-
-
           {/* About Section */}
-
-              
 
           <div className="flex items-center justify-center">
             <div className="mb-8 sm:mb-2 mt-48 md:mt-32">
@@ -154,7 +164,6 @@ export default function Home() {
           </div>
 
           <div className="items-center justify-center text-center mb-32">
-
             <CanvasRevealEffectDemo />
 
             {/* <div className="mt-48 sm:mt-32">
@@ -173,9 +182,6 @@ export default function Home() {
 
             <CardHoverEffectDemo /> */}
           </div>
-
-
-
 
           <h2 className="font-bold text-8xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl mt-48 md:mt-32 w-full text-center">
             Skills
@@ -199,12 +205,6 @@ export default function Home() {
             <MeteorsDemo3 />
             <MeteorsDemo4 />
           </div>
-
-
-
-
-
-
         </Layout>
       </main>
     </>
