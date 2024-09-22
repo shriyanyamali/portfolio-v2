@@ -11,7 +11,7 @@ export function CanvasRevealEffectDemo() {
         <Card
           title="Experiences"
           icon={<BriefcaseIcon />}
-          text="I&rsquo;m Shriyan Yamali, a high school student with certifications in computer science, web development, and Python. I&rsquo;ve coded a Python project for UPenn Carey and am editing machine learning papers at Dartmouth College. I&rsquo;ve also worked NLP and machine learning projects at Stanford Law School. I also am constantly involved in clubs like in Mock Trial, Math League, and Student Council."
+          text="I&rsquo;m Shriyan Yamali, a high school student certified in computer science, web development, and Python. I&rsquo;ve coded a Python project for UPenn Carey and am editing machine learning papers at Dartmouth College. I&rsquo;ve also worked NLP and machine learning projects at Stanford Law School. I also am constantly involved in clubs like in Mock Trial, Math League, and Student Council."
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
