@@ -84,7 +84,7 @@ export default function Home() {
             </div>
             <div className="w-1/2 lg:w-full lg:text-center">
               <div className="inline-flex items-center text-left lg:text-center lg:block">
-                <span className="text-4xl xtl:text-3xl lg:!text-4xl font-bold text-black dark:text-white mr-4 xtl:mr-3 lg:mr-0">
+                <span className="text-4xl xtl:text-3xl lg:!text-4xl font-bold text-black dark:text-white mr-3 lg:mr-0">
                   Hi, I&rsquo;m a
                 </span>
                 <WordRotateDemo />
@@ -105,7 +105,7 @@ export default function Home() {
                 bg-[linear-gradient(110deg,#F0F0F0,45%,#D7D7D7,55%,#F0F0F0)]
                 dark:bg-[linear-gradient(110deg,#000103,45%,#1e2631,55%,#000103)]
                 hover:bg-[linear-gradient(110deg,#EAEAEA,45%,#D7D7D7,55%,#EAEAEA)]
-                hover:dark:bg-[linear-gradient(110deg,#0a0d10,45%,#1e2631,55%,#0a0d10)]
+                hover:dark:bg-[linear-gradient(110deg,#121619,45%,#1e2631,55%,#121619)]
                 bg-[length:200%_100%] px-6 font-medium text-slate-600 dark:text-slate-400
                 transition-colors
                 "
