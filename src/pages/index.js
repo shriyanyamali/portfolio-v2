@@ -3,17 +3,18 @@ import Layout from "@/components/Layout";
 import Image from "next/image";
 import profilePicLight from "../../public/images/profile/signature.png";
 import Link from "next/link";
-import { FlipWordsDemo } from "@/components/demo/demo-flip-words";
-import { CanvasRevealEffectDemo } from "@/components/demo/demo-canvas-reveal-effect";
+import HoverSpring from "@/components/demo/demo-features-hover-spring";
 import React, { useRef, useEffect } from "react";
 import { useInView, useMotionValue, useSpring } from "framer-motion";
 import { IconCloudDemo } from "@/components/demo/demo-icon-cloud";
-import HoverSpring from "@/components/demo/demo-features-hover-spring";
+import { FlipWordsDemo } from "@/components/demo/demo-flip-words";
+import { CanvasRevealEffectDemo } from "@/components/demo/demo-canvas-reveal-effect";
 import { MeteorsDemo1 } from "@/components/skills-meteor-cards/meteors-1";
 import { MeteorsDemo2 } from "@/components/skills-meteor-cards/meteors-2";
 import { MeteorsDemo3 } from "@/components/skills-meteor-cards/meteors-3";
 import { MeteorsDemo4 } from "@/components/skills-meteor-cards/meteors-4";
 import { SparklesTextDemo } from "@/components/demo/demo-sparkles-text";
+import WordRotateDemo from "@/components/demo/demo-word-rotate";
 
 const AnimatedNumbers = ({ value }) => {
   const ref = useRef(null);
@@ -82,9 +83,13 @@ export default function Home() {
               />
             </div>
             <div className="w-1/2 lg:w-full lg:text-center">
-              <div className="text-left lg:text-center">
-                <FlipWordsDemo />
+              <div className="inline-flex items-center text-left lg:text-center lg:block">
+                <span className="text-4xl xtl:text-3xl lg:!text-4xl font-bold text-black dark:text-white mr-4 xtl:mr-3 lg:mr-0">
+                  Hi, I&rsquo;m a
+                </span>
+                <WordRotateDemo />
               </div>
+
               <p className="my-4 text-base font-medium md:text-sm sm:text-xs w-full lg:w-3/4 mx-auto">
                 I&rsquo;m Shriyan Yamali, a full-stack developer with a
                 specialization in Python and AI and an interest in law, video
