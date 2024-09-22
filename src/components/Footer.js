@@ -151,7 +151,7 @@ const Footer = () => {
         </div>
 
         {/* Copyright and Legal Links */}
-        <span className="text-lg whitespace-nowrap xtl:ml-12 lg:whitespace-normal">
+        <span className="text-lg whitespace-nowrap xtl:ml-12 lg:!ml-0 lg:whitespace-normal">
           Copyright &copy; {new Date().getFullYear()} Shriyan Yamali.{" "}
           <br className="hidden lg:block" />
           All rights reserved. &nbsp;
