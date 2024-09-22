@@ -102,9 +102,7 @@ export default function Home() {
                 hover:bg-[linear-gradient(110deg,#EAEAEA,45%,#D7D7D7,55%,#EAEAEA)]
                 hover:dark:bg-[linear-gradient(110deg,#0a0d10,45%,#1e2631,55%,#0a0d10)]
                 bg-[length:200%_100%] px-6 font-medium text-slate-600 dark:text-slate-400
-                transition-colors focus:outline-none focus:ring-2 
-                focus:ring-slate-600 focus:ring-offset-slate-950
-                dark:focus:ring-slate-400 focus:ring-offset-2 dark:focus:ring-offset-slate-50
+                transition-colors
                 "
                 >
                   <span className="flex items-center space-x-2">
