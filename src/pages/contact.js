@@ -25,10 +25,6 @@ const Contact = () => {
           <div className="flex bg-orange-100 dark:bg-blue-900 py-20 px-12 w-full">
             <div className="max-w-4xl mx-auto flex-1">
               <AnimatedText
-                text="How can I help?"
-                className="!text-green-600 text-left text-xl font-bold"
-              />
-              <AnimatedText
                 text="Contact Me"
                 className="!text-dark text-4xl font-bold mb-6 text-left sm:!text-6xl xs:!text-4xl sm:mb-8 dark:!text-light"
               />
