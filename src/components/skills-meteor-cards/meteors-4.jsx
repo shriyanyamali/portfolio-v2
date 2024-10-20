@@ -28,7 +28,7 @@ export function MeteorsDemo4() {
             1st Place in Management, Marketing & HR Concepts
           </h1>
 
-          <p className="font-normal text-base text-slate-700 dark:text-slate-500 mb-4 relative z-50">
+          <p className="font-normal text-base text-slate-700 dark:text-slate-500 mb-4 relative z-50 min-h-28">
             Awarded By: Business Professionals of America <br />
             Description: 1st place at the National Level in Management, Marketing & HR
             Concepts out of more than 6,300 participants.

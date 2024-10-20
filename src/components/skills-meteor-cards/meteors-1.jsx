@@ -29,7 +29,7 @@ export function MeteorsDemo1() {
             Best Attorney Award
           </h1>
 
-          <p className="font-normal text-base text-slate-700 dark:text-slate-500 mb-4 relative z-50">
+          <p className="font-normal text-base text-slate-700 dark:text-slate-500 mb-4 relative z-50 min-h-28">
             Awarded By: The Delaware Mock Trial Committee <br />
             Description: Won the Best Attorney Award out of more than 300 other 9th, 10th, 11th, and 12th grade attorneys throughout the state of Delaware.
           </p>
