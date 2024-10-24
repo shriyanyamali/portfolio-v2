@@ -49,7 +49,7 @@ const SparklesText = ({
 
   return (
     (<div
-      className={cn("text-7xl lg:text-6xl xs:text-4xl font-bold", className)}
+      className={cn("text-7xl lg:text-6xl xs:text-5xl font-bold", className)}
       {...props}
       style={
         {
@@ -61,7 +61,9 @@ const SparklesText = ({
         {sparkles.map((sparkle) => (
           <Sparkle key={sparkle.id} {...sparkle} />
         ))}
-        <strong>{text}</strong>
+        <strong className="underline" style={{ textDecorationThickness: '6px', textUnderlineOffset: '8px' }}>
+          {text}
+        </strong>
       </span>
     </div>)
   );
