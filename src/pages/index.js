@@ -6,15 +6,16 @@ import Link from "next/link";
 import HoverSpring from "@/components/demo/demo-features-hover-spring";
 import React, { useRef, useEffect } from "react";
 import { useInView, useMotionValue, useSpring } from "framer-motion";
-import { IconCloudDemo } from "@/components/demo/demo-icon-cloud";
-import { FlipWordsDemo } from "@/components/demo/demo-flip-words";
-import { CanvasRevealEffectDemo } from "@/components/demo/demo-canvas-reveal-effect";
 import { MeteorsDemo1 } from "@/components/skills-meteor-cards/meteors-1";
 import { MeteorsDemo2 } from "@/components/skills-meteor-cards/meteors-2";
 import { MeteorsDemo3 } from "@/components/skills-meteor-cards/meteors-3";
 import { MeteorsDemo4 } from "@/components/skills-meteor-cards/meteors-4";
 import { SparklesTextDemo } from "@/components/demo/demo-sparkles-text";
 import WordRotateDemo from "@/components/demo/demo-word-rotate";
+import TechStack from "@/components/TechStack";
+import { IconCloudDemo } from "@/components/demo/demo-icon-cloud";
+import { FlipWordsDemo } from "@/components/demo/demo-flip-words";
+import { CanvasRevealEffectDemo } from "@/components/demo/demo-canvas-reveal-effect";
 import { TextRevealCardPreview } from "@/components/demo/demo-text-reveal-card";
 import { CardHoverEffectDemo } from "@/components/demo/demo-hover-effect";
 
@@ -191,14 +192,17 @@ export default function Home() {
           <h2 className="font-bold text-6xl sm:text-3xl md:text-4xl lg:text-5xl mt-16 lg:mt-8 w-full text-center">
             Skills
           </h2>
-
+          
           <div className="flex justify-center">
             <HoverSpring />
           </div>
 
-          <IconCloudDemo />
+          <h2 className="font-bold text-6xl sm:text-3xl md:text-4xl lg:text-5xl mt-36 md:mt-32 w-full text-center">
+            Tech Stack
+          </h2>
+          <TechStack />
 
-          <h2 className="font-bold text-6xl sm:text-3xl md:text-4xl lg:text-5xl mt-48 md:mt-32 w-full text-center">
+          <h2 className="font-bold text-6xl sm:text-3xl md:text-4xl lg:text-5xl mt-36 md:mt-32 w-full text-center">
             Awards
           </h2>
           <div className="mt-16 grid grid-cols-2 lg:grid-cols-1 justify-items-center items-center">
