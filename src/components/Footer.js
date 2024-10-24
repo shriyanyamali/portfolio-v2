@@ -162,7 +162,7 @@ const Footer = () => {
       <button
         onClick={scrollToTop}
         className={`z-50 fixed bottom-4 right-6 p-4 lg:p-3 rounded-full bg-slate-400 dark:bg-gray-700 text-dark dark:text-light shadow-lg
-          hover:bg-slate-500 hover:dark:bg-slate-200 transform transition-transform duration-300 ${
+          hover:bg-slate-500 hover:dark:bg-slate-600 transform transition-transform duration-300 ${
             isVisible ? "translate-y-0 opacity-90" : "translate-y-20 opacity-0"
           }`}
         aria-label="Scroll to top"
