@@ -287,9 +287,9 @@ const ExperienceTimeline = () => {
                   </div>
 
                   <ul className="list-disc list-inside pl-5 text-gray-500 dark:text-gray-300">
-                    <li>1st in Legal Office Procedures</li>
+                    <li>1st place in Legal Office Procedures</li>
                     <li>
-                      1st in Management, Marketing & Human
+                      1st place in Management, Marketing & Human
                       Resources
                     </li>
                   </ul>
