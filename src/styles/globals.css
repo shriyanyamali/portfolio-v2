@@ -20,3 +20,8 @@
     background: #555;
   }
   
+ /* Glow for Footer Text */
+  .text-glow {
+    text-shadow: 0 0 5px rgba(74, 144, 226, 0.7), 0 0 10px rgba(74, 144, 226, 0.5), 0 0 15px rgba(74, 144, 226, 0.3);
+  }
+  

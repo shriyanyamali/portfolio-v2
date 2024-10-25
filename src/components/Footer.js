@@ -50,22 +50,12 @@ const Footer = () => {
   return (
     <footer className="relative w-full border-t-2 border-solid border-light dark:border-dark font-medium text-lg bg-slate-300 dark:bg-gray-800 text-black dark:text-white">
       <div className="max-w-screen-xl mx-auto py-12 grid grid-cols-4 gap-8 text-center lg:grid-cols-1 lg:flex lg:flex-col">
-        <div className="col-span-2 flex flex-col items-center text-left xtl:ml-12 lg:!mr-9">
-          <div className="items-start">
-            <h3 className="text-2xl font-bold mb-6 items-start lg:!text-xl">
-              About Shriyan Yamali
-            </h3>
-            <p className="text-lg mb-6 lg:text-base">
-              Hi, I&rsquo;m Shriyan Yamali, a passionate high school student
-              certified in computer science, web development, and Python.
-              I&rsquo;m skilled in web design, Java, JavaScript, and Python,
-              with experience in natural language processing and machine
-              learning from Stanford University and Dartmouth College. I
-              developed Verdictr and LexFlow, and am actively engaged with the
-              ACLU and clubs like Mock Trial, Math League, and Student Council.
-              I have also been playing the violin and sports for six years.
-            </p>
-          </div>
+        <div className="col-span-2 flex flex-col lg:items-center items-start text-left txl:ml-12 lg:!mr-9">
+            <h1 className="text-glow text-8xl txl:text-7xl font-bold mb-6 lg:!text-3xl">
+              SHRIYAN<br className="lg:hidden"/>
+              YAMALI<br className="lg:hidden"/>
+              .TECH
+            </h1> 
         </div>
 
         {/* Site Links Section */}
@@ -151,7 +141,7 @@ const Footer = () => {
         </div>
 
         {/* Copyright and Legal Links */}
-        <span className="text-lg whitespace-nowrap xtl:ml-12 lg:!ml-0 lg:whitespace-normal">
+        <span className="text-lg whitespace-nowrap txl:ml-12 lg:!ml-0 lg:whitespace-normal">
           Copyright &copy; {new Date().getFullYear()} Shriyan Yamali.{" "}
           <br className="hidden lg:block" />
           All rights reserved. &nbsp;
