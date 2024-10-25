@@ -13,7 +13,6 @@ module.exports = {
     extend: {
       fontFamily: {
         mont: ["var(--font-mont)", ...fontFamily.sans],
-        courier: ["Courier New", "monospace", ...fontFamily.sans],
       },
       colors: {
         dark: "#1b1b1b",
