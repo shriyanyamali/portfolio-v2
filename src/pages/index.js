@@ -169,10 +169,10 @@ export default function Home() {
             </div>
           </div>
 
-          {/* <div className="items-center justify-center text-center mb-32">
+          <div className="items-center justify-center text-center mb-32">
             <CanvasRevealEffectDemo />
 
-            <div className="mt-48 sm:mt-32">
+          {/*   <div className="mt-48 sm:mt-32">
               <TextRevealCardPreview />
 
               <div className="flex items-center justify-center w-full">
@@ -186,10 +186,10 @@ export default function Home() {
               </div>
             </div>
 
-            <CardHoverEffectDemo />
-          </div> */}
+            <CardHoverEffectDemo />  */}
+          </div>
 
-          <h2 className="font-bold text-6xl sm:text-3xl md:text-4xl lg:text-5xl mt-16 lg:mt-8 w-full text-center">
+          <h2 className="font-bold text-6xl sm:text-3xl md:text-4xl lg:text-5xl mt-36 md:mt-32 w-full text-center">
             Skills
           </h2>
           
