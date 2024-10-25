@@ -31,7 +31,7 @@ const EducationTimeline = () => {
                 July 2015 - May 2027 | Newark, Delaware
                 </time>
                 <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-300">
-                Member of Mock Trial, Asian Student Union, and Math League | Student Council president | Violinist and Athlete of 6 Years.</p>
+                Member of Mock Trial, Asian Student Union, and Math League & violinist and athlete of 6 years.</p>
                 </li>
             </motion.div>
       </ol>
