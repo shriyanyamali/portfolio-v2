@@ -29,26 +29,22 @@ const ExperienceTimeline = () => {
               </svg>
             </span>
             <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white mg:text-base sm:!text-sm">
-              Programming Intern&nbsp;
+              Frontend Web Developer&nbsp;
               <div className="text-primary dark:text-primaryDark sm:ml-3">
-                @University of Pennsylvania Carey Law School
+                @University of Delaware
               </div>
-              <span className="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300 ms-3 lg:hidden">
-                Remote
+              <span className="bg-blue-500 text-light text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-500 ms-3 lg:hidden">
+                Hybrid
               </span>
             </h3>
             <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-              July 2024 — August 2024 | Philadelphia, Pennsylvania
+              September 2024 — Present | Newark, Delaware
             </time>
             <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-300">
-              Developed LexFlow, a program that creates diagrams based on the
-              relative weight and importance of legal principles and the effect
-              of the principles on an act type.
+              Building a frontend web interface for a large language model.
             </p>
           </li>
         </motion.div>
-
-        {/* Add more list items here */}
 
         <motion.div
           initial={{ y: 50 }}
@@ -189,7 +185,8 @@ const ExperienceTimeline = () => {
             </time>
             <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-300">
               Coordinating logistics and finances for setting up educational
-              science cafe events for middle and high schoolers.
+              science cafe events for middle and high schoolers as well as
+              directing events with 100+ participants.
             </p>
           </li>
         </motion.div>
@@ -289,13 +286,50 @@ const ExperienceTimeline = () => {
                   <ul className="list-disc list-inside pl-5 text-gray-500 dark:text-gray-300">
                     <li>1st place in Legal Office Procedures</li>
                     <li>
-                      1st place in Management, Marketing & Human
-                      Resources
+                      1st place in Management, Marketing & Human Resources
                     </li>
                   </ul>
                 </div>
               </motion.div>
+              
             )}
+          </li>
+        </motion.div>
+
+        <motion.div
+          initial={{ y: 50 }}
+          whileInView={{ y: 0 }}
+          transition={{ duration: 0.5, type: "spring" }}
+        >
+          <li className="mb-10 ms-6">
+            <span className="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
+              <svg
+                className="w-2.5 h-2.5 text-blue-800 dark:text-blue-300"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="currentColor"
+                viewBox="0 0 512 512"
+              >
+                <path d="M184 48l144 0c4.4 0 8 3.6 8 8l0 40L176 96l0-40c0-4.4 3.6-8 8-8zm-56 8l0 40L64 96C28.7 96 0 124.7 0 160l0 96 192 0 128 0 192 0 0-96c0-35.3-28.7-64-64-64l-64 0 0-40c0-30.9-25.1-56-56-56L184 0c-30.9 0-56 25.1-56 56zM512 288l-192 0 0 32c0 17.7-14.3 32-32 32l-64 0c-17.7 0-32-14.3-32-32l0-32L0 288 0 416c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-128z" />
+              </svg>
+            </span>
+            <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white mg:text-base sm:!text-sm">
+              Programming Intern&nbsp;
+              <div className="text-primary dark:text-primaryDark sm:ml-3">
+                @University of Pennsylvania Carey Law School
+              </div>
+              <span className="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300 ms-3 lg:hidden">
+                Remote
+              </span>
+            </h3>
+            <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
+              July 2024 — August 2024 | Philadelphia, Pennsylvania
+            </time>
+            <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-300">
+              Developed LexFlow, a program that creates diagrams based on the
+              relative weight and importance of legal principles and the effect
+              of the principles on an act type.
+            </p>
           </li>
         </motion.div>
       </ol>
