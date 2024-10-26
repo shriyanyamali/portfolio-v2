@@ -6,7 +6,7 @@ const technologies = [
   { name: "TypeScript", description: "Typed JavaScript", icon: "/images/svgs/typescript-logo.svg" },
   { name: "React", description: "JavaScript Library", icon: "/images/svgs/react-logo.svg" },
   { name: "Tailwind CSS", description: "CSS Framework", icon: "/images/svgs/tailwind-logo.svg" },
-  { name: "Git", description: "Version control", icon: "/images/svgs/git-logo.svg" },
+  { name: "Git", description: "Version Control", icon: "/images/svgs/git-logo.svg" },
   { name: "Python", description: "Programming Language", icon: "/images/svgs/python-logo.svg" },
   { name: "HTML", description: "Markup Language", icon: "/images/svgs/html5-logo.svg" },
   { name: "CSS", description: "Style Sheet Language", icon: "/images/svgs/css3-logo.svg" },
