@@ -15,7 +15,7 @@ const technologies = [
 export default function TechStack() {
   return (
     <div className="mt-16 container mx-auto p-4">
-      <div className="grid grid-cols-4 xtl:grid-cols-2 sm:!grid-cols-1 gap-4 w-3/4 mx-auto">
+      <div className="grid grid-cols-4 xtl:grid-cols-2 sm:!grid-cols-1 gap-4 w-3/4 lg:w-full mx-auto">
         {technologies.map((tech, index) => (
           <Card
             key={index}
