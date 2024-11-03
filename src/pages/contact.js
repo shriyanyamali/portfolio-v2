@@ -38,7 +38,7 @@ const Contact = () => {
 
               <div className="mt-4 text-left text-lg space-y-4 sm:!text-base xs:!text-sm sm:mb-8 dark:text-light">
                 <div className="flex items-center space-x-2">
-                  <span className="text-xl transition-all duration-300 hover:scale-105 cursor-default">
+                  <span className="text-xl cursor-default">
                     📍
                   </span>
                   <a
@@ -50,7 +50,7 @@ const Contact = () => {
                   </a>
                 </div>
                 <div className="flex items-center space-x-2">
-                  <span className="text-xl transition-all duration-300 hover:scale-105 cursor-default">
+                  <span className="text-xl cursor-default">
                     🏫
                   </span>
                   <a
@@ -62,7 +62,7 @@ const Contact = () => {
                   </a>
                 </div>
                 <div className="flex items-center space-x-2">
-                  <span className="text-xl transition-all duration-300 hover:scale-105 cursor-default">
+                  <span className="text-xl cursor-default">
                     ✉️
                   </span>
                   <a
