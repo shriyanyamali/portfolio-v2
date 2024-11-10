@@ -70,7 +70,7 @@ const Contact = () => {
                     target="_blank"
                     className="transition-all duration-300 hover:scale-105"
                   >
-                    srujanshriyan@gmail.com
+                    srujanshriyan[at]gmail[dot]com
                   </a>
                 </div>
               </div>
