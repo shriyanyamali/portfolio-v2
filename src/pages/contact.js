@@ -22,7 +22,7 @@ const Contact = () => {
       </Head>
       <main>
         <Layout className="pt-16">
-          <div className="flex bg-orange-100 dark:bg-blue-900 py-20 px-12 w-full">
+          <div className="flex bg-orange-100 dark:bg-blue-900 py-20 px-12 sm:px-8 w-full">
             <div className="max-w-4xl mx-auto flex-1">
               <AnimatedText
                 text="Contact Me"
