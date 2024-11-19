@@ -16,6 +16,7 @@ export function CanvasRevealEffectDemo() {
           <CanvasRevealEffect
             animationSpeed={5.1}
             containerClassName="bg-emerald-900"
+            dotSize={3.5}
           />
         </Card>
         <Card
@@ -31,7 +32,7 @@ export function CanvasRevealEffectDemo() {
               [255, 165, 0],
               [255, 140, 0],
             ]}
-            dotSize={2}
+            dotSize={3.5}
           />
         </Card>
         <Card
@@ -46,7 +47,7 @@ export function CanvasRevealEffectDemo() {
               [144, 238, 144],
               [152, 251, 152],
             ]}
-            dotSize={2}
+            dotSize={3.5}
           />
         </Card>
       </div>
