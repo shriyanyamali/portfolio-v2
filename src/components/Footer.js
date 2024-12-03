@@ -10,7 +10,6 @@ const CustomLink = ({ href, title, className = "", target }) => {
     <motion.a
       href={href}
       target={target}
-      whileTap={{ scale: 0.9 }}
       className={`${className} relative group inline-block`}
     >
       {title}
