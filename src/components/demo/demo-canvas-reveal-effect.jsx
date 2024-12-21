@@ -23,7 +23,7 @@ export function CanvasRevealEffectDemo() {
           title="Interests
 "
           icon={<StarIcon />}
-          text="Outside of school, I enjoy cooking, game development, and gardening. I&rsquo;m also into politics and have a passion for hip-hop and rap music. When it comes to video games, I play Fortnite, Rocket League, Minecraft, and Clash Royale, where I&rsquo;ve earned international rankings."
+          text="Outside of school, I enjoy cooking, horology, video games and gardening. I&rsquo;m also into politics and have a passion for hip-hop and rap music. When it comes to video games, I play Fortnite, Rocket League, Minecraft, and Clash Royale, where I&rsquo;ve earned international rankings. As for horology, my favorite watch in my collection is the Citizen Tsuyosa."
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
