@@ -64,7 +64,7 @@ const Contact = () => {
                     target="_blank"
                     className="transition-all duration-300 hover:scale-105"
                   >
-                    srujanshriyan[at]gmail[dot]com
+                    shriyansyamali[at]gmail[dot]com
                   </a>
                 </div>
               </div>
