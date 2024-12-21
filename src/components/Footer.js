@@ -50,11 +50,13 @@ const Footer = () => {
     <footer className="relative w-full border-t-2 border-solid border-light dark:border-dark font-medium text-lg bg-slate-300 dark:bg-gray-800 text-black dark:text-white">
       <div className="max-w-screen-xl mx-auto py-12 grid grid-cols-4 gap-8 text-center lg:grid-cols-1 lg:flex lg:flex-col">
         <div className="col-span-2 flex flex-col lg:items-center items-start text-left txl:ml-12 lg:!mr-9">
-            <h1 className="text-glow text-8xl txl:text-7xl font-bold mb-6 lg:!text-3xl">
-              SHRIYAN<br className="lg:hidden"/>
-              YAMALI<br className="lg:hidden"/>
-              .TECH
-            </h1> 
+          <h1 className="text-glow text-8xl txl:text-7xl font-bold mb-6 lg:!text-3xl">
+            SHRIYAN
+            <br className="lg:hidden" />
+            YAMALI
+            <br className="lg:hidden" />
+            .TECH
+          </h1>
         </div>
 
         {/* Site Links Section */}
@@ -130,7 +132,7 @@ const Footer = () => {
             </li>
             <li>
               <CustomLink
-                href="mailto:srujanshriyan@gmail.com"
+                href="mailto:shriyansyamali@gmail.com"
                 title="Email"
                 target="_blank"
                 className="hover:text-gray-600 hover:dark:text-gray-400"

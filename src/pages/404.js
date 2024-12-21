@@ -32,7 +32,7 @@ const NotFound = () => {
               Go back home
             </Link>
             <a
-              href="mailto:srujanshriyan@gmail.com?subject=Missing Webpage on shriyanyamali.tech"
+              href="mailto:shriyansyamali@gmail.com?subject=Missing Webpage on shriyanyamali.tech"
               target="_blank"
               className="text-sm font-semibold text-gray-900 dark:text-gray-100"
             >

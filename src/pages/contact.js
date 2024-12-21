@@ -38,9 +38,7 @@ const Contact = () => {
 
               <div className="mt-4 text-left text-lg space-y-4 sm:!text-base xs:!text-sm sm:mb-8 dark:text-light">
                 <div className="flex items-center space-x-2">
-                  <span className="text-xl cursor-default">
-                    📍
-                  </span>
+                  <span className="text-xl cursor-default">📍</span>
                   <a
                     href="https://newarkde.gov/"
                     target="_blank"
@@ -50,9 +48,7 @@ const Contact = () => {
                   </a>
                 </div>
                 <div className="flex items-center space-x-2">
-                  <span className="text-xl cursor-default">
-                    🏫
-                  </span>
+                  <span className="text-xl cursor-default">🏫</span>
                   <a
                     href="https://newarkcharterschool.org/"
                     target="_blank"
@@ -62,11 +58,9 @@ const Contact = () => {
                   </a>
                 </div>
                 <div className="flex items-center space-x-2">
-                  <span className="text-xl cursor-default">
-                    ✉️
-                  </span>
+                  <span className="text-xl cursor-default">✉️</span>
                   <a
-                    href="mailto:srujanshriyan@gmail.com"
+                    href="mailto:shriyansyamali@gmail.com"
                     target="_blank"
                     className="transition-all duration-300 hover:scale-105"
                   >

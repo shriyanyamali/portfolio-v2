@@ -3,7 +3,11 @@
 ## Built by Shriyan Yamali
 
 ###### Check out my website at <a href="https://shriyanyamali.tech/">https://shriyanyamali.tech/</a>
-###### Contact me at <a  href="mailto:srujanshriyan@gmail.com">srujanshriyan@gmail.com</a>
+
+###### Contact me at <a  href="mailto:shriyansyamali@gmail.com">shriyansyamali@gmail.com</a>
+
 ###### Built using Next.js and Tailwind CSS.
+
 ###### Copyright © 2024 Shriyan Yamali. All rights reserved.
+
 ###### File last updated on 9/7/2024.
