@@ -1,6 +1,6 @@
 ====================
 
-Last updated: December 23, 2024
+Last updated: December 25, 2024
 
 This Privacy Policy describes Our policies and procedures on the collection, use and disclosure of Your information when You use the Service and tells You about Your privacy rights and how the law protects You. We use Your Personal data to provide and improve the Service. By using the Service, You agree to the collection and use of information in accordance with this Privacy Policy.
 
@@ -158,7 +158,7 @@ Delete Your Personal Data
 
 You have the right to delete or request that We assist in deleting the Personal Data that We have collected about You.
 
-You may update, amend, or delete Your information at any time by contacting shriyansyamali@gmail.com
+You may update, amend, or delete Your information at any time by contacting yamali.shriyan@gmail.com
 
 Please note, however, that We may need to retain certain information when we have a legal obligation or lawful basis to do so.
 
@@ -221,6 +221,6 @@ Contact Us
 
 If you have any questions about this Privacy Policy, You can contact us:
 
-  * By email: shriyansyamali@gmail.com
+  * By email: yamali.shriyan@gmail.com
   
   * For more contact options, please go to shriyanyamali.github.io/contact
