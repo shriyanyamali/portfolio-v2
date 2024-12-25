@@ -95,8 +95,8 @@ export default function Home() {
 
               <p className="my-4 text-base font-medium md:text-sm sm:text-xs w-full lg:w-3/4 mx-auto">
                 I&rsquo;m Shriyan Yamali, a full-stack developer with a
-                specialization in Python and AI and an interest in law, video
-                game development, cooking, and politics.
+                specialization in Python and AI and an interest in law,
+                horology, gardening, cooking, and politics.
               </p>
 
               {/* Desktop Projects Button*/}
@@ -172,7 +172,7 @@ export default function Home() {
           <div className="items-center justify-center text-center mb-32">
             <CanvasRevealEffectDemo />
 
-          {/*   <div className="mt-48 sm:mt-32">
+            {/*   <div className="mt-48 sm:mt-32">
               <TextRevealCardPreview />
 
               <div className="flex items-center justify-center w-full">
@@ -192,7 +192,7 @@ export default function Home() {
           <h2 className="font-bold text-6xl sm:text-3xl md:text-4xl lg:text-5xl mt-36 md:mt-32 w-full text-center">
             Skills
           </h2>
-          
+
           <div className="flex justify-center">
             <HoverSpring />
           </div>
