@@ -109,7 +109,7 @@ const Footer = () => {
             <li>
               <CustomLink
                 href="https://x.com/Shriyan_Y"
-                title="X"
+                title="Twitter"
                 target="_blank"
                 className="hover:text-gray-600 hover:dark:text-gray-400"
               />
