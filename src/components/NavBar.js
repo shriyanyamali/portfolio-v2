@@ -1,5 +1,5 @@
 import Link from "next/link";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Logo from "./Logo";
 import { useRouter } from "next/router";
 import {
@@ -10,8 +10,58 @@ import {
   SunIcon,
   MoonIcon,
 } from "./Icons";
-import { motion } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion";
 import useThemeSwitcher from "./hooks/useThemeSwitcher";
+
+// Animation variants
+const outerContainerVariants = {
+  hidden: { y: "-100%", opacity: 0 },
+  show: {
+    y: 0,
+    opacity: 1,
+    transition: {
+      duration: 0.5,
+      ease: "easeOut",
+    },
+  },
+  exit: {
+    y: "-120%",
+    opacity: 0,
+    transition: {
+      delay: 0.2,
+      duration: 0.2,
+      ease: "easeIn",
+    },
+  },
+};
+
+const textContainerVariants = {
+  hidden: { opacity: 0 },
+  show: {
+    opacity: 1,
+    transition: {
+      staggerChildren: 0.07,
+      delayChildren: 0.2,
+    },
+  },
+  exit: {
+    opacity: 0,
+    transition: {
+      staggerChildren: 0.05,
+      staggerDirection: -1,
+    },
+  },
+};
+
+const itemVariants = {
+  hidden: { opacity: 0, y: -10 },
+  show: { opacity: 1, y: 0 },
+  exit: {
+    opacity: 0,
+    y: -10,
+    transition: { duration: 0.2 },
+  },
+};
 
 const CustomLink = ({ href, title, className = "" }) => {
   const router = useRouter();
@@ -31,18 +81,21 @@ const CustomLink = ({ href, title, className = "" }) => {
   );
 };
 
-const CustomMobileLink = ({ href, title, className = "", toggle }) => {
+const CustomMobileLink = ({ href, title, className = "", toggle, target }) => {
   const router = useRouter();
 
   const handleClick = () => {
     toggle();
-    router.push(href);
+    if (target === "_blank") {
+      window.open(href, "_blank");
+    } else {
+      router.push(href);
+    }
   };
 
   return (
     <button
-      href={href}
-      className={`${className} relative group text-light dark:text-dark my-2`}
+      className={`${className} relative group text-dark dark:text-light my-2 text-3xl w-full text-left`}
       onClick={handleClick}
     >
       {title}
@@ -66,13 +119,26 @@ const NavBar = () => {
     setIsOpen(!isOpen);
   };
 
+  useEffect(() => {
+    if (isOpen) {
+      document.body.classList.add("overflow-hidden");
+    } else {
+      document.body.classList.remove("overflow-hidden");
+    }
+
+    return () => {
+      document.body.classList.remove("overflow-hidden");
+    };
+  }, [isOpen]);
+
   return (
     <header
       className="w-full px-32 py-8 font-medium flex items-center justify-between
-      dark:text-light relative z-50 lg:px-16 md:px-12 sm:px-8"
+      dark:text-light relative z-50 lg:px-16 md:px-12 sm:px-8 flex-row-reverse"
     >
+      {/* Hamburger button */}
       <button
-        className="flex-col justify-center items-center hidden lg:flex"
+        className="flex-col justify-center items-center hidden lg:flex z-50"
         onClick={handleClick}
       >
         <span
@@ -92,6 +158,7 @@ const NavBar = () => {
         ></span>
       </button>
 
+      {/* Desktop nav */}
       <div className="w-full flex justify-between items-center lg:hidden">
         <nav>
           <CustomLink href="/" title="Home" className="mr-4" />
@@ -109,7 +176,6 @@ const NavBar = () => {
           >
             <InstagramIcon />
           </motion.a>
-
           <motion.a
             href="https://x.com/Shriyan_Y"
             target={"_blank"}
@@ -119,7 +185,6 @@ const NavBar = () => {
           >
             <XIcon />
           </motion.a>
-
           <motion.a
             href="https://www.linkedin.com/in/shriyan-yamali/"
             target={"_blank"}
@@ -129,7 +194,6 @@ const NavBar = () => {
           >
             <LinkedInIcon />
           </motion.a>
-
           <motion.a
             href="https://github.com/ShriyanYamali"
             target={"_blank"}
@@ -155,97 +219,120 @@ const NavBar = () => {
         </nav>
       </div>
 
-      {isOpen ? (
-        <motion.div
-          initial={{ scale: 0, opacity: 0, x: "-50%", y: "-50%" }}
-          animate={{ scale: 1.2, opacity: 1 }}
-          className="w-[70vw] flex-col justify-between z-30 items-center fixed top-1/2 left-1/2 -translate-x-1/2
-          -translate-y-1/2 bg-dark/90 dark:bg-light/75 rounded-lg backdrop-blur-md p-16"
-        >
-          <nav className="flex items-center flex-col justify-center">
-            <CustomMobileLink
-              href="/"
-              title="Home"
-              className=""
-              toggle={handleClick}
-            />
-            <CustomMobileLink
-              href="/projects"
-              title="Projects"
-              className=""
-              toggle={handleClick}
-            />
-            <CustomMobileLink
-              href="/resume"
-              title="Resume"
-              className=""
-              toggle={handleClick}
-            />
-            <CustomMobileLink
-              href="/contact"
-              title="Contact"
-              className=""
-              toggle={handleClick}
-            />
-          </nav>
-          <nav className="flex items-center justify-center flex-wrap mt-2">
-            <motion.a
-              href="https://www.instagram.com/_shriyanyamali/"
-              target={"_blank"}
-              whileHover={{ y: -2 }}
-              whileTap={{ scale: 0.9 }}
-              className="w-6 mr-3 sm:mx-1"
+      <AnimatePresence mode="wait">
+        {isOpen && (
+          <motion.div
+            variants={outerContainerVariants}
+            initial="hidden"
+            animate="show"
+            exit="exit"
+            className="w-full h-screen flex-col justify-between z-30 items-center fixed top-0 left-0 
+            bg-light dark:bg-dark backdrop-blur-md p-16"
+          >
+            <motion.nav
+              variants={textContainerVariants}
+              initial="hidden"
+              animate="show"
+              exit="exit"
+              className="flex items-start flex-col justify-center space-y-2"
             >
-              <InstagramIcon />
-            </motion.a>
-
-            <motion.a
-              href="https://x.com/Shriyan_Y"
-              target={"_blank"}
-              whileHover={{ y: -2 }}
-              whileTap={{ scale: 0.9 }}
-              className="w-6 mx-3 sm:mx-1"
-            >
-              <XIcon />
-            </motion.a>
-
-            <motion.a
-              href="https://www.linkedin.com/in/shriyan-yamali/"
-              target={"_blank"}
-              whileHover={{ y: -2 }}
-              whileTap={{ scale: 0.9 }}
-              className="w-6 mx-3 sm:mx-1"
-            >
-              <LinkedInIcon />
-            </motion.a>
-
-            <motion.a
-              href="https://github.com/ShriyanYamali"
-              target={"_blank"}
-              whileHover={{ y: -2 }}
-              whileTap={{ scale: 0.9 }}
-              className="w-6 ml-3 bg-light dark:bg-dark rounded-full sm:mx-1"
-            >
-              <GithubIcon />
-            </motion.a>
-
-            <button
-              onClick={() => setMode(mode === "light" ? "dark" : "light")}
-              className={`ml-5 sm:mx-1 flex items-center justify-center rounded-full p-1 ${
-                mode === "light"
-                  ? "bg-dark text-light xs:mt-2"
-                  : "bg-light text-dark xs:mt-2"
-              }`}
-            >
-              {mode === "dark" ? (
-                <SunIcon className={"fill-dark"} />
-              ) : (
-                <MoonIcon className={"fill-dark"} />
-              )}
-            </button>
-          </nav>
-        </motion.div>
-      ) : null}
+              <motion.div variants={itemVariants}>
+                <CustomMobileLink
+                  href="/"
+                  title="Home"
+                  className=""
+                  toggle={handleClick}
+                />
+              </motion.div>
+              <motion.div variants={itemVariants}>
+                <CustomMobileLink
+                  href="/projects"
+                  title="Projects"
+                  className=""
+                  toggle={handleClick}
+                />
+              </motion.div>
+              <motion.div variants={itemVariants}>
+                <CustomMobileLink
+                  href="/resume"
+                  title="Resume"
+                  className=""
+                  toggle={handleClick}
+                />
+              </motion.div>
+              <motion.div variants={itemVariants}>
+                <CustomMobileLink
+                  href="/contact"
+                  title="Contact"
+                  className=""
+                  toggle={handleClick}
+                />
+              </motion.div>
+              <motion.div variants={itemVariants}>
+                <CustomMobileLink
+                  href="https://www.instagram.com/_shriyanyamali/"
+                  target="_blank"
+                  title="Instagram"
+                  className=""
+                  toggle={handleClick}
+                />
+              </motion.div>
+              <motion.div variants={itemVariants}>
+                <CustomMobileLink
+                  href="https://x.com/Shriyan_Y"
+                  target="_blank"
+                  title="Twitter"
+                  className=""
+                  toggle={handleClick}
+                />
+              </motion.div>
+              <motion.div variants={itemVariants}>
+                <CustomMobileLink
+                  href="https://www.linkedin.com/in/shriyan-yamali/"
+                  target="_blank"
+                  title="Linkedin"
+                  className=""
+                  toggle={handleClick}
+                />
+              </motion.div>
+              <motion.div variants={itemVariants}>
+                <CustomMobileLink
+                  href="https://github.com/ShriyanYamali"
+                  target="_blank"
+                  title="GitHub"
+                  className=""
+                  toggle={handleClick}
+                />
+              </motion.div>
+              <motion.div variants={itemVariants}>
+                <CustomMobileLink
+                  href="mailto:yamali.shriyan@gmail.com"
+                  target="_blank"
+                  title="Email"
+                  className=""
+                  toggle={handleClick}
+                />
+              </motion.div>
+              <motion.div variants={itemVariants}>
+                <motion.button
+                  onClick={() => setMode(mode === "light" ? "dark" : "light")}
+                  className={`!mt-12 ml-5 sm:mx-1 flex items-center justify-center rounded-full p-1 w-12 ${
+                    mode === "light"
+                      ? "bg-dark text-light xs:mt-2"
+                      : "bg-light text-dark xs:mt-2"
+                  }`}
+                >
+                  {mode === "dark" ? (
+                    <SunIcon className={"fill-dark"} />
+                  ) : (
+                    <MoonIcon className={"fill-dark"} />
+                  )}
+                </motion.button>
+              </motion.div>
+            </motion.nav>
+          </motion.div>
+        )}
+      </AnimatePresence>
 
       <div className="absolute left-[50%] top-5 translate-x-[-50%]">
         <Logo />
