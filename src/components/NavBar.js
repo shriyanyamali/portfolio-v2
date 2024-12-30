@@ -227,7 +227,7 @@ const NavBar = () => {
             animate="show"
             exit="exit"
             className="w-full h-screen flex-col justify-between z-30 items-center fixed top-0 left-0 
-            bg-light dark:bg-dark backdrop-blur-md p-16"
+            bg-light dark:bg-dark backdrop-blur-md p-16 !pt-10"
           >
             <motion.nav
               variants={textContainerVariants}
