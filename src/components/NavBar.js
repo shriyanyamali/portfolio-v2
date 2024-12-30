@@ -316,7 +316,7 @@ const NavBar = () => {
               <motion.div variants={itemVariants}>
                 <motion.button
                   onClick={() => setMode(mode === "light" ? "dark" : "light")}
-                  className={`!mt-12 ml-5 sm:mx-1 flex items-center justify-center rounded-full p-1 w-12 ${
+                  className={`ml-5 sm:mx-1 flex items-center justify-center rounded-full p-1 w-12 ${
                     mode === "light"
                       ? "bg-dark text-light xs:mt-2"
                       : "bg-light text-dark xs:mt-2"
