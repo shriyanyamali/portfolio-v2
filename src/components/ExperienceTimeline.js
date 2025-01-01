@@ -209,7 +209,7 @@ const ExperienceTimeline = () => {
               </svg>
             </span>
             <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white mg:text-base sm:!text-sm">
-              Competing Member &nbsp;
+              Competitor &amp; Officer &nbsp;
               <div className="text-primary dark:text-primaryDark sm:ml-3">
                 @Business Professionals of America{" "}
               </div>
@@ -221,9 +221,7 @@ const ExperienceTimeline = () => {
               Sept 2023 — Present | Newark, Delaware
             </time>
             <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-300">
-              Participating in the state and national competitions for Business
-              Professionals of America. Qualified for the national competition
-              out of more than 3,000 other competitors from Delaware .
+              Competing at the state and national level. Helping run club meetings with over 50 members.
             </p>
             <div className="mt-4 w-full grid gap-8 items-start justify-start">
               <div className="relative group">
