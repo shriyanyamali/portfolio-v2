@@ -221,7 +221,7 @@ const ExperienceTimeline = () => {
               Sept 2023 — Present | Newark, Delaware
             </time>
             <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-300">
-              Competing at the state and national level. Helping run club meetings with over 50 members.
+              Competing at the state and national level. Helping run club meetings with over 50 members and organizing fundraisers.
             </p>
             <div className="mt-4 w-full grid gap-8 items-start justify-start">
               <div className="relative group">
