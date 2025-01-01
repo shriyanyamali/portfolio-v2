@@ -95,20 +95,19 @@ const VolunteeringTimeline = () => {
               </svg>
             </span>
             <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white mg:text-base sm:!text-sm">
-              Lead Volunteer &nbsp;
+              Volunteer &nbsp;
               <div className="text-primary dark:text-primaryDark sm:ml-3">
-                @Shirdi Sai of Delaware{" "}
+                @Food Bank of Delaware{" "}
               </div>
               <span className="bg-blue-800 text-blue-100 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-300 dark:text-blue-900 ms-3 lg:hidden">
                 On-Site
               </span>
             </h3>
             <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-              June 2018 — Aug 2023 | Newark, Delaware
+              Jan 2019 — Oct 2022 | Newark, Delaware
             </time>
             <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-300">
-              Worked to coordinate religious gatherings for over 500 people;
-              200+ hours of volunteering.
+              Helped package and distribute food; 60+ hours of volunteering.
             </p>
           </li>
         </motion.div>
@@ -131,19 +130,20 @@ const VolunteeringTimeline = () => {
               </svg>
             </span>
             <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white mg:text-base sm:!text-sm">
-              Volunteer &nbsp;
+              Lead Volunteer &nbsp;
               <div className="text-primary dark:text-primaryDark sm:ml-3">
-                @Food Bank of Delaware{" "}
+                @Shirdi Sai of Delaware{" "}
               </div>
               <span className="bg-blue-800 text-blue-100 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-300 dark:text-blue-900 ms-3 lg:hidden">
                 On-Site
               </span>
             </h3>
             <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-              Jan 2019 — Oct 2022 | Newark, Delaware
+              June 2018 — Aug 2023 | Newark, Delaware
             </time>
             <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-300">
-              Helped package and distribute food; 60+ hours of volunteering.
+              Worked to coordinate religious gatherings for over 500 people;
+              200+ hours of volunteering.
             </p>
           </li>
         </motion.div>
