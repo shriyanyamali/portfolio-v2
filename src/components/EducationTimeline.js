@@ -28,7 +28,7 @@ const EducationTimeline = () => {
               </span>
                 </h3>
                 <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-                September 2023 - May 2027 | Newark, Delaware
+                September 2023 — May 2027 | Newark, Delaware
                 </time>
                 <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-300">
                 Member of Mock Trial, Asian Student Union, Student Council, Math League. Violinist and athlete of 6 years.</p>

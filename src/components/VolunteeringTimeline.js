@@ -104,7 +104,7 @@ const VolunteeringTimeline = () => {
               </span>
             </h3>
             <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-              Jan 2019 — Oct 2022 | Newark, Delaware
+              January 2019 — October 2022 | Newark, Delaware
             </time>
             <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-300">
               Helped package and distribute food; 60+ hours of volunteering.
@@ -139,7 +139,7 @@ const VolunteeringTimeline = () => {
               </span>
             </h3>
             <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-              June 2018 — Aug 2023 | Newark, Delaware
+              June 2018 — August 2023 | Newark, Delaware
             </time>
             <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-300">
               Worked to coordinate religious gatherings for over 500 people;
