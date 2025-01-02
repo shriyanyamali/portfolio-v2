@@ -41,7 +41,7 @@ const textContainerVariants = {
     opacity: 1,
     transition: {
       staggerChildren: 0.07,
-      delayChildren: 0.2,
+      delayChildren: 0.4,
     },
   },
   exit: {
@@ -273,7 +273,7 @@ const NavBar = () => {
                   href="https://www.instagram.com/_shriyanyamali/"
                   target="_blank"
                   title="Instagram"
-                  className=""
+                  className="text-cyan-600 dark:text-fuchsia-400"
                   toggle={handleClick}
                 />
               </motion.div>
@@ -282,7 +282,7 @@ const NavBar = () => {
                   href="https://x.com/Shriyan_Y"
                   target="_blank"
                   title="Twitter"
-                  className=""
+                  className="text-cyan-600 dark:text-fuchsia-400"
                   toggle={handleClick}
                 />
               </motion.div>
@@ -291,7 +291,7 @@ const NavBar = () => {
                   href="https://www.linkedin.com/in/shriyan-yamali/"
                   target="_blank"
                   title="Linkedin"
-                  className=""
+                  className="text-cyan-600 dark:text-fuchsia-400"
                   toggle={handleClick}
                 />
               </motion.div>
@@ -300,7 +300,7 @@ const NavBar = () => {
                   href="https://github.com/ShriyanYamali"
                   target="_blank"
                   title="GitHub"
-                  className=""
+                  className="text-cyan-600 dark:text-fuchsia-400"
                   toggle={handleClick}
                 />
               </motion.div>
@@ -309,7 +309,7 @@ const NavBar = () => {
                   href="mailto:yamali.shriyan@gmail.com"
                   target="_blank"
                   title="Email"
-                  className=""
+                  className="text-cyan-600 dark:text-fuchsia-400"
                   toggle={handleClick}
                 />
               </motion.div>
