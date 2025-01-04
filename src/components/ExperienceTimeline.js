@@ -218,7 +218,7 @@ const ExperienceTimeline = () => {
               </span>
             </h3>
             <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-              September 2023 — Present | Newark, Delaware
+              September 2023 — Present | Dover, Delaware
             </time>
             <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-300">
               Competing at the state and national level. Helping run club meetings with over 50 members and organizing fundraisers.
