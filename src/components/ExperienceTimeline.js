@@ -73,11 +73,11 @@ const ExperienceTimeline = () => {
               </span>
             </h3>
             <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-              July 2024 — Present | Hanover, New Hampshire
+              July 2024 — January 2025 | Hanover, New Hampshire
             </time>
             <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-300">
-              Editor for research papers about bias in large language models and
-              its associated complications.
+              Edited research papers about bias in large language models and its
+              associated complications.
             </p>
           </li>
         </motion.div>
@@ -100,7 +100,7 @@ const ExperienceTimeline = () => {
               </svg>
             </span>
             <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white mg:text-base sm:!text-sm">
-              Programming Intern&nbsp;
+              Summer Intern&nbsp;
               <div className="text-primary dark:text-primaryDark sm:ml-3">
                 @University of Pennsylvania Carey Law School
               </div>
@@ -137,7 +137,7 @@ const ExperienceTimeline = () => {
               </svg>
             </span>
             <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white mg:text-base sm:!text-sm">
-              Legal Intern &nbsp;
+              Programming Intern &nbsp;
               <div className="text-primary dark:text-primaryDark sm:ml-3">
                 @Stanford Law School{" "}
               </div>
@@ -221,7 +221,8 @@ const ExperienceTimeline = () => {
               September 2023 — Present | Dover, Delaware
             </time>
             <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-300">
-              Competing at the state and national level. Helping run club meetings with over 50 members and organizing fundraisers.
+              Competing at the state and national level. Helping run club
+              meetings with over 50 members and organizing fundraisers.
             </p>
             <div className="mt-4 w-full grid gap-8 items-start justify-start">
               <div className="relative group">
@@ -289,7 +290,6 @@ const ExperienceTimeline = () => {
                   </ul>
                 </div>
               </motion.div>
-              
             )}
           </li>
         </motion.div>
