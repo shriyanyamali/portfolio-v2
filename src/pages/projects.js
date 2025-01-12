@@ -26,7 +26,7 @@ const projects = () => {
           <AnimatedText
             text="Projects"
             className="mb-4
-            lg:!text-6xl md:!text-5xl sm:mb-2 sm:!text-4xl xs:!text-2xl"
+            lg:!text-7xl sm:!text-6xl xs:!text-4xl w-11/12 pb-12"
           />
 
           {/* Container for the 3D cards with responsive grid layout */}
