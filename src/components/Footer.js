@@ -132,7 +132,7 @@ const Footer = () => {
             </li>
             <li>
               <CustomLink
-                href="mailto:yamali.shriyan@gmail.com"
+                href="mailto:yamalishriyan@gmail.com"
                 title="Email"
                 target="_blank"
                 className="hover:text-gray-600 hover:dark:text-gray-400"

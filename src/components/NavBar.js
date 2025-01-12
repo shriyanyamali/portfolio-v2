@@ -306,7 +306,7 @@ const NavBar = () => {
               </motion.div>
               <motion.div variants={itemVariants}>
                 <CustomMobileLink
-                  href="mailto:yamali.shriyan@gmail.com"
+                  href="mailto:yamalishriyan@gmail.com"
                   target="_blank"
                   title="Email"
                   className="!text-cyan-600 dark:!text-fuchsia-400"

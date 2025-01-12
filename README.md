@@ -4,7 +4,7 @@
 
 ###### Check out my website at <a href="https://shriyanyamali.tech/">https://shriyanyamali.tech/</a>
 
-###### Contact me at <a  href="mailto:yamali.shriyan@gmail.com">yamali.shriyan@gmail.com</a>
+###### Contact me at <a  href="mailto:yamalishriyan@gmail.com">yamalishriyan@gmail.com</a>
 
 ###### Built using Next.js and Tailwind CSS.
 

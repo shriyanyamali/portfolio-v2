@@ -60,11 +60,11 @@ const Contact = () => {
                 <div className="flex items-center space-x-2">
                   <span className="text-xl cursor-default">✉️</span>
                   <a
-                    href="mailto:yamali.shriyan@gmail.com"
+                    href="mailto:yamalishriyan@gmail.com"
                     target="_blank"
                     className="transition-all duration-300 hover:scale-105"
                   >
-                    yamali.shriyan@gmail.com
+                    yamalishriyan@gmail.com
                   </a>
                 </div>
               </div>
