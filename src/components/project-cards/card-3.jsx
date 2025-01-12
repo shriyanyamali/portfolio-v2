@@ -21,8 +21,8 @@ export function ThreeDCardThree() {
           className="text-neutral-500 text-sm min-h-[4rem] max-w-sm mt-2 dark:text-neutral-300"
         >
           An ongoing archival project that aims to digitalize over 10&#44;000
-          documents — many of which are very important — that could otherwise be
-          lost.
+          documents, including Delaware Supreme court cases, that could
+          otherwise be lost.
         </CardItem>
         <CardItem translateZ="100" className="w-full mt-4">
           <Image
