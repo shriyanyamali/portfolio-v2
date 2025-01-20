@@ -145,21 +145,21 @@ const NavBar = () => {
           className={`block h-0.5 w-6 rounded-sm mt-6 transition-transform duration-300 ease-out ${
             isOpen
               ? "bg-light dark:bg-dark rotate-45 translate-y-1"
-              : "delay-500 bg-dark dark:bg-light -translate-y-0.5"
+              : "bg-dark dark:bg-light -translate-y-0.5"
           }`}
         ></span>
         <span
           className={`block h-0.5 w-6 rounded-sm my-0.5 transition-opacity duration-300 ${
             isOpen
               ? "bg-light dark:bg-dark opacity-0"
-              : "delay-500 bg-dark dark:bg-light opacity-100"
+              : "bg-dark dark:bg-light opacity-100"
           }`}
         ></span>
         <span
           className={`block h-0.5 w-6 rounded-sm transition-transform duration-300 ease-out ${
             isOpen
               ? "bg-light dark:bg-dark -rotate-45 -translate-y-1"
-              : "delay-500 bg-dark dark:bg-light translate-y-0.5"
+              : "bg-dark dark:bg-light translate-y-0.5"
           }`}
         ></span>
       </button>
