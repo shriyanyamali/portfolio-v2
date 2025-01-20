@@ -26,10 +26,10 @@ const outerContainerVariants = {
   },
   exit: {
     y: "-120%",
-    opacity: 0,
+    opacity: 1,
     transition: {
       delay: 0.2,
-      duration: 0.6,
+      duration: 0.5,
       ease: "easeIn",
     },
   },
@@ -142,18 +142,24 @@ const NavBar = () => {
         onClick={handleClick}
       >
         <span
-          className={`bg-dark dark:bg-light block duration-300 ease-out h-0.5 w-6 rounded-sm mt-6 ${
-            isOpen ? "rotate-45 translate-y-1" : "-translate-y-0.5"
+          className={`block h-0.5 w-6 rounded-sm mt-6 transition-transform duration-300 ease-out ${
+            isOpen
+              ? "bg-light dark:bg-dark rotate-45 translate-y-1"
+              : "delay-500 bg-dark dark:bg-light -translate-y-0.5"
           }`}
         ></span>
         <span
-          className={`bg-dark dark:bg-light block duration-300 ease-out h-0.5 w-6 rounded-sm  my-0.5 ${
-            isOpen ? "opacity-0" : "opacity-100"
-          } `}
+          className={`block h-0.5 w-6 rounded-sm my-0.5 transition-opacity duration-300 ${
+            isOpen
+              ? "bg-light dark:bg-dark opacity-0"
+              : "delay-500 bg-dark dark:bg-light opacity-100"
+          }`}
         ></span>
         <span
-          className={`bg-dark dark:bg-light block duration-300 ease-out h-0.5 w-6 rounded-sm  ${
-            isOpen ? "-rotate-45 -translate-y-1" : "translate-y-0.5"
+          className={`block h-0.5 w-6 rounded-sm transition-transform duration-300 ease-out ${
+            isOpen
+              ? "bg-light dark:bg-dark -rotate-45 -translate-y-1"
+              : "delay-500 bg-dark dark:bg-light translate-y-0.5"
           }`}
         ></span>
       </button>
@@ -227,7 +233,7 @@ const NavBar = () => {
             animate="show"
             exit="exit"
             className="w-full h-screen flex-col justify-between z-30 items-center fixed top-0 left-0 
-            bg-light dark:bg-dark backdrop-blur-md p-16 !pt-10"
+            bg-dark dark:bg-light p-16 !pt-10"
           >
             <motion.nav
               variants={textContainerVariants}
@@ -240,7 +246,7 @@ const NavBar = () => {
                 <CustomMobileLink
                   href="/"
                   title="Home"
-                  className=""
+                  className="!text-light dark:!text-dark"
                   toggle={handleClick}
                 />
               </motion.div>
@@ -248,7 +254,7 @@ const NavBar = () => {
                 <CustomMobileLink
                   href="/projects"
                   title="Projects"
-                  className=""
+                  className="!text-light dark:!text-dark"
                   toggle={handleClick}
                 />
               </motion.div>
@@ -256,7 +262,7 @@ const NavBar = () => {
                 <CustomMobileLink
                   href="/resume"
                   title="Resume"
-                  className=""
+                  className="!text-light dark:!text-dark"
                   toggle={handleClick}
                 />
               </motion.div>
@@ -264,7 +270,7 @@ const NavBar = () => {
                 <CustomMobileLink
                   href="/contact"
                   title="Contact"
-                  className=""
+                  className="!text-light dark:!text-dark"
                   toggle={handleClick}
                 />
               </motion.div>
@@ -273,7 +279,7 @@ const NavBar = () => {
                   href="https://www.instagram.com/_shriyanyamali/"
                   target="_blank"
                   title="Instagram"
-                  className="!text-cyan-600 dark:!text-fuchsia-400"
+                  className="!text-fuchsia-400 dark:!text-cyan-600"
                   toggle={handleClick}
                 />
               </motion.div>
@@ -282,7 +288,7 @@ const NavBar = () => {
                   href="https://x.com/Shriyan_Y"
                   target="_blank"
                   title="Twitter"
-                  className="!text-cyan-600 dark:!text-fuchsia-400"
+                  className="!text-fuchsia-400 dark:!text-cyan-600"
                   toggle={handleClick}
                 />
               </motion.div>
@@ -291,7 +297,7 @@ const NavBar = () => {
                   href="https://www.linkedin.com/in/shriyan-yamali/"
                   target="_blank"
                   title="Linkedin"
-                  className="!text-cyan-600 dark:!text-fuchsia-400"
+                  className="!text-fuchsia-400 dark:!text-cyan-600"
                   toggle={handleClick}
                 />
               </motion.div>
@@ -300,7 +306,7 @@ const NavBar = () => {
                   href="https://github.com/ShriyanYamali"
                   target="_blank"
                   title="GitHub"
-                  className="!text-cyan-600 dark:!text-fuchsia-400"
+                  className="!text-fuchsia-400 dark:!text-cyan-600"
                   toggle={handleClick}
                 />
               </motion.div>
@@ -309,7 +315,7 @@ const NavBar = () => {
                   href="mailto:yamalishriyan@gmail.com"
                   target="_blank"
                   title="Email"
-                  className="!text-cyan-600 dark:!text-fuchsia-400"
+                  className="!text-fuchsia-400 dark:!text-cyan-600"
                   toggle={handleClick}
                 />
               </motion.div>
