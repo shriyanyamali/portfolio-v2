@@ -49,7 +49,7 @@ const Footer = () => {
   return (
     <footer className="relative w-full border-t-2 border-solid border-light dark:border-dark font-medium text-lg bg-slate-300 dark:bg-gray-800 text-black dark:text-white">
       <div className="max-w-screen-xl mx-auto py-12 grid grid-cols-4 gap-8 text-center lg:grid-cols-1 lg:flex lg:flex-col">
-        <div className="col-span-2 flex flex-col lg:items-center items-start text-left txl:ml-12 lg:!mr-9">
+        <div className="col-span-2 flex flex-col lg:items-center items-start text-left txl:ml-12 lg:!ml-0">
           <h1 className="text-glow text-8xl txl:text-7xl font-bold mb-6 lg:!text-3xl">
             SHRIYAN
             <br className="lg:hidden" />
