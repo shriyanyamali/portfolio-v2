@@ -34,7 +34,7 @@ const Footer = () => {
   };
 
   const toggleVisibility = () => {
-    if (window.scrollY > 15) {
+    if (window.scrollY > 75) {
       setIsVisible(true);
     } else {
       setIsVisible(false);
