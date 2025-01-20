@@ -20,7 +20,7 @@ const outerContainerVariants = {
     y: 0,
     opacity: 1,
     transition: {
-      duration: 0.5,
+      duration: 0.4,
       ease: "easeOut",
     },
   },
@@ -29,7 +29,7 @@ const outerContainerVariants = {
     opacity: 1,
     transition: {
       delay: 0.2,
-      duration: 0.5,
+      duration: 0.4,
       ease: "easeIn",
     },
   },
@@ -40,8 +40,8 @@ const textContainerVariants = {
   show: {
     opacity: 1,
     transition: {
-      staggerChildren: 0.07,
-      delayChildren: 0.4,
+      staggerChildren: 0.03,
+      delayChildren: 0.2,
     },
   },
   exit: {
@@ -91,6 +91,10 @@ const CustomMobileLink = ({ href, title, className = "", toggle, target }) => {
     } else {
       router.push(href);
     }
+
+    setTimeout(() => {
+      toggle();
+    }, 100);
   };
 
   return (
