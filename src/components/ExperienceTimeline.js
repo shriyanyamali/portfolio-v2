@@ -38,10 +38,10 @@ const ExperienceTimeline = () => {
               </span>
             </h3>
             <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-              September 2024 — Present | Newark, Delaware
+              September 2024 — January 2025 | Newark, Delaware
             </time>
             <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-300">
-              Building a frontend web interface for a large language model.
+              Built a frontend web interface for a large language model.
             </p>
           </li>
         </motion.div>
