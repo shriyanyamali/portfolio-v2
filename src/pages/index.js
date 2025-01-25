@@ -18,6 +18,7 @@ import { FlipWordsDemo } from "@/components/demo/demo-flip-words";
 import { CanvasRevealEffectDemo } from "@/components/demo/demo-canvas-reveal-effect";
 import { TextRevealCardPreview } from "@/components/demo/demo-text-reveal-card";
 import { CardHoverEffectDemo } from "@/components/demo/demo-hover-effect";
+import { MeteorsDemo5 } from "@/components/skills-meteor-cards/meteors-5";
 
 const AnimatedNumbers = ({ value }) => {
   const ref = useRef(null);
@@ -207,12 +208,16 @@ export default function Home() {
           </h2>
           <div className="mt-16 grid grid-cols-2 lg:grid-cols-1 justify-items-center items-center">
             <MeteorsDemo1 />
-            <MeteorsDemo2 />
+            <MeteorsDemo5 />
           </div>
 
           <div className="my-48 lg:mt-0 grid grid-cols-2 lg:grid-cols-1 justify-items-center items-center">
             <MeteorsDemo3 />
             <MeteorsDemo4 />
+          </div>
+
+          <div className="my-48 lg:mt-0 grid grid-cols-1 justify-items-center items-center">
+           <MeteorsDemo2 />
           </div>
         </Layout>
       </main>
