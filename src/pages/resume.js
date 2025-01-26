@@ -62,7 +62,7 @@ const resume = () => {
               lg:p-4 lg:px-3 lg:text-sm lg:mt-4
               "
             >
-              View CV
+              Resume
               <LinkArrow className={"ml-2 sm:ml-1"} style={{ width: "2rem" }} />
             </Link>
 
