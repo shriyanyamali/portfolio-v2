@@ -38,10 +38,13 @@ const ExperienceTimeline = () => {
               </span>
             </h3>
             <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-              September 2024 — January 2025 | Newark, Delaware
+              Sept 2024 — Jan 2025 | Newark, Delaware
             </time>
             <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-300">
-              Built a frontend web interface for a large language model.
+                Developed a frontend web interface for a framework that
+                leverages LLMs to analyze and optimize high-performance
+                computing by structuring application-generated data logs.
+                (React)
             </p>
           </li>
         </motion.div>
@@ -73,11 +76,13 @@ const ExperienceTimeline = () => {
               </span>
             </h3>
             <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-              July 2024 — January 2025 | Hanover, New Hampshire
+              July 2024 — Jan 2025 | Hanover, New Hampshire
             </time>
             <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-300">
-              Edited research papers about bias in large language models and its
-              associated complications.
+                Edited research papers about biases in LLMs, focusing on
+                systematic deviations such as position bias in pairwise
+                comparative assessments and their implications for the fairness
+                of automated judgment systems.
             </p>
           </li>
         </motion.div>
@@ -109,12 +114,18 @@ const ExperienceTimeline = () => {
               </span>
             </h3>
             <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-              July 2024 — August 2024 | Philadelphia, Pennsylvania
+              July 2024 — Aug 2024 | Philadelphia, Pennsylvania
             </time>
             <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-300">
-              Developed LexFlow, a program that creates diagrams based on the
-              relative weight and importance of legal principles and the effect
-              of the principles on an act type.
+                Developed LexFlow, an algorithmic model for legal decision
+                analysis that generates diagrams based on the relative weight
+                and importance of legal principles and their effect on an act
+                type. (Matplotlib, NumPy)
+              <div className="mt-2">
+                Created an algorithm to calculate the vector placements for a
+                weighted proportions chart. Sold the program and algorithm for
+                $150.
+              </div>
             </p>
           </li>
         </motion.div>
@@ -149,8 +160,15 @@ const ExperienceTimeline = () => {
               June 2024 — Present | Stanford, California
             </time>
             <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-300">
-              Developing Verdictr—a database of thousands of market decisions
-              from over 6000 antitrust cases—using JavaScript and Python.
+                Developing Verdictr, a database aggregating market decisions
+                from over 6000 antitrust cases, saving over 100 hours of work
+                per 10 cases. (Next.js, Tailwind CSS, Pandas, PyPDF2,
+                JavaScript, Excel)
+              <div className="mt-2">
+                Designed an automated data extraction algorithm to scrape and
+                parse EU competition case decisions before analyzing the cases
+                using LLMs. Utilized regex for pattern-based searching.
+              </div>
             </p>
           </li>
         </motion.div>
@@ -182,11 +200,12 @@ const ExperienceTimeline = () => {
               </span>
             </h3>
             <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-              June 2024 — Present | Wilmington, Delaware
+              June 2024 — Feb 2025  | Wilmington, Delaware
             </time>
             <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-300">
-              Researching the legal, ethical, economic, and political effects of
-              enhanced interrogation at Guantanamo Bay.
+                Conducted in-depth research on the ethical, religious, legal,
+                and political implications of enhanced interrogation techniques
+                at Guantanamo Bay.
             </p>
           </li>
         </motion.div>
@@ -218,11 +237,11 @@ const ExperienceTimeline = () => {
               </span>
             </h3>
             <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-              September 2023 — Present | Dover, Delaware
+              Sept 2023 — Present | Dover, Delaware
             </time>
             <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-300">
-              Competing at the state and national level. Helping run club
-              meetings with over 50 members and organizing fundraisers.
+                Competing at the state and national level. Helping run club
+                meetings with over 50 members and organizing fundraisers.
             </p>
             <div className="mt-4 w-full grid gap-8 items-start justify-start">
               <div className="relative group">
@@ -265,7 +284,7 @@ const ExperienceTimeline = () => {
                 transition={{ duration: 0.5, type: "spring" }}
               >
                 <div className="mt-8">
-                  <div className="text-gray-500 dark:text-gray-300 mb-3">
+                  <div className="font-bold text-gray-500 dark:text-gray-300 mb-3">
                     2024 National Leadership Conference:
                   </div>
 
@@ -278,7 +297,7 @@ const ExperienceTimeline = () => {
                     <li>Top 10 in Parliamentary Procedure Concepts</li>
                   </ul>
 
-                  <div className="text-gray-500 dark:text-gray-300 my-3">
+                  <div className="font-bold text-gray-500 dark:text-gray-300 my-3">
                     2024 State Leadership Conference:
                   </div>
 
