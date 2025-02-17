@@ -206,17 +206,17 @@ export default function Home() {
           <h2 className="font-bold text-6xl sm:text-3xl md:text-4xl lg:text-5xl mt-36 md:mt-32 w-full text-center">
             Awards
           </h2>
-          <div className="mt-16 grid grid-cols-2 lg:grid-cols-1 justify-items-center items-center">
+          <div className="mt-16 my-24 lg:my-0 grid grid-cols-2 lg:grid-cols-1 justify-items-center items-center">
             <MeteorsDemo1 />
             <MeteorsDemo5 />
           </div>
 
-          <div className="my-48 lg:my-0 mt-4 grid grid-cols-2 lg:grid-cols-1 justify-items-center items-center">
+          <div className="my-24 lg:my-0 mt-4 grid grid-cols-2 lg:grid-cols-1 justify-items-center items-center">
             <MeteorsDemo3 />
             <MeteorsDemo4 />
           </div>
 
-          <div className="my-48 lg:my-0 grid grid-cols-1 justify-items-center items-center">
+          <div className="xtl:my-0 grid grid-cols-1 justify-items-center items-center">
            <MeteorsDemo2 />
           </div>
         </Layout>
