@@ -211,12 +211,12 @@ export default function Home() {
             <MeteorsDemo5 />
           </div>
 
-          <div className="my-48 lg:mt-0 grid grid-cols-2 lg:grid-cols-1 justify-items-center items-center">
+          <div className="my-48 lg:my-0 mt-4 grid grid-cols-2 lg:grid-cols-1 justify-items-center items-center">
             <MeteorsDemo3 />
             <MeteorsDemo4 />
           </div>
 
-          <div className="my-48 lg:mt-0 grid grid-cols-1 justify-items-center items-center">
+          <div className="my-48 lg:my-0 grid grid-cols-1 justify-items-center items-center">
            <MeteorsDemo2 />
           </div>
         </Layout>
