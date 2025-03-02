@@ -284,7 +284,20 @@ const ExperienceTimeline = () => {
                 transition={{ duration: 0.5, type: "spring" }}
               >
                 <div className="mt-8">
-                  <div className="font-bold text-gray-500 dark:text-gray-300 mb-3">
+                <div className="font-bold text-gray-500 dark:text-gray-300 my-3">
+                    2025 State Leadership Conference:
+                  </div>
+
+                  <ul className="list-disc list-inside pl-5 text-gray-500 dark:text-gray-300">
+                    <li>1st place in Administrative Support Concepts</li>
+                    <li>
+                      1st place in Project Management Concepts
+                    </li>
+                    <li>2nd place in Legal Office Procedures</li>
+                    <li>2nd place in Financial Analyst Team</li>
+                  </ul>
+
+                  <div className="font-bold text-gray-500 dark:text-gray-300 my-3">
                     2024 National Leadership Conference:
                   </div>
 
