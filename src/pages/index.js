@@ -190,7 +190,7 @@ export default function Home() {
             <CardHoverEffectDemo />  */}
           </div>
 
-          <h2 className="font-bold text-6xl sm:text-3xl md:text-4xl lg:text-5xl mt-36 md:mt-32 w-full text-center">
+          <h2 className="font-bold text-6xl sm:text-3xl md:text-4xl lg:text-5xl mt-36 mb-16 md:mt-32 w-full text-center">
             Skills
           </h2>
 
@@ -198,12 +198,12 @@ export default function Home() {
             <HoverSpring />
           </div>
 
-          <h2 className="font-bold text-6xl sm:text-3xl md:text-4xl lg:text-5xl mt-36 md:mt-32 w-full text-center">
+          <h2 className="font-bold text-6xl sm:text-3xl md:text-4xl lg:text-5xl mt-36 mb-16 md:mt-32 w-full text-center">
             Tech Stack
           </h2>
           <TechStack />
 
-          <h2 className="font-bold text-6xl sm:text-3xl md:text-4xl lg:text-5xl mt-36 md:mt-32 w-full text-center">
+          <h2 className="font-bold text-6xl sm:text-3xl md:text-4xl lg:text-5xl mt-36 mb-16 md:mt-32 w-full text-center">
             Awards
           </h2>
           <div className="mt-16 my-24 lg:my-0 grid grid-cols-2 lg:grid-cols-1 justify-items-center items-center">
