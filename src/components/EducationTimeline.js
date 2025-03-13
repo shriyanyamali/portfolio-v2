@@ -36,10 +36,10 @@ const EducationTimeline = () => {
             </time>
 
             <p className="text-gray-500 dark:text-gray-300">
-                <strong>Extracurricular Activities & Leadership:</strong>{" "}
-                Business Professionals of America Chapter Officer, Student
-                Council President, Mock Trial, Technology Student Association,
-                Computer Science Honor Society, Volleyball.
+              <strong>Extracurricular Activities & Leadership:</strong> 
+              Computer Science Honor Society President, Student Council President,
+              Business Professionals of America Chapter Officer, Technology
+              Student Association, Mock Trial, Varsity Volleyball.
               <div className="mt-2">
                 <strong>GPA:</strong> 4.0/4.0
               </div>
