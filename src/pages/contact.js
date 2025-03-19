@@ -42,7 +42,7 @@ const Contact = () => {
                   <a
                     href="https://newarkde.gov/"
                     target="_blank"
-                    className="transition-all duration-300 hover:scale-105"
+                    className="xs:text-[0.8rem] transition-all duration-300 hover:scale-105"
                   >
                     Newark, Delaware
                   </a>
@@ -52,7 +52,7 @@ const Contact = () => {
                   <a
                     href="https://newarkcharterschool.org/"
                     target="_blank"
-                    className="transition-all duration-300 hover:scale-105"
+                    className="xs:text-[0.8rem] transition-all duration-300 hover:scale-105"
                   >
                     Newark Charter School
                   </a>
@@ -62,9 +62,9 @@ const Contact = () => {
                   <a
                     href="mailto:yamalishriyan@gmail.com"
                     target="_blank"
-                    className="transition-all duration-300 hover:scale-105"
+                    className="xs:text-[0.8rem] transition-all duration-300 hover:scale-105"
                   >
-                    yamalishriyan@gmail.com
+                    yamalishriyan[at]gmail[dot]com
                   </a>
                 </div>
               </div>
