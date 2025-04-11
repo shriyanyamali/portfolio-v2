@@ -130,7 +130,7 @@ const VolunteeringTimeline = () => {
               </svg>
             </span>
             <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white mg:text-base sm:!text-sm">
-              Lead Volunteer &nbsp;
+              Volunteer &nbsp;
               <div className="text-primary dark:text-primaryDark sm:ml-3">
                 @Shirdi Sai of Delaware{" "}
               </div>
