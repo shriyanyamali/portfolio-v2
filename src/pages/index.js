@@ -6,10 +6,10 @@ import Link from "next/link";
 import HoverSpring from "@/components/demo/demo-features-hover-spring";
 import React, { useRef, useEffect } from "react";
 import { useInView, useMotionValue, useSpring } from "framer-motion";
-import { MeteorsDemo1 } from "@/components/skills-meteor-cards/meteors-1";
-import { MeteorsDemo2 } from "@/components/skills-meteor-cards/meteors-2";
-import { MeteorsDemo3 } from "@/components/skills-meteor-cards/meteors-3";
-import { MeteorsDemo4 } from "@/components/skills-meteor-cards/meteors-4";
+import { MeteorsDemo1 } from "@/components/awards-meteor-cards/meteors-1";
+import { MeteorsDemo2 } from "@/components/awards-meteor-cards/meteors-2";
+import { MeteorsDemo3 } from "@/components/awards-meteor-cards/meteors-3";
+import { MeteorsDemo4 } from "@/components/awards-meteor-cards/meteors-4";
 import { SparklesTextDemo } from "@/components/demo/demo-sparkles-text";
 import WordRotateDemo from "@/components/demo/demo-word-rotate";
 import TechStack from "@/components/TechStack";
@@ -18,7 +18,8 @@ import { FlipWordsDemo } from "@/components/demo/demo-flip-words";
 import { CanvasRevealEffectDemo } from "@/components/demo/demo-canvas-reveal-effect";
 import { TextRevealCardPreview } from "@/components/demo/demo-text-reveal-card";
 import { CardHoverEffectDemo } from "@/components/demo/demo-hover-effect";
-import { MeteorsDemo5 } from "@/components/skills-meteor-cards/meteors-5";
+import { MeteorsDemo5 } from "@/components/awards-meteor-cards/meteors-5";
+import { MeteorsDemo6 } from "@/components/awards-meteor-cards/meteors-6";
 
 const AnimatedNumbers = ({ value }) => {
   const ref = useRef(null);
@@ -95,9 +96,8 @@ export default function Home() {
               </div>
 
               <p className="my-4 text-base font-medium md:text-sm sm:text-xs w-full lg:w-3/4 mx-auto">
-                I&rsquo;m Shriyan Yamali, a full-stack developer with a
-                specialization in Python and AI and an interest in law,
-                horology, gardening, cooking, and politics.
+                I&rsquo;m Shriyan Yamali, a student with a
+                an interest in law and computer science.
               </p>
 
               {/* Desktop Projects Button*/}
@@ -207,18 +207,18 @@ export default function Home() {
             Awards
           </h2>
           <div className="mt-16 my-24 lg:my-0 grid grid-cols-2 lg:grid-cols-1 justify-items-center items-center">
-            <MeteorsDemo1 />
-            <MeteorsDemo5 />
-          </div>
-
-          <div className="my-24 lg:my-0 mt-4 grid grid-cols-2 lg:grid-cols-1 justify-items-center items-center">
             <MeteorsDemo3 />
             <MeteorsDemo4 />
           </div>
 
-          <div className="xtl:my-0 grid grid-cols-1 justify-items-center items-center">
-           <MeteorsDemo2 />
+          <div className="my-24 lg:my-0 mt-4 grid grid-cols-2 lg:grid-cols-1 justify-items-center items-center">
+            <MeteorsDemo2 />
+            <MeteorsDemo6 />
           </div>
+
+          {/* <div className="xtl:my-0 grid grid-cols-1 justify-items-center items-center">
+            <MeteorsDemo2 />
+          </div> */}
         </Layout>
       </main>
     </>
