@@ -85,7 +85,7 @@ const Contact = () => {
                   <XIcon />
                 </a>
                 <a
-                  href="https://www.linkedin.com/in/shriyan-yamali/"
+                  href="https://www.linkedin.com/in/shriyanyamali/"
                   target="_blank"
                   className="transition-all duration-300 transform hover:scale-125 w-8 h-8 sm:!w-7"
                 >

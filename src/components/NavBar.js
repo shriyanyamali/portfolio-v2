@@ -196,7 +196,7 @@ const NavBar = () => {
             <XIcon />
           </motion.a>
           <motion.a
-            href="https://www.linkedin.com/in/shriyan-yamali/"
+            href="https://www.linkedin.com/in/shriyanyamali/"
             target={"_blank"}
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
@@ -298,7 +298,7 @@ const NavBar = () => {
               </motion.div>
               <motion.div variants={itemVariants}>
                 <CustomMobileLink
-                  href="https://www.linkedin.com/in/shriyan-yamali/"
+                  href="https://www.linkedin.com/in/shriyanyamali/"
                   target="_blank"
                   title="Linkedin"
                   className="!text-fuchsia-400 dark:!text-cyan-600"
