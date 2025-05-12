@@ -209,7 +209,7 @@ export default function Home() {
             Awards
           </h2>
 
-          <div className="mt-16 my-24 lg:my-0 grid grid-cols-2 lg:grid-cols-1 justify-items-center items-center">
+          <div className="my-24 lg:my-0 grid grid-cols-2 lg:grid-cols-1 justify-items-center items-center">
             <MeteorsDemo7 />
             <MeteorsDemo8 />
           </div>
