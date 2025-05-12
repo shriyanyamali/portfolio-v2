@@ -20,6 +20,8 @@ import { TextRevealCardPreview } from "@/components/demo/demo-text-reveal-card";
 import { CardHoverEffectDemo } from "@/components/demo/demo-hover-effect";
 import { MeteorsDemo5 } from "@/components/awards-meteor-cards/meteors-5";
 import { MeteorsDemo6 } from "@/components/awards-meteor-cards/meteors-6";
+import { MeteorsDemo7 } from "@/components/awards-meteor-cards/meteors-7";
+import { MeteorsDemo8 } from "@/components/awards-meteor-cards/meteors-8";
 
 const AnimatedNumbers = ({ value }) => {
   const ref = useRef(null);
@@ -206,6 +208,12 @@ export default function Home() {
           <h2 className="font-bold text-6xl sm:text-3xl md:text-4xl lg:text-5xl mt-36 mb-16 md:mt-32 w-full text-center">
             Awards
           </h2>
+
+          <div className="mt-16 my-24 lg:my-0 grid grid-cols-2 lg:grid-cols-1 justify-items-center items-center">
+            <MeteorsDemo7 />
+            <MeteorsDemo8 />
+          </div>
+
           <div className="mt-16 my-24 lg:my-0 grid grid-cols-2 lg:grid-cols-1 justify-items-center items-center">
             <MeteorsDemo3 />
             <MeteorsDemo4 />

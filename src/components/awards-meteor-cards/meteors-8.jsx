@@ -1,7 +1,7 @@
 import React from "react";
 import { Meteors } from "../ui/meteors";
 
-export function MeteorsDemo4() {
+export function MeteorsDemo8() {
   return (
     <div className="">
       <div className=" w-full relative max-w-lg xtl:max-w-[23rem] lg:max-w-xs lg:mt-32 lg:mb-16">
@@ -25,12 +25,12 @@ export function MeteorsDemo4() {
           </div>
 
           <h1 className="font-bold text-xl text-dark dark:text-white mb-4 relative z-50">
-            1st Place Nationally in Management, Marketing & HR Concepts (2024)
+          1st Place Nationally in Information Technology Concepts (2025)
           </h1>
 
           <p className="font-normal text-base text-slate-700 dark:text-slate-500 mb-4 relative z-50 min-h-28">
-            Awarded By: Business Professionals of America <br />
-            Description: Ranked 1st out of 6,200 participants for knowledge of management, marketing, and human resources concepts. 
+            Awarded By: Technology Student Association <br />
+            Description: Ranked 1st out of 7,000 participants for knowledge of the information technology industry. 
           </p>
 
           {/* <button className="border px-4 py-1 rounded-lg  border-gray-500 text-gray-300">

@@ -25,13 +25,12 @@ export function MeteorsDemo2() {
           </div>
 
           <h1 className="font-bold text-xl text-dark dark:text-white mb-4 relative z-50">
-            1st Place in Legal Office Procedures
+            1st Place Statewide in Legal Office Procedures (2024)
           </h1>
 
           <p className="font-normal text-base text-slate-500 mb-4 relative z-50 min-h-28">
             Awarded By: Business Professionals of America <br/>
-            Description: 1st place at the State Level in Legal Office Procedures out of more
-            than 500 participants.
+            Ranked 1st out of 400+ participants for knowledge of legal terminology and skills needed to prepare legal documents and function effectively in a law office.
           </p>
           {/* <button className="border px-4 py-1 rounded-lg  border-gray-500 text-gray-300">
             Explore
