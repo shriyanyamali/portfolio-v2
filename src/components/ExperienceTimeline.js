@@ -285,6 +285,18 @@ const ExperienceTimeline = () => {
               >
                 <div className="mt-8">
                 <div className="font-bold text-gray-500 dark:text-gray-300 my-3">
+                    2025 National Leadership Conference:
+                  </div>
+
+                  <ul className="list-disc list-inside pl-5 text-gray-500 dark:text-gray-300">
+                    <li>
+                      1st place in Computer Programming Concepts
+                    </li>
+                    <li>1st place in Information Technology Concepts</li>
+                    <li>Top 10 in Meeting & Event Planning Concepts</li>
+                  </ul>
+
+                <div className="font-bold text-gray-500 dark:text-gray-300 my-3">
                     2025 State Leadership Conference:
                   </div>
 

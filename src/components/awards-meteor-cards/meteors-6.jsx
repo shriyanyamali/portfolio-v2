@@ -30,7 +30,7 @@ export function MeteorsDemo6() {
 
           <p className="font-normal text-base text-slate-700 dark:text-slate-500 mb-4 relative z-50 min-h-28">
             Awarded By: Technology Student Association <br />
-            Description: 2nd place at the State Level for excellence in impromptu debating and defending an assigned position using sources and logical reasoning.
+            Description: Ranked 2nd for excellence in impromptu debating and defending an assigned position using sources and logical reasoning.
           </p>
 
           {/* <button className="border px-4 py-1 rounded-lg  border-gray-500 text-gray-300">

@@ -25,7 +25,7 @@ export function MeteorsDemo7() {
           </div>
 
           <h1 className="font-bold text-xl text-dark dark:text-white mb-4 relative z-50">
-          First Place Nationally  in Computer Programming Concept at the National Level (2025)
+          1st Place Nationally  in Computer Programming Concepts (2025)
           </h1>
 
           <p className="font-normal text-base text-slate-700 dark:text-slate-500 mb-4 relative z-50 min-h-28">
