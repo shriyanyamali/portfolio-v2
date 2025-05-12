@@ -30,7 +30,7 @@ export function MeteorsDemo4() {
 
           <p className="font-normal text-base text-slate-700 dark:text-slate-500 mb-4 relative z-50 min-h-28">
             Awarded By: Business Professionals of America <br />
-            Description: Ranked 1st out of 6,200 participants for knowledge of management, marketing, and human resources concepts. 
+            Description: Ranked 1st out of 6,000 participants for knowledge of management, marketing, and human resources concepts. 
           </p>
 
           {/* <button className="border px-4 py-1 rounded-lg  border-gray-500 text-gray-300">
