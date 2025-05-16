@@ -27,9 +27,9 @@ const EducationTimeline = () => {
               <div className="text-primary dark:text-primaryDark sm:ml-3">
                 @Newark Charter High School
               </div>
-              <span className="bg-blue-800 text-blue-100 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-300 dark:text-blue-900 ms-3 lg:hidden">
+              {/* <span className="bg-blue-800 text-blue-100 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-300 dark:text-blue-900 ms-3 lg:hidden">
                 On-Site
-              </span>
+              </span> */}
             </h3>
             <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
               Sept 2023 — May 2027 | Newark, Delaware

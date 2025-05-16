@@ -33,9 +33,9 @@ const ExperienceTimeline = () => {
               <div className="text-primary dark:text-primaryDark sm:ml-3">
                 @University of Delaware
               </div>
-              <span className="bg-blue-500 text-light text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-500 ms-3 lg:hidden">
+              {/* <span className="bg-blue-500 text-light text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-500 ms-3 lg:hidden">
                 Hybrid
-              </span>
+              </span> */}
             </h3>
             <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
               Sept 2024 — Jan 2025 | Newark, Delaware
@@ -71,9 +71,9 @@ const ExperienceTimeline = () => {
               <div className="text-primary dark:text-primaryDark sm:ml-3">
                 @Dartmouth College{" "}
               </div>
-              <span className="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300 ms-3 lg:hidden">
+              {/* <span className="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300 ms-3 lg:hidden">
                 Remote
-              </span>
+              </span> */}
             </h3>
             <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
               July 2024 — Jan 2025 | Hanover, New Hampshire
@@ -109,9 +109,9 @@ const ExperienceTimeline = () => {
               <div className="text-primary dark:text-primaryDark sm:ml-3">
                 @University of Pennsylvania Carey Law School
               </div>
-              <span className="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300 ms-3 lg:hidden">
+              {/* <span className="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300 ms-3 lg:hidden">
                 Remote
-              </span>
+              </span> */}
             </h3>
             <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
               July 2024 — Aug 2024 | Philadelphia, Pennsylvania
@@ -152,9 +152,9 @@ const ExperienceTimeline = () => {
               <div className="text-primary dark:text-primaryDark sm:ml-3">
                 @Stanford Law School{" "}
               </div>
-              <span className="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300 ms-3 lg:hidden">
+              {/* <span className="bg-blue-100 text-blue-800 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-900 dark:text-blue-300 ms-3 lg:hidden">
                 Remote
-              </span>
+              </span> */}
             </h3>
             <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
               June 2024 — Present | Stanford, California
@@ -195,9 +195,9 @@ const ExperienceTimeline = () => {
               <div className="text-primary dark:text-primaryDark sm:ml-3">
                 @Wilmington University School of Law{" "}
               </div>
-              <span className="bg-blue-800 text-blue-100 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-300 dark:text-blue-900 ms-3 lg:hidden">
+              {/* <span className="bg-blue-800 text-blue-100 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-300 dark:text-blue-900 ms-3 lg:hidden">
                 On-Site
-              </span>
+              </span> */}
             </h3>
             <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
               June 2024 — Feb 2025  | Wilmington, Delaware
@@ -232,9 +232,9 @@ const ExperienceTimeline = () => {
               <div className="text-primary dark:text-primaryDark sm:ml-3">
                 @Business Professionals of America{" "}
               </div>
-              <span className="bg-blue-800 text-blue-100 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-300 dark:text-blue-900 ms-3 lg:hidden">
+              {/* <span className="bg-blue-800 text-blue-100 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-300 dark:text-blue-900 ms-3 lg:hidden">
                 On-Site
-              </span>
+              </span> */}
             </h3>
             <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
               Sept 2023 — Present | Dover, Delaware

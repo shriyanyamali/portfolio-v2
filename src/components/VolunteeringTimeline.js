@@ -27,9 +27,9 @@ const VolunteeringTimeline = () => {
               <div className="text-primary dark:text-primaryDark sm:ml-3">
                 @Delaware Museum of Nature & Science{" "}
               </div>
-              <span className="bg-blue-800 text-blue-100 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-300 dark:text-blue-900 ms-3 lg:hidden">
+              {/* <span className="bg-blue-800 text-blue-100 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-300 dark:text-blue-900 ms-3 lg:hidden">
                 On-Site
-              </span>
+              </span> */}
             </h3>
             <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
               May 2024 — Present | Wilmington, Delaware
@@ -63,9 +63,9 @@ const VolunteeringTimeline = () => {
               <div className="text-primary dark:text-primaryDark sm:ml-3">
                 @American Civil Liberties Union of Delaware{" "}
               </div>
-              <span className="bg-blue-800 text-blue-100 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-300 dark:text-blue-900 ms-3 lg:hidden">
+              {/* <span className="bg-blue-800 text-blue-100 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-300 dark:text-blue-900 ms-3 lg:hidden">
                 On-Site
-              </span>
+              </span> */}
             </h3>
             <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
               May 2024 — Jan 2025 | Wilmington, Delaware
@@ -99,9 +99,9 @@ const VolunteeringTimeline = () => {
               <div className="text-primary dark:text-primaryDark sm:ml-3">
                 @Food Bank of Delaware{" "}
               </div>
-              <span className="bg-blue-800 text-blue-100 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-300 dark:text-blue-900 ms-3 lg:hidden">
+              {/* <span className="bg-blue-800 text-blue-100 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-300 dark:text-blue-900 ms-3 lg:hidden">
                 On-Site
-              </span>
+              </span> */}
             </h3>
             <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
               Jan 2019 — Oct 2022 | Newark, Delaware
@@ -134,9 +134,9 @@ const VolunteeringTimeline = () => {
               <div className="text-primary dark:text-primaryDark sm:ml-3">
                 @Shirdi Sai of Delaware{" "}
               </div>
-              <span className="bg-blue-800 text-blue-100 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-300 dark:text-blue-900 ms-3 lg:hidden">
+              {/* <span className="bg-blue-800 text-blue-100 text-sm font-medium me-2 px-2.5 py-0.5 rounded dark:bg-blue-300 dark:text-blue-900 ms-3 lg:hidden">
                 On-Site
-              </span>
+              </span> */}
             </h3>
             <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
               June 2018 — Aug 2023 | Newark, Delaware
