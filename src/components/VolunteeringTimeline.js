@@ -68,7 +68,7 @@ const VolunteeringTimeline = () => {
               </span>
             </h3>
             <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-              May 2024 — Present | Wilmington, Delaware
+              May 2024 — Jan 2025 | Wilmington, Delaware
             </time>
             <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-300">
               Organizing and cataloging historical and legal documents; 50+
