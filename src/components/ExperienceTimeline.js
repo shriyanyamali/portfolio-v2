@@ -41,10 +41,9 @@ const ExperienceTimeline = () => {
               Sept 2024 — Jan 2025 | Newark, Delaware
             </time>
             <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-300">
-                Developed a frontend web interface for a framework that
-                leverages LLMs to analyze and optimize high-performance
-                computing by structuring application-generated data logs.
-                (React)
+              Developed a frontend web interface for a framework that leverages
+              LLMs to analyze and optimize high-performance computing by
+              structuring application-generated data logs. (React)
             </p>
           </li>
         </motion.div>
@@ -79,10 +78,10 @@ const ExperienceTimeline = () => {
               July 2024 — Jan 2025 | Hanover, New Hampshire
             </time>
             <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-300">
-                Edited research papers about biases in LLMs, focusing on
-                systematic deviations such as position bias in pairwise
-                comparative assessments and their implications for the fairness
-                of automated judgment systems.
+              Edited research papers about biases in LLMs, focusing on
+              systematic deviations such as position bias in pairwise
+              comparative assessments and their implications for the fairness of
+              automated judgment systems.
             </p>
           </li>
         </motion.div>
@@ -117,14 +116,14 @@ const ExperienceTimeline = () => {
               July 2024 — Aug 2024 | Philadelphia, Pennsylvania
             </time>
             <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-300">
-                Developed LexFlow, an algorithmic model for legal decision
-                analysis that generates diagrams based on the relative weight
-                and importance of legal principles and their effect on an act
-                type. (Matplotlib, NumPy)
+              Developed LexFlow, an algorithmic model for legal decision
+              analysis that generates diagrams based on the relative weight and
+              importance of legal principles and their effect on an act type.
+              (Matplotlib, NumPy)
               <div className="mt-2">
-                Created an algorithm to calculate the vector placements for a
-                weighted proportions chart. Sold the program and algorithm for
-                $150.
+                Created a program to calculate the vector placements for a
+                weighted proportions chart, which was acquired by the University
+                of Pennsylvania Carey Law School.
               </div>
             </p>
           </li>
@@ -160,10 +159,9 @@ const ExperienceTimeline = () => {
               June 2024 — Present | Stanford, California
             </time>
             <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-300">
-                Developing Verdictr, a database aggregating market decisions
-                from over 6000 antitrust cases, saving over 100 hours of work
-                per 10 cases. (Next.js, Tailwind CSS, Pandas, PyPDF2,
-                JavaScript, Excel)
+              Developing Verdictr, a database aggregating market decisions from
+              over 6000 antitrust cases, saving over 100 hours of work per 10
+              cases. (Next.js, Tailwind CSS, Pandas, PyPDF2, JavaScript, Excel)
               <div className="mt-2">
                 Designed an automated data extraction algorithm to scrape and
                 parse EU competition case decisions before analyzing the cases
@@ -200,12 +198,12 @@ const ExperienceTimeline = () => {
               </span> */}
             </h3>
             <time className="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">
-              June 2024 — Feb 2025  | Wilmington, Delaware
+              June 2024 — Feb 2025 | Wilmington, Delaware
             </time>
             <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-300">
-                Conducted in-depth research on the ethical, religious, legal,
-                and political implications of enhanced interrogation techniques
-                at Guantanamo Bay.
+              Conducted in-depth research on the ethical, religious, legal, and
+              political implications of enhanced interrogation techniques at
+              Guantanamo Bay.
             </p>
           </li>
         </motion.div>
@@ -240,8 +238,8 @@ const ExperienceTimeline = () => {
               Sept 2023 — Present | Dover, Delaware
             </time>
             <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-300">
-                Competing at the state and national level. Helping run club
-                meetings with over 50 members and organizing fundraisers.
+              Competing at the state and national level. Helping run club
+              meetings with over 50 members and organizing fundraisers.
             </p>
             <div className="mt-4 w-full grid gap-8 items-start justify-start">
               <div className="relative group">
@@ -284,27 +282,23 @@ const ExperienceTimeline = () => {
                 transition={{ duration: 0.5, type: "spring" }}
               >
                 <div className="mt-8">
-                <div className="font-bold text-gray-500 dark:text-gray-300 my-3">
+                  <div className="font-bold text-gray-500 dark:text-gray-300 my-3">
                     2025 National Leadership Conference:
                   </div>
 
                   <ul className="list-disc list-inside pl-5 text-gray-500 dark:text-gray-300">
-                    <li>
-                      1st place in Computer Programming Concepts
-                    </li>
+                    <li>1st place in Computer Programming Concepts</li>
                     <li>1st place in Information Technology Concepts</li>
                     <li>Top 10 in Meeting & Event Planning Concepts</li>
                   </ul>
 
-                <div className="font-bold text-gray-500 dark:text-gray-300 my-3">
+                  <div className="font-bold text-gray-500 dark:text-gray-300 my-3">
                     2025 State Leadership Conference:
                   </div>
 
                   <ul className="list-disc list-inside pl-5 text-gray-500 dark:text-gray-300">
                     <li>1st place in Administrative Support Concepts</li>
-                    <li>
-                      1st place in Project Management Concepts
-                    </li>
+                    <li>1st place in Project Management Concepts</li>
                     <li>2nd place in Legal Office Procedures</li>
                     <li>2nd place in Financial Analyst Team</li>
                   </ul>
