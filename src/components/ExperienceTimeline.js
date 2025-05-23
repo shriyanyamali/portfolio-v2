@@ -189,7 +189,7 @@ const ExperienceTimeline = () => {
               </svg>
             </span>
             <h3 className="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white mg:text-base sm:!text-sm">
-              Research Intern &nbsp;
+              Research Assistant &nbsp;
               <div className="text-primary dark:text-primaryDark sm:ml-3">
                 @Wilmington University School of Law{" "}
               </div>
