@@ -180,7 +180,7 @@ const NavBar = () => {
         </nav>
         <nav className="flex items-center justify-center flex-wrap">
           <motion.a
-            href="https://www.instagram.com/_shriyanyamali/"
+            href="https://www.instagram.com/shriyanyamali/"
             target={"_blank"}
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
@@ -189,7 +189,7 @@ const NavBar = () => {
             <InstagramIcon />
           </motion.a>
           <motion.a
-            href="https://x.com/Shriyan_Y"
+            href="https://x.com/shriyanyamali"
             target={"_blank"}
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.9 }}
@@ -308,7 +308,7 @@ const NavBar = () => {
               </motion.div>
               <motion.div variants={itemVariants}>
                 <CustomMobileLink
-                  href="https://www.instagram.com/_shriyanyamali/"
+                  href="https://www.instagram.com/shriyanyamali/"
                   target="_blank"
                   title="Instagram"
                   className="!text-fuchsia-400 dark:!text-cyan-600"
@@ -317,7 +317,7 @@ const NavBar = () => {
               </motion.div>
               <motion.div variants={itemVariants}>
                 <CustomMobileLink
-                  href="https://x.com/Shriyan_Y"
+                  href="https://x.com/shriyanyamali"
                   target="_blank"
                   title="Twitter"
                   className="!text-fuchsia-400 dark:!text-cyan-600"
@@ -366,17 +366,14 @@ const NavBar = () => {
                     <MoonIcon className={"fill-dark"} />
                   )}
                 </motion.button>
-                
               </motion.div>
 
-            <motion.div variants={itemVariants}>
-              <MotionLink
+              <motion.div variants={itemVariants}>
+                <MotionLink
                   href="https://dev.shriyanyamali.tech/"
                   className="group relative inline-flex h-12 items-center justify-center overflow-hidden rounded-full dark:bg-neutral-950 bg-neutral-100 font-medium dark:text-neutral-200 text-neutral-900 w-48"
                 >
-                  <div className="mr-6">
-                    View Plain Site
-                  </div>
+                  <div className="mr-6">View Plain Site</div>
                   <div className="absolute right-3.5">
                     <svg
                       width="15"
@@ -396,7 +393,6 @@ const NavBar = () => {
                   </div>
                 </MotionLink>
               </motion.div>
-
             </motion.nav>
           </motion.div>
         )}

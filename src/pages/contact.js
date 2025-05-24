@@ -71,14 +71,14 @@ const Contact = () => {
 
               <div className="flex justify-start space-x-6 mt-8">
                 <a
-                  href="https://www.instagram.com/_shriyanyamali/"
+                  href="https://www.instagram.com/shriyanyamali/"
                   target="_blank"
                   className="transition-all duration-300 transform hover:scale-125 w-8 h-8 sm:!w-7"
                 >
                   <InstagramIcon />
                 </a>
                 <a
-                  href="https://x.com/Shriyan_Y"
+                  href="https://x.com/shriyanyamali"
                   target="_blank"
                   className="transition-all duration-300 transform hover:scale-125 w-8 h-8 sm:!w-7"
                 >

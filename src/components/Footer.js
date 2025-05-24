@@ -100,7 +100,7 @@ const Footer = () => {
           <ul className="space-y-3 text-lg">
             <li>
               <CustomLink
-                href="https://www.instagram.com/_shriyanyamali/"
+                href="https://www.instagram.com/shriyanyamali/"
                 title="Instagram"
                 target="_blank"
                 className="hover:text-gray-600 hover:dark:text-gray-400"
@@ -108,7 +108,7 @@ const Footer = () => {
             </li>
             <li>
               <CustomLink
-                href="https://x.com/Shriyan_Y"
+                href="https://x.com/shriyanyamali"
                 title="Twitter"
                 target="_blank"
                 className="hover:text-gray-600 hover:dark:text-gray-400"
