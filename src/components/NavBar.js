@@ -35,6 +35,8 @@ const outerContainerVariants = {
   },
 };
 
+const MotionLink = motion(Link);
+
 const textContainerVariants = {
   hidden: { opacity: 0 },
   show: {
@@ -216,7 +218,7 @@ const NavBar = () => {
 
           <button
             onClick={() => setMode(mode === "light" ? "dark" : "light")}
-            className={`ml-5 flex items-center justify-center rounded-full p-1 ${
+            className={`ml-5 flex items-center justify-center rounded-full p-1 mx-3 ${
               mode === "light" ? "bg-dark text-light" : "bg-light text-dark"
             }`}
           >
@@ -226,6 +228,32 @@ const NavBar = () => {
               <MoonIcon className={"fill-dark"} />
             )}
           </button>
+
+          <MotionLink
+            href="https://dev.shriyanyamali.tech/"
+            className="group relative inline-flex h-8 w-8 items-center justify-center overflow-hidden rounded-full bg-neutral-950 dark:bg-neutral-100 font-medium text-neutral-200 dark:text-neutral-900 transition-all duration-300 hover:w-48"
+          >
+            <div className="inline-flex whitespace-nowrap opacity-0 transition-all duration-200 group-hover:-translate-x-6 group-hover:opacity-100">
+              View Plain Site
+            </div>
+            <div className="absolute right-1.5">
+              <svg
+                width="15"
+                height="15"
+                viewBox="0 0 15 15"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                className="h-5 w-5 transition-transform duration-300 group-hover:rotate-180"
+              >
+                <path
+                  d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z"
+                  fill="currentColor"
+                  fillRule="evenodd"
+                  clipRule="evenodd"
+                ></path>
+              </svg>
+            </div>
+          </MotionLink>
         </nav>
       </div>
 
@@ -326,7 +354,7 @@ const NavBar = () => {
               <motion.div variants={itemVariants}>
                 <motion.button
                   onClick={() => setMode(mode === "light" ? "dark" : "light")}
-                  className={`ml-5 sm:mx-1 flex items-center justify-center rounded-full p-1 w-12 ${
+                  className={`ml-5 sm:mx-1 flex items-center justify-center rounded-full p-1 w-12 mr-8 mb-4 ${
                     mode === "light"
                       ? "bg-dark text-light xs:mt-2"
                       : "bg-light text-dark xs:mt-2"
@@ -338,7 +366,33 @@ const NavBar = () => {
                     <MoonIcon className={"fill-dark"} />
                   )}
                 </motion.button>
+                
               </motion.div>
+              <MotionLink
+                  href="https://dev.shriyanyamali.tech/"
+                  className="group relative inline-flex h-12 items-center justify-center overflow-hidden rounded-full dark:bg-neutral-950 bg-neutral-100 font-medium dark:text-neutral-200 text-neutral-900 w-48"
+                >
+                  <div className="mr-6">
+                    View Plain Site
+                  </div>
+                  <div className="absolute right-3.5">
+                    <svg
+                      width="15"
+                      height="15"
+                      viewBox="0 0 15 15"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="h-5 w-5 transition-transform duration-300 group-hover:rotate-180"
+                    >
+                      <path
+                        d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z"
+                        fill="currentColor"
+                        fillRule="evenodd"
+                        clipRule="evenodd"
+                      ></path>
+                    </svg>
+                  </div>
+                </MotionLink>
             </motion.nav>
           </motion.div>
         )}
