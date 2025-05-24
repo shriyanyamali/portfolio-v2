@@ -368,6 +368,8 @@ const NavBar = () => {
                 </motion.button>
                 
               </motion.div>
+
+            <motion.div variants={itemVariants}>
               <MotionLink
                   href="https://dev.shriyanyamali.tech/"
                   className="group relative inline-flex h-12 items-center justify-center overflow-hidden rounded-full dark:bg-neutral-950 bg-neutral-100 font-medium dark:text-neutral-200 text-neutral-900 w-48"
@@ -393,6 +395,8 @@ const NavBar = () => {
                     </svg>
                   </div>
                 </MotionLink>
+              </motion.div>
+
             </motion.nav>
           </motion.div>
         )}
