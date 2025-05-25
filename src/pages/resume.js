@@ -52,7 +52,7 @@ const resume = () => {
           />
           <div className="flex justify-center items-center self-center mt-4 space-x-4">
             <Link
-              href="/Shriyan Yamali Resume.pdf"
+              href="https://www.shriyanyamali.tech/Shriyan%20Yamali%20Resume.pdf"
               target="_blank"
               className="flex items-center bg-dark text-light p-5 px-4
               rounded-lg text-xl font-semibold transition-all duration-500
@@ -67,7 +67,7 @@ const resume = () => {
             </Link>
 
             <Link
-              href="/Shriyan Yamali Resume.pdf"
+              href="https://www.shriyanyamali.tech/Shriyan%20Yamali%20Resume.pdf"
               target={"_blank"}
               className="flex items-center bg-dark text-light p-5 px-4
               rounded-lg text-xl font-semibold transition-all duration-500
