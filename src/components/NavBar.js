@@ -230,7 +230,7 @@ const NavBar = () => {
           </button>
 
           <MotionLink
-            href="https://dev.shriyanyamali.tech/"
+            href="https://www.shriyanyamali.tech/"
             className="group relative inline-flex h-8 w-8 items-center justify-center overflow-hidden rounded-full bg-neutral-950 dark:bg-neutral-100 font-medium text-neutral-200 dark:text-neutral-900 transition-all duration-300 hover:w-48"
           >
             <div className="inline-flex whitespace-nowrap opacity-0 transition-all duration-200 group-hover:-translate-x-6 group-hover:opacity-100">
@@ -370,7 +370,7 @@ const NavBar = () => {
 
               <motion.div variants={itemVariants}>
                 <MotionLink
-                  href="https://dev.shriyanyamali.tech/"
+                  href="https://www.shriyanyamali.tech/"
                   className="group relative inline-flex h-12 items-center justify-center overflow-hidden rounded-full dark:bg-neutral-950 bg-neutral-100 font-medium dark:text-neutral-200 text-neutral-900 w-48"
                 >
                   <div className="mr-6">View Plain Site</div>
