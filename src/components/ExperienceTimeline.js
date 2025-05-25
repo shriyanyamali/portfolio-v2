@@ -78,10 +78,9 @@ const ExperienceTimeline = () => {
               July 2024 — Jan 2025 | Hanover, New Hampshire
             </time>
             <p className="mb-4 text-base font-normal text-gray-500 dark:text-gray-300">
-              Edited research papers about biases in LLMs, focusing on
-              systematic deviations such as position bias in pairwise
-              comparative assessments and their implications for the fairness of
-              automated judgment systems.
+              Created charts and tables for papers investigating position bias
+              in LLMs like ChatGPT and Gemini, and how it can be calculated
+              through metrics like repetition stability and position consistency.
             </p>
           </li>
         </motion.div>
