@@ -37,7 +37,7 @@ export function ThreeDCardOne() {
           <CardItem
             translateZ={20}
             as={Link}
-            href="https://verdictr.github.io/"
+            href="https://verdictr.shriyanyamali.tech/"
             target="__blank"
             className="px-4 py-2 rounded-xl text-xs lg:text-[0.6rem] font-normal dark:text-white"
           >
