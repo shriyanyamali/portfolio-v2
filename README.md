@@ -1,13 +1,15 @@
 ![Maintained](https://img.shields.io/badge/Maintained-yes-green.svg) ![Next.js](https://img.shields.io/badge/next%20js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white) ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-## Built by Shriyan Yamali
+Shriyan Yamali's personal website
 
-###### Check out my website at <a href="https://shriyanyamali.tech/">https://shriyanyamali.tech/</a>
+All code is available under the MIT license with attribution.
 
-###### Contact me at <a  href="mailto:yamalishriyan@gmail.com">yamalishriyan@gmail.com</a>
+All images and media in this repository are protected content and may not be copied, modified, distributed, or used in any form without prior written permission.
 
-###### Built using Next.js and Tailwind CSS.
+Contact
 
-###### Copyright © 2024 Shriyan Yamali. All rights reserved.
+Email: [yamalishriyan@gmail.com](mailto:yamalishriyan@gmail.com)
 
-###### File last updated on 12/30/2024.
+Copyright © 2025 Shriyan Yamali. All rights reserved.
+
+File last updated on 7/1/2025.
